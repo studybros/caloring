@@ -59,13 +59,13 @@ export default function RootLayout({
 
         {/* Search Console Verification */}
         <meta name="google-site-verification" content="9n5poI8B7Ak6eAEWEFCW9UEy_3yxpheCFjBDgQ0OAao" />
-        <meta name="naver-site-verification" content="NAVER_VERIFICATION_CODE" />
+        <meta name="naver-site-verification" content="ad018d1339abf8d78518b76442b91d18975a6f27" />
 
         {/* Google Analytics (GA4) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y0MDGQDYD3" />
         <script
           dangerouslySetInnerHTML={{
-            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','GA_MEASUREMENT_ID');`,
+            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-Y0MDGQDYD3');`,
           }}
         />
       </head>
