@@ -59,9 +59,7 @@ export function ProductRecommendation({
             </Link>
           ))}
         </div>
-        <p className="mt-2 text-center text-xs text-muted-foreground">
-          (이 페이지의 링크를 통해 구매 시 제휴 수수료를 받을 수 있습니다)
-        </p>
+        {/* Disclosure hidden until affiliate links are active */}
       </CardContent>
     </Card>
   );

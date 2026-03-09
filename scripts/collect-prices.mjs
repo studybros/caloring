@@ -126,10 +126,29 @@ async function main() {
           `  ${arrow} ${product.slug} — ${newPrice.toLocaleString()}원${diffStr} (${match.rank}위)`
         );
 
+        // Find lowest Coupang price from search results
+        const coupangItems = items.filter(
+          (i) => i.mallName === "쿠팡" || i.mallName === "coupang"
+        );
+        const coupangLowest = coupangItems.length > 0
+          ? Math.min(...coupangItems.map((i) => parseInt(i.lprice, 10)))
+          : null;
+        const competitive = coupangLowest !== null && coupangLowest <= newPrice * 1.1;
+
+        if (coupangLowest !== null) {
+          const diff = coupangLowest - newPrice;
+          const pct = ((diff / newPrice) * 100).toFixed(0);
+          console.log(
+            `    🛒 쿠팡 ${coupangLowest.toLocaleString()}원 (${diff >= 0 ? "+" : ""}${pct}%) ${competitive ? "✅ 경쟁력" : "❌ 비쌈"}`
+          );
+        }
+
         if (!DRY_RUN) {
           product.currentPrice = newPrice;
           product.naverRank = match.rank;
           product.updatedAt = today;
+          product.coupangPrice = coupangLowest;
+          product.coupangCompetitive = competitive;
 
           // Update price history
           const todayEntry = product.priceHistory.find((e) => e.date === today);

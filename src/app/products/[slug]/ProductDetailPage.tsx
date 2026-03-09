@@ -608,10 +608,10 @@ export function ProductDetailPage({ product }: ProductDetailPageProps) {
         </div>
       </div>
 
-      {/* ── Affiliate Disclosure ────────────────────── */}
-      <p className="mt-6 text-center text-[11px] text-muted-foreground/60">
-        이 페이지의 링크를 통해 구매 시 제휴 수수료를 받을 수 있습니다
-      </p>
+      {/* ── Affiliate Disclosure (hidden until links are active) ── */}
+      {/* <p className="mt-6 text-center text-[11px] text-muted-foreground/60">
+        이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
+      </p> */}
 
       {/* ── Bottom Sticky Bar ───────────────────────── */}
       <div className="fixed bottom-0 left-0 right-0 z-50 border-t bg-background/95 backdrop-blur-sm">
@@ -625,15 +625,15 @@ export function ProductDetailPage({ product }: ProductDetailPageProps) {
           </button>
           <a
             href={
-              product.link && product.link !== "#"
-                ? product.link
-                : `https://www.coupang.com/np/search?q=${encodeURIComponent(product.name)}`
+              product.naverProductId
+                ? `https://search.shopping.naver.com/catalog/${product.naverProductId}`
+                : `https://search.shopping.naver.com/search/all?query=${encodeURIComponent(product.name)}`
             }
             target="_blank"
             rel="noopener noreferrer nofollow"
             className="flex flex-1 items-center justify-center gap-2 rounded-xl mx-3 my-2 py-3 text-sm font-bold text-primary-foreground bg-primary transition-all hover:bg-primary/90 active:scale-[0.98]"
           >
-            {analysis.status === "low" ? "지금 구매하기" : "최저가 보러가기"}
+            네이버 최저가 비교하기
             <ExternalLink className="h-3.5 w-3.5" />
           </a>
         </div>

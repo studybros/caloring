@@ -40,6 +40,8 @@ export interface Product {
   naverRank?: number; // naver shopping search ranking
   nutrition?: NutritionInfo;
   currentPrice: number; // naver lowest price (tracking)
+  coupangPrice?: number; // lowest coupang price from naver search
+  coupangCompetitive?: boolean; // true if coupang price <= naver * 1.1
   priceHistory: PriceEntry[]; // naver price history
   updatedAt: string; // "2025-01-15"
 }

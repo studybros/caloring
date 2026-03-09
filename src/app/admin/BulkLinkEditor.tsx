@@ -55,6 +55,7 @@ export function BulkLinkEditor({
   saveStatus,
 }: BulkLinkEditorProps) {
   const [showOnlyEmpty, setShowOnlyEmpty] = useState(true);
+  const [showOnlyCompetitive, setShowOnlyCompetitive] = useState(true);
   const [filterCat, setFilterCat] = useState<string>("all");
   const [queries, setQueries] = useState<Record<number, string>>({});
   const [skipped, setSkipped] = useState<Set<number>>(new Set());
@@ -79,12 +80,16 @@ export function BulkLinkEditor({
   // Stats
   const totalNoLink = products.filter((p) => p.link === "#" || !p.link).length;
   const withLink = products.filter((p) => p.link !== "#" && p.link).length;
+  const competitiveCount = products.filter(
+    (p) => p.coupangCompetitive && (p.link === "#" || !p.link)
+  ).length;
 
   // Filter products
   const filteredProducts = products
     .map((p, i) => ({ ...p, _idx: i }))
     .filter((p) => {
       if (showOnlyEmpty && p.link !== "#" && p.link) return false;
+      if (showOnlyCompetitive && !p.coupangCompetitive) return false;
       if (filterCat !== "all" && p.category !== filterCat) return false;
       return true;
     });
@@ -123,7 +128,7 @@ export function BulkLinkEditor({
     const q = p.name;
     window.open(
       `https://partners.coupang.com/#affiliate/ws/link/0/${encodeURIComponent(q)}`,
-      "_blank"
+      "partners"
     );
   }
 
@@ -162,7 +167,19 @@ export function BulkLinkEditor({
               onChange={(e) => setShowOnlyEmpty(e.target.checked)}
               className="rounded"
             />
-            미설정만 보기
+            미설정만
+          </label>
+          <label className="flex items-center gap-2 text-sm cursor-pointer">
+            <input
+              type="checkbox"
+              checked={showOnlyCompetitive}
+              onChange={(e) => setShowOnlyCompetitive(e.target.checked)}
+              className="rounded"
+            />
+            쿠팡 경쟁력만
+            {competitiveCount > 0 && (
+              <span className="text-xs text-green-600">({competitiveCount})</span>
+            )}
           </label>
           {serverOnline && (
             <Button size="sm" onClick={onSave} disabled={saveStatus === "saving"}>
@@ -278,13 +295,45 @@ export function BulkLinkEditor({
                         <p className="text-xs text-muted-foreground mt-0.5">
                           {p.brand} · {p.currentPrice.toLocaleString()}원
                           {p.weight && ` · ${p.weight}`}
+                          {p.naverProductId && (
+                            <>
+                              {" · "}
+                              <a
+                                href={`https://search.shopping.naver.com/catalog/${p.naverProductId}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-blue-500 hover:underline"
+                              >
+                                네이버 원본 보기
+                              </a>
+                            </>
+                          )}
                         </p>
                       </div>
-                      {isDone && (
-                        <span className="text-xs text-green-600 font-medium shrink-0">
-                          완료
-                        </span>
-                      )}
+                      <div className="shrink-0 text-right">
+                        {isDone && (
+                          <span className="text-xs text-green-600 font-medium">
+                            완료
+                          </span>
+                        )}
+                        {p.coupangPrice != null && (
+                          <p className={`text-[10px] font-medium ${
+                            p.coupangCompetitive ? "text-green-600" : "text-red-500"
+                          }`}>
+                            쿠팡 {p.coupangPrice.toLocaleString()}원
+                            {" "}
+                            ({p.coupangPrice <= p.currentPrice
+                              ? "최저가 이하"
+                              : `+${Math.round(((p.coupangPrice - p.currentPrice) / p.currentPrice) * 100)}%`
+                            })
+                          </p>
+                        )}
+                        {p.coupangPrice == null && !isDone && (
+                          <span className="text-[10px] text-muted-foreground">
+                            쿠팡 없음
+                          </span>
+                        )}
+                      </div>
                     </div>
 
                     {/* Search + Link row */}
@@ -341,9 +390,19 @@ export function BulkLinkEditor({
 
                         {/* Show truncated link if set */}
                         {isDone && (
-                          <p className="text-[10px] text-green-600 truncate font-mono">
-                            {p.link}
-                          </p>
+                          <div className="flex items-center gap-2">
+                            <p className="text-[10px] text-green-600 truncate font-mono flex-1">
+                              {p.link}
+                            </p>
+                            <Button
+                              variant="ghost"
+                              size="sm"
+                              className="h-5 px-1.5 text-[10px] text-red-500 hover:text-red-700 hover:bg-red-50 shrink-0"
+                              onClick={() => onUpdateLink(p._idx, "#")}
+                            >
+                              삭제
+                            </Button>
+                          </div>
                         )}
                       </div>
                     )}
