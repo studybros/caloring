@@ -32,13 +32,12 @@ export interface Product {
   categoryLabel: string;
   image: string; // emoji or image URL
   description: string;
-  link: string; // affiliate link (coupang)
+  link: string; // affiliate link (coupang partners)
   weight?: string; // "2.27kg"
+  group?: string; // groups variants together (e.g., "syntha6-protein")
   naverProductId?: string; // for price tracking
   naverSearchKeyword?: string; // search keyword for price updates
   naverRank?: number; // naver shopping search ranking
-  coupangPrice?: number; // coupang current price
-  coupangRank?: number; // coupang search ranking
   nutrition?: NutritionInfo;
   currentPrice: number; // naver lowest price (tracking)
   priceHistory: PriceEntry[]; // naver price history

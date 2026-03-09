@@ -117,10 +117,12 @@ export function BulkLinkEditor({
     });
   }
 
-  function handleCoupangSearch(idx: number) {
-    const q = getQuery(idx);
+  function handlePartnersSearch(idx: number) {
+    const p = products[idx];
+    // Use exact product name for Partners search (matches Coupang catalog)
+    const q = p.name;
     window.open(
-      `https://www.coupang.com/np/search?q=${encodeURIComponent(q)}`,
+      `https://partners.coupang.com/#affiliate/ws/link/0/${encodeURIComponent(q)}`,
       "_blank"
     );
   }
@@ -223,11 +225,11 @@ export function BulkLinkEditor({
       <div className="p-3 bg-blue-50 dark:bg-blue-950/30 rounded-lg text-xs text-blue-800 dark:text-blue-200 space-y-1">
         <p className="font-medium">사용법</p>
         <p>
-          1. "쿠팡 검색" 클릭 → 쿠팡에서 상품 페이지 열기 → 파트너스 확장 클릭 →
+          1. "파트너스 검색" 클릭 → 파트너스에서 상품 찾기 → "링크 생성" →
           링크 복사
         </p>
         <p>2. 이 탭으로 돌아와서 링크 칸에 붙여넣기 (Ctrl+V)</p>
-        <p>3. 쿠팡에 없는 상품은 "건너뛰기" 클릭 (검색 페이지로 연결됨)</p>
+        <p>3. 파트너스에 없는 상품은 "건너뛰기" 클릭</p>
       </div>
 
       {/* Product groups */}
@@ -294,15 +296,15 @@ export function BulkLinkEditor({
                             value={getQuery(p._idx)}
                             onChange={(e) => setQuery(p._idx, e.target.value)}
                             className="flex-1 text-xs h-8"
-                            placeholder="쿠팡 검색어"
+                            placeholder="파트너스 검색어"
                           />
                           <Button
                             variant="outline"
                             size="sm"
                             className="h-8 text-xs shrink-0"
-                            onClick={() => handleCoupangSearch(p._idx)}
+                            onClick={() => handlePartnersSearch(p._idx)}
                           >
-                            쿠팡 검색
+                            파트너스 검색
                           </Button>
                         </div>
 
@@ -349,7 +351,7 @@ export function BulkLinkEditor({
                     {isSkipped && (
                       <div className="flex items-center justify-between">
                         <p className="text-xs text-muted-foreground">
-                          건너뜀 — 쿠팡 검색으로 연결됩니다
+                          건너뜀 — 파트너스 검색으로 연결됩니다
                         </p>
                         <Button
                           variant="ghost"
