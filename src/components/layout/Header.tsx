@@ -10,6 +10,7 @@ import {
   Flame,
   Scale,
   Activity,
+  BookOpen,
 } from "lucide-react";
 
 const navItems = [
@@ -27,6 +28,11 @@ const navItems = [
     label: "BMI 계산기",
     href: "/calc/bmi",
     icon: Scale,
+  },
+  {
+    label: "식단 가이드",
+    href: "/diet",
+    icon: BookOpen,
   },
   {
     label: "다이어트 식품",

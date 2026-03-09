@@ -8,12 +8,12 @@ const calculatorLinks = [
   { label: "적정 체중 계산기", href: "/calc/ideal-weight" },
 ];
 
-const productLinks = [
-  { label: "단백질 보충제", href: "/products?cat=protein" },
-  { label: "다이어트 간식", href: "/products?cat=snack" },
-  { label: "제로 음료", href: "/products?cat=zero-drink" },
-  { label: "곤약/저칼로리", href: "/products?cat=low-cal" },
-  { label: "닭가슴살", href: "/products?cat=chicken" },
+const dietLinks = [
+  { label: "간헐적 단식", href: "/diet/intermittent-fasting" },
+  { label: "1200칼로리 식단", href: "/diet/1200kcal" },
+  { label: "고단백 식단", href: "/diet/high-protein" },
+  { label: "저탄고지 (키토)", href: "/diet/keto" },
+  { label: "전체 가이드", href: "/diet" },
 ];
 
 export function Footer() {
@@ -49,11 +49,11 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Products */}
+          {/* Diet Guides */}
           <div>
-            <h3 className="text-sm font-semibold">다이어트 식품</h3>
+            <h3 className="text-sm font-semibold">식단 가이드</h3>
             <ul className="mt-3 space-y-2">
-              {productLinks.map((link) => (
+              {dietLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}

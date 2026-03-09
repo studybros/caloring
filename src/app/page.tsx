@@ -7,6 +7,8 @@ import {
   Droplets,
   ArrowRight,
   TrendingDown,
+  BookOpen,
+  ChevronRight,
 } from "lucide-react";
 import {
   Card,
@@ -106,6 +108,40 @@ export default function Home() {
                   <p className="text-sm text-muted-foreground">
                     {calc.description}
                   </p>
+                </CardContent>
+              </Card>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* Diet Guide Section */}
+      <section className="mt-16">
+        <div className="mb-6 flex items-center justify-between">
+          <h2 className="text-xl font-bold">다이어트 식단 가이드</h2>
+          <Link
+            href="/diet"
+            className="flex items-center gap-1 text-sm text-primary hover:underline"
+          >
+            전체보기
+            <ArrowRight className="h-4 w-4" />
+          </Link>
+        </div>
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {[
+            { title: "간헐적 단식 가이드", href: "/diet/intermittent-fasting/", emoji: "⏰", desc: "16:8 단식법의 원리, 효과, 식단표" },
+            { title: "1200칼로리 식단표", href: "/diet/1200kcal/", emoji: "📋", desc: "일주일 저칼로리 식단 완벽 가이드" },
+            { title: "고단백 다이어트", href: "/diet/high-protein/", emoji: "💪", desc: "근육은 지키고 체지방만 빼는 식단" },
+          ].map((guide) => (
+            <Link key={guide.href} href={guide.href}>
+              <Card className="h-full transition-all hover:shadow-md hover:-translate-y-0.5">
+                <CardContent className="flex items-start gap-3 p-4">
+                  <span className="mt-0.5 text-2xl">{guide.emoji}</span>
+                  <div className="flex-1">
+                    <p className="font-semibold text-sm">{guide.title}</p>
+                    <p className="mt-0.5 text-xs text-muted-foreground">{guide.desc}</p>
+                  </div>
+                  <ChevronRight className="mt-1 h-4 w-4 shrink-0 text-muted-foreground" />
                 </CardContent>
               </Card>
             </Link>
