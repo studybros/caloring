@@ -33,10 +33,11 @@ export function ProductsPage() {
   const [selectedCategory, setSelectedCategory] =
     useState<FilterCategory>("all");
 
-  const filtered =
+  const filtered = (
     selectedCategory === "all"
-      ? products
-      : products.filter((p) => p.category === selectedCategory);
+      ? [...products]
+      : products.filter((p) => p.category === selectedCategory)
+  ).sort((a, b) => a.currentPrice - b.currentPrice);
 
   const cheapCount = products.filter((p) => {
     const a = analyzePrices(p.currentPrice, p.priceHistory);

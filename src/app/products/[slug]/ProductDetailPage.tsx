@@ -174,9 +174,17 @@ export function ProductDetailPage({ product }: ProductDetailPageProps) {
   const statusLabel = getPriceStatusLabel(analysis.status);
   const dietTip = getDietTip(product);
 
-  const sameCategoryProducts = products.filter(
-    (p) => p.category === product.category && p.slug !== product.slug
-  );
+  // Same group variants (different sizes/flavors of same product)
+  const groupVariants = product.group
+    ? products
+        .filter((p) => p.group === product.group && p.slug !== product.slug)
+        .sort((a, b) => a.currentPrice - b.currentPrice)
+    : [];
+
+  const sameCategoryProducts = products
+    .filter((p) => p.category === product.category && p.slug !== product.slug)
+    .sort((a, b) => a.currentPrice - b.currentPrice)
+    .slice(0, 12);
 
   const handleShare = async () => {
     const url = `https://caloring.kr/products/${product.slug}/`;
@@ -485,6 +493,49 @@ export function ProductDetailPage({ product }: ProductDetailPageProps) {
           </CardContent>
         </Card>
       </div>
+
+      {/* ── Same Group Variants ─────────────────────── */}
+      {groupVariants.length > 0 && (
+        <div className="mt-8">
+          <h2 className="mb-3 text-base font-bold">
+            다른 규격/옵션
+          </h2>
+          <div className="space-y-2">
+            {groupVariants.map((v) => {
+              const vAnalysis = analyzePrices(v.currentPrice, v.priceHistory);
+              const vColor = getPriceStatusColor(vAnalysis.status);
+              const vLabel = getPriceStatusLabel(vAnalysis.status);
+              return (
+                <Link key={v.slug} href={`/products/${v.slug}/`}>
+                  <Card className="transition-all hover:shadow-md hover:-translate-y-0.5">
+                    <CardContent className="flex items-center gap-3 p-3">
+                      <span className="text-xl shrink-0">{v.image}</span>
+                      <div className="min-w-0 flex-1">
+                        <p className="text-sm font-medium leading-tight line-clamp-1">
+                          {v.name}
+                        </p>
+                        <p className="text-xs text-muted-foreground mt-0.5">
+                          {v.weight && `${v.weight} · `}{v.brand}
+                        </p>
+                      </div>
+                      <div className="text-right shrink-0">
+                        <p className="text-sm font-bold">
+                          {formatKRW(v.currentPrice)}
+                        </p>
+                        <span
+                          className={`rounded-full px-1.5 py-0.5 text-[10px] font-medium ${vColor.bg} ${vColor.text}`}
+                        >
+                          {vLabel}
+                        </span>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
       {/* ── Same Category ───────────────────────────── */}
       {sameCategoryProducts.length > 0 && (
