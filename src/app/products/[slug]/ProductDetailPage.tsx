@@ -9,11 +9,14 @@ import {
   Clock,
   Sparkles,
   ChevronRight,
+  Target,
+  Lightbulb,
+  TrendingDown,
 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { PriceChart } from "@/components/product/PriceChart";
 import { MacroRings } from "@/components/product/MacroRings";
-import type { Product } from "@/lib/types/product";
+import type { Product, ProductCategory } from "@/lib/types/product";
 import {
   analyzePrices,
   getPriceStatusLabel,
@@ -36,6 +39,133 @@ function getDietTip(product: Product): string | null {
   if (cal <= 100)
     return `${cal}kcal로 가볍게 한 끼를 해결할 수 있어요.`;
   return `1서빙 ${cal}kcal, 하루 권장 2,000kcal의 ${Math.round((cal / 2000) * 100)}%예요.`;
+}
+
+/**
+ * Extract product-specific tags from actual data (nutrition, name, price)
+ */
+function getProductTags(product: Product): string[] {
+  const tags: string[] = [];
+  const name = product.name;
+  const n = product.nutrition;
+
+  // From nutrition data
+  if (n) {
+    if (n.protein >= 20) tags.push(`고단백 ${n.protein}g`);
+    else if (n.protein >= 10) tags.push(`단백질 ${n.protein}g`);
+    if (n.calories === 0) tags.push("제로칼로리");
+    else if (n.calories <= 30) tags.push(`초저칼 ${n.calories}kcal`);
+    else if (n.calories <= 100) tags.push(`${n.calories}kcal`);
+    if (n.fat <= 2 && n.protein > 0) tags.push("저지방");
+    if (n.sugar !== undefined && n.sugar === 0 && n.calories > 0) tags.push("무당류");
+    else if (n.sugar !== undefined && n.sugar <= 3 && n.calories > 0) tags.push("저당");
+  }
+
+  // From product name — specific attributes
+  if (/WPI|분리유청/i.test(name)) tags.push("WPI 분리유청");
+  else if (/WPC/i.test(name)) tags.push("WPC 농축유청");
+  if (/식물성|비건|vegan/i.test(name)) tags.push("식물성");
+  if (/오가닉|유기농|organic/i.test(name)) tags.push("유기농");
+  if (/무가당/i.test(name)) tags.push("무가당");
+  if (/그릴드|그릴/i.test(name)) tags.push("그릴드");
+  if (/오븐/i.test(name)) tags.push("오븐구이");
+  if (/스팀/i.test(name)) tags.push("스팀");
+  if (/제로|zero/i.test(name) && !tags.includes("제로칼로리")) tags.push("제로");
+  if (/저당|low sugar/i.test(name) && !tags.includes("저당")) tags.push("저당");
+  if (/무라벨/i.test(name)) tags.push("무라벨");
+  if (/락토프리/i.test(name)) tags.push("락토프리");
+  if (/곤약/i.test(name)) tags.push("곤약");
+  if (/두부면/i.test(name)) tags.push("두부면");
+  if (/냉동/i.test(name)) tags.push("냉동");
+
+  // From pack size — value proposition
+  const unitCount = parseUnitCount(name);
+  if (unitCount && unitCount >= 20) tags.push("대용량");
+  else if (unitCount && unitCount <= 6) tags.push("소량 구성");
+
+  return tags;
+}
+
+/**
+ * Generate product-specific recommendations based on actual features
+ */
+function getProductRecommendations(product: Product): string[] {
+  const recs: string[] = [];
+  const n = product.nutrition;
+  const name = product.name;
+
+  // Nutrition-driven recommendations
+  if (n) {
+    if (n.protein >= 20) recs.push(`1서빙 ${n.protein}g 단백질로, 운동 후 빠른 보충이 필요한 분`);
+    else if (n.protein >= 10) recs.push(`단백질 ${n.protein}g이 들어있어 간편한 단백질 보충이 필요한 분`);
+
+    if (n.calories === 0) recs.push("칼로리 걱정 없이 음료를 즐기고 싶은 분");
+    else if (n.calories <= 50) recs.push(`${n.calories}kcal로 간식 칼로리가 걱정인 분`);
+    else if (n.calories >= 300) recs.push(`${n.calories}kcal로 든든한 식사대용이 필요한 분`);
+
+    if (n.fat <= 2 && n.protein >= 10) recs.push("지방은 줄이고 단백질은 채우고 싶은 분");
+    if (n.sugar === 0 && n.carbs <= 5) recs.push("당류·탄수화물을 엄격하게 제한하는 분");
+  }
+
+  // Product attribute-driven
+  if (/WPI|분리유청/i.test(name)) recs.push("유당 불내증이 있거나 순수 단백질을 원하는 분");
+  if (/식물성|비건/i.test(name)) recs.push("동물성 원료를 피하고 싶은 분");
+  if (/락토프리/i.test(name)) recs.push("유제품 섭취 시 속이 불편한 분");
+  if (/곤약|두부면/i.test(name)) recs.push("면 요리를 좋아하지만 탄수화물이 걱정인 분");
+  if (/냉동.*도시락|도시락.*냉동/i.test(name)) recs.push("직장에서 간편한 점심이 필요한 분");
+  if (/무가당/i.test(name)) recs.push("설탕 없이 깔끔한 맛을 원하는 분");
+
+  // Pack-size driven
+  const unitCount = parseUnitCount(name);
+  if (unitCount && unitCount >= 30) recs.push(`${unitCount}개 대용량으로, 매번 사기 귀찮은 분`);
+  else if (unitCount && unitCount <= 6) recs.push("일단 맛보고 싶은 분, 소량 구성이라 부담 없어요");
+
+  // Price-driven
+  if (unitCount) {
+    const perUnit = Math.round(product.currentPrice / unitCount);
+    if (perUnit <= 500) recs.push(`개당 ${formatKRW(perUnit)}으로 가성비를 중시하는 분`);
+  }
+
+  // Ensure at least 2, max 4
+  if (recs.length === 0) {
+    // Fallback for products with no nutrition and no special attributes
+    if (product.category === "protein" || product.category === "chicken" || product.category === "shake")
+      recs.push("단백질 섭취량을 늘리고 싶은 분");
+    if (product.category === "zero-drink" || product.category === "kombucha")
+      recs.push("다이어트 중에도 음료를 포기 못하는 분");
+    if (product.category === "lunchbox")
+      recs.push("식단 관리를 편하게 하고 싶은 분");
+    if (product.category === "konjac")
+      recs.push("탄수화물을 줄이면서 면 요리를 먹고 싶은 분");
+    if (product.category === "yogurt")
+      recs.push("건강한 간식을 찾는 분");
+    if (product.category === "protein-bar")
+      recs.push("이동 중 간편하게 단백질을 보충하고 싶은 분");
+  }
+
+  return recs.slice(0, 4);
+}
+
+const CATEGORY_TIPS: Record<ProductCategory, string[]> = {
+  protein: ["운동 후 30분 이내 섭취하면 흡수율이 높아져요", "물보다 우유에 타면 더 고소하고 칼로리가 올라가요", "하루 체중 1kg당 1.2~1.6g의 단백질 섭취를 권장해요"],
+  chicken: ["전자레인지로 1~2분 데우면 더 맛있어요", "샐러드 위에 올려 먹으면 든든한 한 끼가 돼요", "냉동 보관 시 한 달 이상 보관 가능해요"],
+  shake: ["차가운 물에 타면 더 맛있어요", "아침 식사 대용으로 먹으면 공복감을 줄일 수 있어요", "바나나나 견과류를 함께 갈면 영양 밸런스가 좋아져요"],
+  "protein-bar": ["운동 전 30분~1시간 전에 먹으면 에너지로 활용돼요", "상온 보관이 가능해 가방에 넣고 다니기 좋아요", "달콤한 간식이 당길 때 과자 대신 먹어보세요"],
+  "zero-drink": ["식사와 함께 마시면 포만감을 높일 수 있어요", "인공감미료가 포함되어 있으니 하루 1~2캔 정도가 적당해요", "차갑게 마시면 더 상쾌해요"],
+  konjac: ["찬물에 헹구면 곤약 특유의 냄새가 줄어들어요", "소스와 함께 먹으면 더 맛있게 즐길 수 있어요", "일반 면 대비 칼로리가 90% 이상 낮아요"],
+  lunchbox: ["전자레인지 3~4분이면 바로 먹을 수 있어요", "냉동 보관 후 필요할 때 꺼내 먹으면 편해요", "반찬을 추가하면 더 풍성한 식사가 돼요"],
+  yogurt: ["아침 공복보다는 식후에 먹는 게 장 건강에 좋아요", "꿀이나 과일을 토핑하면 맛있게 즐길 수 있어요", "그릭요거트는 일반 요거트보다 단백질이 2배 이상 많아요"],
+  kombucha: ["찬물 200ml에 1포를 타서 마시면 돼요", "탄산수에 타면 시원한 스파클링 콤부차가 돼요", "카페인이 소량 포함되어 있어 오전에 마시면 좋아요"],
+};
+
+function parseUnitCount(name: string): number | null {
+  // "30팩", "24개", "50팩", "12개입", "44개", "20개입"
+  // Use all matches and pick the largest reasonable count
+  const matches = [...name.matchAll(/(\d+)\s*(팩|개입|개|입|ea|p)(?!\w)/gi)];
+  if (matches.length === 0) return null;
+  // Pick the largest number (most likely the pack count, not "5종")
+  const counts = matches.map((m) => parseInt(m[1]));
+  return Math.max(...counts);
 }
 
 export function ProductDetailPage({ product }: ProductDetailPageProps) {
@@ -147,6 +277,63 @@ export function ProductDetailPage({ product }: ProductDetailPageProps) {
         </div>
       )}
 
+      {/* ── Product Tags (dynamic from product data) ── */}
+      {(() => {
+        const tags = getProductTags(product);
+        if (tags.length === 0 && !product.weight) return null;
+        return (
+          <div className="mt-6 flex flex-wrap gap-2">
+            {tags.map((tag) => (
+              <span
+                key={tag}
+                className="rounded-full border border-primary/20 bg-primary/5 px-3 py-1.5 text-xs font-medium text-primary"
+              >
+                {tag}
+              </span>
+            ))}
+            {product.weight && (
+              <span className="rounded-full border border-border bg-muted/50 px-3 py-1.5 text-xs font-medium text-muted-foreground">
+                {product.weight}
+              </span>
+            )}
+          </div>
+        );
+      })()}
+
+      {/* ── Value Analysis (가성비) ───────────────────── */}
+      {(() => {
+        const unitCount = parseUnitCount(product.name);
+        const pricePerUnit = unitCount ? Math.round(product.currentPrice / unitCount) : null;
+        if (!pricePerUnit) return null;
+        return (
+          <div className="mt-6">
+            <h2 className="mb-3 text-base font-bold flex items-center gap-1.5">
+              <TrendingDown className="h-4 w-4 text-primary" />
+              가성비 분석
+            </h2>
+            <Card>
+              <CardContent className="p-4">
+                <div className="grid grid-cols-2 gap-3">
+                  <div className="rounded-xl bg-primary/5 p-4 text-center">
+                    <p className="text-xl font-extrabold text-primary">{formatKRW(pricePerUnit)}</p>
+                    <p className="mt-1 text-xs text-muted-foreground">1개당 가격</p>
+                  </div>
+                  <div className="rounded-xl bg-muted/50 p-4 text-center">
+                    <p className="text-xl font-extrabold">{unitCount}개</p>
+                    <p className="mt-1 text-xs text-muted-foreground">총 수량</p>
+                  </div>
+                </div>
+                {product.nutrition && product.nutrition.calories > 0 && (
+                  <p className="mt-3 text-center text-xs text-muted-foreground">
+                    1개당 {product.nutrition.calories}kcal · 100kcal당 {formatKRW(Math.round(pricePerUnit / product.nutrition.calories * 100))}
+                  </p>
+                )}
+              </CardContent>
+            </Card>
+          </div>
+        );
+      })()}
+
       {/* ── Nutrition + Diet Tip (영양 먼저!) ───────── */}
       {product.nutrition && (
         <div className="mt-6">
@@ -247,6 +434,54 @@ export function ProductDetailPage({ product }: ProductDetailPageProps) {
             <p className="mt-2 text-right text-[11px] text-muted-foreground">
               {product.updatedAt} 업데이트
             </p>
+          </CardContent>
+        </Card>
+      </div>
+
+      {/* ── Recommendation (product-specific) ────────── */}
+      {(() => {
+        const recs = getProductRecommendations(product);
+        if (recs.length === 0) return null;
+        return (
+          <div className="mt-6">
+            <h2 className="mb-3 text-base font-bold flex items-center gap-1.5">
+              <Target className="h-4 w-4 text-primary" />
+              이런 분에게 추천해요
+            </h2>
+            <Card>
+              <CardContent className="p-4">
+                <ul className="space-y-2.5">
+                  {recs.map((text) => (
+                    <li key={text} className="flex items-start gap-2.5 text-sm">
+                      <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-primary/10 text-xs text-primary">
+                        &#10003;
+                      </span>
+                      <span>{text}</span>
+                    </li>
+                  ))}
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+        );
+      })()}
+
+      {/* ── Tips ──────────────────────────────────────── */}
+      <div className="mt-6">
+        <h2 className="mb-3 text-base font-bold flex items-center gap-1.5">
+          <Lightbulb className="h-4 w-4 text-amber-500" />
+          섭취 팁
+        </h2>
+        <Card>
+          <CardContent className="p-4">
+            <ul className="space-y-2.5">
+              {CATEGORY_TIPS[product.category].map((tip) => (
+                <li key={tip} className="flex items-start gap-2.5 text-sm text-muted-foreground">
+                  <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-amber-400" />
+                  <span>{tip}</span>
+                </li>
+              ))}
+            </ul>
           </CardContent>
         </Card>
       </div>

@@ -11,15 +11,6 @@
     "weight": "2kg",
     "naverProductId": "54770905586",
     "naverSearchKeyword": "칼로바이 밸런스 파워 쉐이크 아이솔레이트 2kg",
-    "nutrition": {
-      "servingSize": "40g",
-      "servings": 50,
-      "calories": 150,
-      "protein": 27,
-      "carbs": 5,
-      "sugar": 2,
-      "fat": 2
-    },
     "currentPrice": 59900,
     "priceHistory": [
       {
@@ -41,15 +32,6 @@
     "weight": "2kg",
     "naverProductId": "52961000066",
     "naverSearchKeyword": "밀팜 바바리안푸드 2kg",
-    "nutrition": {
-      "servingSize": "40g",
-      "servings": 50,
-      "calories": 155,
-      "protein": 24,
-      "carbs": 8,
-      "sugar": 3,
-      "fat": 3
-    },
     "currentPrice": 65200,
     "priceHistory": [
       {
@@ -71,15 +53,6 @@
     "weight": "1kg",
     "naverProductId": "82271542438",
     "naverSearchKeyword": "머슬헬퍼웨이 식물성 프로틴 1kg",
-    "nutrition": {
-      "servingSize": "30g",
-      "servings": 33,
-      "calories": 120,
-      "protein": 21,
-      "carbs": 4,
-      "sugar": 1,
-      "fat": 2
-    },
     "currentPrice": 25900,
     "priceHistory": [
       {
@@ -101,15 +74,6 @@
     "weight": "1.5kg",
     "naverProductId": "82036647858",
     "naverSearchKeyword": "헬시오 히치웨이 WPI 1.5kg",
-    "nutrition": {
-      "servingSize": "35g",
-      "servings": 42,
-      "calories": 135,
-      "protein": 26,
-      "carbs": 3,
-      "sugar": 1,
-      "fat": 1.5
-    },
     "currentPrice": 64900,
     "priceHistory": [
       {
@@ -131,15 +95,6 @@
     "weight": "1kg",
     "naverProductId": "10620003279",
     "naverSearchKeyword": "저먼프로트9000 WPI 1kg",
-    "nutrition": {
-      "servingSize": "30g",
-      "servings": 33,
-      "calories": 115,
-      "protein": 25,
-      "carbs": 2,
-      "sugar": 0,
-      "fat": 1
-    },
     "currentPrice": 49900,
     "priceHistory": [
       {
@@ -161,15 +116,6 @@
     "weight": "2.26kg",
     "naverProductId": "88530005301",
     "naverSearchKeyword": "신타6 프로틴 초코 2.26kg",
-    "nutrition": {
-      "servingSize": "47g",
-      "servings": 48,
-      "calories": 200,
-      "protein": 22,
-      "carbs": 15,
-      "sugar": 2,
-      "fat": 6
-    },
     "currentPrice": 80800,
     "priceHistory": [
       {
@@ -191,15 +137,6 @@
     "weight": "2.74kg",
     "naverProductId": "10268533183",
     "naverSearchKeyword": "옵티멈 골드스탠다드 웨이 2.74kg",
-    "nutrition": {
-      "servingSize": "31g",
-      "servings": 88,
-      "calories": 120,
-      "protein": 24,
-      "carbs": 3,
-      "sugar": 1,
-      "fat": 1
-    },
     "currentPrice": 135890,
     "priceHistory": [
       {
@@ -221,15 +158,6 @@
     "weight": "2kg",
     "naverProductId": "8683485586",
     "naverSearchKeyword": "메이크바디 유청단백질 게라웨이프로틴 2kg",
-    "nutrition": {
-      "servingSize": "40g",
-      "servings": 50,
-      "calories": 160,
-      "protein": 23,
-      "carbs": 9,
-      "sugar": 3,
-      "fat": 3
-    },
     "currentPrice": 52000,
     "priceHistory": [
       {
@@ -251,15 +179,6 @@
     "weight": "2kg",
     "naverProductId": "54983999591",
     "naverSearchKeyword": "베네틴 몬스터 프로틴 게이너 2kg",
-    "nutrition": {
-      "servingSize": "65g",
-      "servings": 30,
-      "calories": 260,
-      "protein": 20,
-      "carbs": 35,
-      "sugar": 5,
-      "fat": 4
-    },
     "currentPrice": 39800,
     "priceHistory": [
       {
@@ -267,7 +186,16 @@
         "price": 39800
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "150ml",
+      "servings": 1,
+      "calories": 579,
+      "protein": 56,
+      "carbs": 77.6,
+      "sugar": 14.7,
+      "fat": 4.9
+    }
   },
   {
     "slug": "jambaeki-essential-whey-protein",
@@ -281,15 +209,6 @@
     "weight": "1kg",
     "naverProductId": "89354680583",
     "naverSearchKeyword": "잠백이 에센셜 락토프리 웨이프로틴",
-    "nutrition": {
-      "servingSize": "30g",
-      "servings": 33,
-      "calories": 115,
-      "protein": 24,
-      "carbs": 2,
-      "sugar": 0,
-      "fat": 1
-    },
     "currentPrice": 43900,
     "priceHistory": [
       {
@@ -311,14 +230,6 @@
     "weight": "100g x 15팩",
     "naverProductId": "88762254935",
     "naverSearchKeyword": "허닭 닭가슴살 스테이크 15팩",
-    "nutrition": {
-      "servingSize": "100g",
-      "servings": 15,
-      "calories": 120,
-      "protein": 23,
-      "carbs": 3,
-      "fat": 2
-    },
     "currentPrice": 25900,
     "priceHistory": [
       {
@@ -326,7 +237,16 @@
         "price": 25900
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "30g",
+      "servings": 1,
+      "calories": 39,
+      "protein": 4.8,
+      "carbs": 4.2,
+      "sugar": 3.6,
+      "fat": 0.3
+    }
   },
   {
     "slug": "dehadak-steak-ball-30pack",
@@ -340,14 +260,6 @@
     "weight": "30팩",
     "naverProductId": "90358444892",
     "naverSearchKeyword": "더하닭 한입 닭가슴살 스테이크볼 30팩",
-    "nutrition": {
-      "servingSize": "100g",
-      "servings": 30,
-      "calories": 115,
-      "protein": 22,
-      "carbs": 4,
-      "fat": 2
-    },
     "currentPrice": 35360,
     "priceHistory": [
       {
@@ -355,7 +267,16 @@
         "price": 35360
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "30g",
+      "servings": 1,
+      "calories": 41,
+      "protein": 8.1,
+      "carbs": 0.3,
+      "sugar": 0,
+      "fat": 0.8
+    }
   },
   {
     "slug": "heodak-chicken-steak-50pack",
@@ -369,14 +290,6 @@
     "weight": "100g x 50팩",
     "naverProductId": "55274246301",
     "naverSearchKeyword": "허닭 오븐 닭가슴살 스테이크 50팩",
-    "nutrition": {
-      "servingSize": "100g",
-      "servings": 50,
-      "calories": 120,
-      "protein": 23,
-      "carbs": 3,
-      "fat": 2
-    },
     "currentPrice": 64900,
     "priceHistory": [
       {
@@ -384,7 +297,16 @@
         "price": 64900
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "30g",
+      "servings": 1,
+      "calories": 39,
+      "protein": 4.8,
+      "carbs": 4.2,
+      "sugar": 3.6,
+      "fat": 0.3
+    }
   },
   {
     "slug": "heodak-best-package-21pack",
@@ -398,14 +320,6 @@
     "weight": "21팩",
     "naverProductId": "82944128403",
     "naverSearchKeyword": "허닭 닭가슴살 BEST 패키지 21팩",
-    "nutrition": {
-      "servingSize": "100g",
-      "servings": 21,
-      "calories": 118,
-      "protein": 22,
-      "carbs": 4,
-      "fat": 2
-    },
     "currentPrice": 31900,
     "priceHistory": [
       {
@@ -413,7 +327,16 @@
         "price": 31900
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "30g",
+      "servings": 1,
+      "calories": 39,
+      "protein": 4.8,
+      "carbs": 4.2,
+      "sugar": 3.6,
+      "fat": 0.3
+    }
   },
   {
     "slug": "imdak-chicken-sausage-20pack",
@@ -427,14 +350,6 @@
     "weight": "20팩",
     "naverProductId": "9545865510",
     "naverSearchKeyword": "아임닭 닭가슴살 소시지 골라담기",
-    "nutrition": {
-      "servingSize": "70g",
-      "servings": 20,
-      "calories": 90,
-      "protein": 14,
-      "carbs": 3,
-      "fat": 2.5
-    },
     "currentPrice": 27500,
     "priceHistory": [
       {
@@ -456,14 +371,6 @@
     "weight": "35팩",
     "naverProductId": "82834337949",
     "naverSearchKeyword": "육식토끼 소스 닭가슴살 소시지 30+5팩",
-    "nutrition": {
-      "servingSize": "100g",
-      "servings": 35,
-      "calories": 110,
-      "protein": 20,
-      "carbs": 5,
-      "fat": 2
-    },
     "currentPrice": 30900,
     "priceHistory": [
       {
@@ -485,14 +392,6 @@
     "weight": "100g x 30개",
     "naverProductId": "57953956267",
     "naverSearchKeyword": "허닭 한입 닭가슴살 큐브 30개",
-    "nutrition": {
-      "servingSize": "100g",
-      "servings": 30,
-      "calories": 115,
-      "protein": 21,
-      "carbs": 5,
-      "fat": 2
-    },
     "currentPrice": 41830,
     "priceHistory": [
       {
@@ -500,7 +399,16 @@
         "price": 41830
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "30g",
+      "servings": 1,
+      "calories": 39,
+      "protein": 4.8,
+      "carbs": 4.2,
+      "sugar": 3.6,
+      "fat": 0.3
+    }
   },
   {
     "slug": "hankkitonsal-grilled-10pack",
@@ -514,14 +422,6 @@
     "weight": "100g x 10팩",
     "naverProductId": "84145464007",
     "naverSearchKeyword": "한끼통살 그릴드 닭가슴살 10종",
-    "nutrition": {
-      "servingSize": "100g",
-      "servings": 10,
-      "calories": 125,
-      "protein": 24,
-      "carbs": 3,
-      "fat": 2
-    },
     "currentPrice": 24300,
     "priceHistory": [
       {
@@ -529,7 +429,16 @@
         "price": 24300
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "30g",
+      "servings": 1,
+      "calories": 36,
+      "protein": 5,
+      "carbs": 2.1,
+      "sugar": 1.5,
+      "fat": 0.5
+    }
   },
   {
     "slug": "meetree-chicken-106-pick",
@@ -543,14 +452,6 @@
     "weight": "1팩~",
     "naverProductId": "81238778644",
     "naverSearchKeyword": "미트리 닭가슴살 106종 골라담기",
-    "nutrition": {
-      "servingSize": "100g",
-      "servings": 1,
-      "calories": 110,
-      "protein": 22,
-      "carbs": 3,
-      "fat": 1.5
-    },
     "currentPrice": 950,
     "priceHistory": [
       {
@@ -558,7 +459,16 @@
         "price": 950
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "30g",
+      "servings": 1,
+      "calories": 38,
+      "protein": 6,
+      "carbs": 2.4,
+      "sugar": 0.9,
+      "fat": 0.4
+    }
   },
   {
     "slug": "cj-healthy-chicken-sausage",
@@ -572,14 +482,6 @@
     "weight": "120g",
     "naverProductId": "53074536214",
     "naverSearchKeyword": "CJ 더건강한 닭가슴살 소시지 120g",
-    "nutrition": {
-      "servingSize": "30g",
-      "servings": 4,
-      "calories": 48,
-      "protein": 7,
-      "carbs": 3,
-      "fat": 1
-    },
     "currentPrice": 3100,
     "priceHistory": [
       {
@@ -587,7 +489,16 @@
         "price": 3100
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "30g",
+      "servings": 1,
+      "calories": 50,
+      "protein": 4.7,
+      "carbs": 1.5,
+      "sugar": 1.3,
+      "fat": 2.8
+    }
   },
   {
     "slug": "switchon-diet-program-46",
@@ -601,15 +512,6 @@
     "weight": "30g x 46포",
     "naverProductId": "53191895938",
     "naverSearchKeyword": "스위치온 다이어트 프로그램 46포",
-    "nutrition": {
-      "servingSize": "30g",
-      "servings": 46,
-      "calories": 110,
-      "protein": 15,
-      "carbs": 10,
-      "sugar": 2,
-      "fat": 2
-    },
     "currentPrice": 176900,
     "priceHistory": [
       {
@@ -631,15 +533,6 @@
     "weight": "560g",
     "naverProductId": "54508208437",
     "naverSearchKeyword": "밀잇 식단관리 단백질 쉐이크 초콜릿 560g",
-    "nutrition": {
-      "servingSize": "35g",
-      "servings": 16,
-      "calories": 130,
-      "protein": 14,
-      "carbs": 12,
-      "sugar": 3,
-      "fat": 3
-    },
     "currentPrice": 26900,
     "priceHistory": [
       {
@@ -647,7 +540,16 @@
         "price": 26900
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "-",
+      "servings": 1,
+      "calories": 400,
+      "protein": 40,
+      "carbs": 40,
+      "sugar": 9.8,
+      "fat": 10.5
+    }
   },
   {
     "slug": "mileat-protein-shake-grain-500g",
@@ -661,15 +563,6 @@
     "weight": "500g",
     "naverProductId": "86104252526",
     "naverSearchKeyword": "밀잇 단백질 쉐이크 곡물맛 500g",
-    "nutrition": {
-      "servingSize": "35g",
-      "servings": 14,
-      "calories": 125,
-      "protein": 13,
-      "carbs": 13,
-      "sugar": 2,
-      "fat": 2.5
-    },
     "currentPrice": 18900,
     "priceHistory": [
       {
@@ -677,7 +570,16 @@
         "price": 18900
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "-",
+      "servings": 1,
+      "calories": 408,
+      "protein": 35,
+      "carbs": 47.5,
+      "sugar": 10,
+      "fat": 10.3
+    }
   },
   {
     "slug": "flymeal-protein-shake-black-630g",
@@ -691,15 +593,6 @@
     "weight": "630g",
     "naverProductId": "85607786685",
     "naverSearchKeyword": "플라이밀 단백질 쉐이크 대용량 블랙 630g",
-    "nutrition": {
-      "servingSize": "35g",
-      "servings": 18,
-      "calories": 128,
-      "protein": 15,
-      "carbs": 11,
-      "sugar": 2,
-      "fat": 3
-    },
     "currentPrice": 27900,
     "priceHistory": [
       {
@@ -721,15 +614,6 @@
     "weight": "630g",
     "naverProductId": "90681249378",
     "naverSearchKeyword": "있나요 효소 다이어트 단백질 쉐이크 630g",
-    "nutrition": {
-      "servingSize": "35g",
-      "servings": 18,
-      "calories": 122,
-      "protein": 14,
-      "carbs": 12,
-      "sugar": 3,
-      "fat": 2.5
-    },
     "currentPrice": 25900,
     "priceHistory": [
       {
@@ -751,15 +635,6 @@
     "weight": "400g",
     "naverProductId": "89493139840",
     "naverSearchKeyword": "꼬박꼬밥 단백질 쉐이크 초코 400g",
-    "nutrition": {
-      "servingSize": "35g",
-      "servings": 11,
-      "calories": 130,
-      "protein": 16,
-      "carbs": 10,
-      "sugar": 2,
-      "fat": 3
-    },
     "currentPrice": 23900,
     "priceHistory": [
       {
@@ -781,15 +656,6 @@
     "weight": "14개입",
     "naverProductId": "89203692253",
     "naverSearchKeyword": "그로우잇 단백질 쉐이크 파우치 14개입",
-    "nutrition": {
-      "servingSize": "200ml",
-      "servings": 14,
-      "calories": 180,
-      "protein": 20,
-      "carbs": 15,
-      "sugar": 3,
-      "fat": 4
-    },
     "currentPrice": 52000,
     "priceHistory": [
       {
@@ -811,15 +677,6 @@
     "weight": "14개입",
     "naverProductId": "90177673349",
     "naverSearchKeyword": "핏트 단백질 쉐이크 식물성 파우치 14",
-    "nutrition": {
-      "servingSize": "200ml",
-      "servings": 14,
-      "calories": 170,
-      "protein": 18,
-      "carbs": 16,
-      "sugar": 4,
-      "fat": 4
-    },
     "currentPrice": 52000,
     "priceHistory": [
       {
@@ -841,15 +698,6 @@
     "weight": "4종",
     "naverProductId": "89614223911",
     "naverSearchKeyword": "리앤핏 홍진경 단백질쉐이크 파우치",
-    "nutrition": {
-      "servingSize": "200ml",
-      "servings": 7,
-      "calories": 165,
-      "protein": 17,
-      "carbs": 14,
-      "sugar": 4,
-      "fat": 4
-    },
     "currentPrice": 50000,
     "priceHistory": [
       {
@@ -871,15 +719,6 @@
     "weight": "125ml x 36개",
     "naverProductId": "83539864967",
     "naverSearchKeyword": "셀렉스 마시는 프로틴 음료 오리지널 36개",
-    "nutrition": {
-      "servingSize": "125ml",
-      "servings": 36,
-      "calories": 60,
-      "protein": 10,
-      "carbs": 3,
-      "sugar": 2,
-      "fat": 1
-    },
     "currentPrice": 34900,
     "priceHistory": [
       {
@@ -887,7 +726,16 @@
         "price": 34900
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "200ml",
+      "servings": 1,
+      "calories": 200,
+      "protein": 12.6,
+      "carbs": 23.2,
+      "sugar": 14.7,
+      "fat": 6.3
+    }
   },
   {
     "slug": "selecs-protein-drink-lowsugar-36",
@@ -901,15 +749,6 @@
     "weight": "125ml x 36개",
     "naverProductId": "83539865199",
     "naverSearchKeyword": "셀렉스 마시는 프로틴 음료 저당 36개",
-    "nutrition": {
-      "servingSize": "125ml",
-      "servings": 36,
-      "calories": 55,
-      "protein": 10,
-      "carbs": 2,
-      "sugar": 0,
-      "fat": 1
-    },
     "currentPrice": 34900,
     "priceHistory": [
       {
@@ -917,7 +756,16 @@
         "price": 34900
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "200ml",
+      "servings": 1,
+      "calories": 200,
+      "protein": 12.6,
+      "carbs": 23.2,
+      "sugar": 14.7,
+      "fat": 6.3
+    }
   },
   {
     "slug": "hymune-protein-balance-36",
@@ -931,15 +779,6 @@
     "weight": "125ml x 36입",
     "naverProductId": "90113947665",
     "naverSearchKeyword": "하이뮨 마시는 프로틴 밸런스 125ml 36입",
-    "nutrition": {
-      "servingSize": "125ml",
-      "servings": 36,
-      "calories": 65,
-      "protein": 8,
-      "carbs": 5,
-      "sugar": 3,
-      "fat": 1.5
-    },
     "currentPrice": 34980,
     "priceHistory": [
       {
@@ -947,7 +786,16 @@
         "price": 34980
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "200ml",
+      "servings": 1,
+      "calories": 200,
+      "protein": 12.8,
+      "carbs": 19.2,
+      "sugar": 14.4,
+      "fat": 8
+    }
   },
   {
     "slug": "maeil-almond-breeze-protein-24",
@@ -961,15 +809,6 @@
     "weight": "190ml x 24팩",
     "naverProductId": "86794236782",
     "naverSearchKeyword": "매일 아몬드 브리즈 프로틴 190ml 24팩",
-    "nutrition": {
-      "servingSize": "190ml",
-      "servings": 24,
-      "calories": 80,
-      "protein": 6,
-      "carbs": 8,
-      "sugar": 4,
-      "fat": 2.5
-    },
     "currentPrice": 22000,
     "priceHistory": [
       {
@@ -991,15 +830,6 @@
     "weight": "125ml x 24팩",
     "naverProductId": "89073432479",
     "naverSearchKeyword": "셀렉스 프로틴 파우치 125ml 24팩",
-    "nutrition": {
-      "servingSize": "125ml",
-      "servings": 24,
-      "calories": 60,
-      "protein": 10,
-      "carbs": 3,
-      "sugar": 2,
-      "fat": 1
-    },
     "currentPrice": 20790,
     "priceHistory": [
       {
@@ -1007,7 +837,16 @@
         "price": 20790
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "200ml",
+      "servings": 1,
+      "calories": 200,
+      "protein": 12.6,
+      "carbs": 23.2,
+      "sugar": 14.7,
+      "fat": 6.3
+    }
   },
   {
     "slug": "hymune-protein-balance-12",
@@ -1021,15 +860,6 @@
     "weight": "125ml x 12포",
     "naverProductId": "88096572383",
     "naverSearchKeyword": "하이뮨 마시는 프로틴 밸런스 1박스",
-    "nutrition": {
-      "servingSize": "125ml",
-      "servings": 12,
-      "calories": 65,
-      "protein": 8,
-      "carbs": 5,
-      "sugar": 3,
-      "fat": 1.5
-    },
     "currentPrice": 29900,
     "priceHistory": [
       {
@@ -1037,7 +867,16 @@
         "price": 29900
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "200ml",
+      "servings": 1,
+      "calories": 200,
+      "protein": 12.8,
+      "carbs": 19.2,
+      "sugar": 14.4,
+      "fat": 8
+    }
   },
   {
     "slug": "ililhau-slimming-shake-7pack",
@@ -1051,15 +890,6 @@
     "weight": "45g x 7개",
     "naverProductId": "86225774534",
     "naverSearchKeyword": "일일하우 슬리밍 플랜B 쉐이크 귀리 7개",
-    "nutrition": {
-      "servingSize": "45g",
-      "servings": 7,
-      "calories": 175,
-      "protein": 16,
-      "carbs": 18,
-      "sugar": 4,
-      "fat": 4
-    },
     "currentPrice": 26900,
     "priceHistory": [
       {
@@ -1081,15 +911,6 @@
     "weight": "594g (44개)",
     "naverProductId": "84464484374",
     "naverSearchKeyword": "닥터유 단백질바 미니 594g",
-    "nutrition": {
-      "servingSize": "13.5g",
-      "servings": 44,
-      "calories": 55,
-      "protein": 4,
-      "carbs": 7,
-      "sugar": 3,
-      "fat": 1.5
-    },
     "currentPrice": 13400,
     "priceHistory": [
       {
@@ -1097,7 +918,16 @@
         "price": 13400
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "30g",
+      "servings": 1,
+      "calories": 143,
+      "protein": 10.7,
+      "carbs": 7.7,
+      "sugar": 3.4,
+      "fat": 7.7
+    }
   },
   {
     "slug": "kirkland-protein-bar-20",
@@ -1111,15 +941,6 @@
     "weight": "60g x 20개",
     "naverProductId": "53530832773",
     "naverSearchKeyword": "커클랜드 프로틴 바 20개입",
-    "nutrition": {
-      "servingSize": "60g",
-      "servings": 20,
-      "calories": 190,
-      "protein": 21,
-      "carbs": 23,
-      "sugar": 1,
-      "fat": 7
-    },
     "currentPrice": 26930,
     "priceHistory": [
       {
@@ -1141,15 +962,6 @@
     "weight": "16개입",
     "naverProductId": "89131403003",
     "naverSearchKeyword": "소이조이 버라이어티팩 16개입",
-    "nutrition": {
-      "servingSize": "30g",
-      "servings": 16,
-      "calories": 130,
-      "protein": 5,
-      "carbs": 15,
-      "sugar": 7,
-      "fat": 6
-    },
     "currentPrice": 25900,
     "priceHistory": [
       {
@@ -1171,15 +983,6 @@
     "weight": "50g",
     "naverProductId": "53142881768",
     "naverSearchKeyword": "닥터유 단백질바 50g",
-    "nutrition": {
-      "servingSize": "50g",
-      "servings": 1,
-      "calories": 190,
-      "protein": 12,
-      "carbs": 22,
-      "sugar": 8,
-      "fat": 6
-    },
     "currentPrice": 870,
     "priceHistory": [
       {
@@ -1187,7 +990,16 @@
         "price": 870
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "30g",
+      "servings": 1,
+      "calories": 143,
+      "protein": 10.7,
+      "carbs": 7.7,
+      "sugar": 3.4,
+      "fat": 7.7
+    }
   },
   {
     "slug": "harudanbaekba-jet-protein-bar-12",
@@ -1201,15 +1013,6 @@
     "weight": "12개입",
     "naverProductId": "84240328518",
     "naverSearchKeyword": "하루단백바 제트 단백질바 12개입",
-    "nutrition": {
-      "servingSize": "45g",
-      "servings": 12,
-      "calories": 170,
-      "protein": 20,
-      "carbs": 14,
-      "sugar": 2,
-      "fat": 5
-    },
     "currentPrice": 21600,
     "priceHistory": [
       {
@@ -1231,15 +1034,6 @@
     "weight": "12개입",
     "naverProductId": "88012137113",
     "naverSearchKeyword": "소이조이 블루베리 12개입",
-    "nutrition": {
-      "servingSize": "30g",
-      "servings": 12,
-      "calories": 130,
-      "protein": 5,
-      "carbs": 15,
-      "sugar": 7,
-      "fat": 6
-    },
     "currentPrice": 17900,
     "priceHistory": [
       {
@@ -1247,7 +1041,16 @@
         "price": 17900
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "30g",
+      "servings": 1,
+      "calories": 135,
+      "protein": 4,
+      "carbs": 15,
+      "sugar": 11,
+      "fat": 7
+    }
   },
   {
     "slug": "post-protein-bar-50g-30pack",
@@ -1261,15 +1064,6 @@
     "weight": "50g x 30개",
     "naverProductId": "53143503130",
     "naverSearchKeyword": "포스트 단백질바 50g 30개입",
-    "nutrition": {
-      "servingSize": "50g",
-      "servings": 30,
-      "calories": 185,
-      "protein": 10,
-      "carbs": 24,
-      "sugar": 9,
-      "fat": 6
-    },
     "currentPrice": 27170,
     "priceHistory": [
       {
@@ -1291,15 +1085,6 @@
     "weight": "20개입",
     "naverProductId": "86710231575",
     "naverSearchKeyword": "베노프 프로틴바 소프트바 10가지맛 1+1",
-    "nutrition": {
-      "servingSize": "50g",
-      "servings": 20,
-      "calories": 175,
-      "protein": 20,
-      "carbs": 15,
-      "sugar": 3,
-      "fat": 5
-    },
     "currentPrice": 37900,
     "priceHistory": [
       {
@@ -1321,15 +1106,6 @@
     "weight": "27P x 2개",
     "naverProductId": "54376888641",
     "naverSearchKeyword": "닥터유 프로 단백질바 크런치 미니 27P",
-    "nutrition": {
-      "servingSize": "12g",
-      "servings": 54,
-      "calories": 50,
-      "protein": 4,
-      "carbs": 6,
-      "sugar": 3,
-      "fat": 1.5
-    },
     "currentPrice": 15130,
     "priceHistory": [
       {
@@ -1337,7 +1113,16 @@
         "price": 15130
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "30g",
+      "servings": 1,
+      "calories": 143,
+      "protein": 10.7,
+      "carbs": 7.7,
+      "sugar": 3.4,
+      "fat": 7.7
+    }
   },
   {
     "slug": "soyjoy-baked-cheese-12",
@@ -1351,15 +1136,6 @@
     "weight": "12개입",
     "naverProductId": "88854016097",
     "naverSearchKeyword": "소이조이 후르츠베이크드치즈 12개입",
-    "nutrition": {
-      "servingSize": "30g",
-      "servings": 12,
-      "calories": 130,
-      "protein": 5,
-      "carbs": 15,
-      "sugar": 7,
-      "fat": 6
-    },
     "currentPrice": 17900,
     "priceHistory": [
       {
@@ -1388,7 +1164,16 @@
         "price": 28280
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "200ml",
+      "servings": 1,
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "sugar": 0,
+      "fat": 0
+    }
   },
   {
     "slug": "chilsung-cider-zero-12",
@@ -1409,7 +1194,16 @@
         "price": 21940
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "200ml",
+      "servings": 1,
+      "calories": 2,
+      "protein": 0,
+      "carbs": 3.8,
+      "sugar": 0.1,
+      "fat": 0
+    }
   },
   {
     "slug": "sprite-zero-250ml-30",
@@ -1430,7 +1224,16 @@
         "price": 12740
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "200ml",
+      "servings": 1,
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "sugar": 0,
+      "fat": 0
+    }
   },
   {
     "slug": "coca-cola-zero-190ml-30",
@@ -1451,7 +1254,16 @@
         "price": 10950
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "200ml",
+      "servings": 1,
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "sugar": 0,
+      "fat": 0
+    }
   },
   {
     "slug": "narangd-cider-zero-345ml-24",
@@ -1472,7 +1284,16 @@
         "price": 11090
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "200ml",
+      "servings": 1,
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "sugar": 0,
+      "fat": 0
+    }
   },
   {
     "slug": "pepsi-zero-lime-500ml-20",
@@ -1493,7 +1314,16 @@
         "price": 10700
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "200ml",
+      "servings": 1,
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "sugar": 0,
+      "fat": 0
+    }
   },
   {
     "slug": "powerade-zero-355ml-20",
@@ -1514,7 +1344,16 @@
         "price": 12100
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "200ml",
+      "servings": 1,
+      "calories": 2,
+      "protein": 0,
+      "carbs": 0.6,
+      "sugar": 0,
+      "fat": 0
+    }
   },
   {
     "slug": "ionthefit-zero-500ml-24",
@@ -1535,7 +1374,16 @@
         "price": 16260
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "200ml",
+      "servings": 1,
+      "calories": 0,
+      "protein": 0,
+      "carbs": 3.6,
+      "sugar": 0,
+      "fat": 0
+    }
   },
   {
     "slug": "gatorade-zero-1-5l-12",
@@ -1556,7 +1404,16 @@
         "price": 16000
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "200ml",
+      "servings": 1,
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "sugar": 0,
+      "fat": 0
+    }
   },
   {
     "slug": "clubb-acv-soda-zero-500ml-24",
@@ -1577,7 +1434,16 @@
         "price": 28900
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "200ml",
+      "servings": 1,
+      "calories": 2,
+      "protein": 0,
+      "carbs": 1.6,
+      "sugar": 0,
+      "fat": 0
+    }
   },
   {
     "slug": "bbaebbae-konjac-noodle-20",
@@ -1591,15 +1457,6 @@
     "weight": "200g x 20팩",
     "naverProductId": "0",
     "naverSearchKeyword": "빼빼곤약 발효곤약메밀면 20팩",
-    "nutrition": {
-      "servingSize": "200g",
-      "servings": 20,
-      "calories": 12,
-      "protein": 0,
-      "carbs": 3,
-      "sugar": 0,
-      "fat": 0
-    },
     "currentPrice": 31800,
     "priceHistory": [
       {
@@ -1621,15 +1478,6 @@
     "weight": "7팩",
     "naverProductId": "0",
     "naverSearchKeyword": "다신샵 곤약꼬마김밥 저칼로리 7팩",
-    "nutrition": {
-      "servingSize": "100g",
-      "servings": 7,
-      "calories": 85,
-      "protein": 2,
-      "carbs": 18,
-      "sugar": 2,
-      "fat": 1
-    },
     "currentPrice": 20900,
     "priceHistory": [
       {
@@ -1651,15 +1499,6 @@
     "weight": "800g",
     "naverProductId": "56987589640",
     "naverSearchKeyword": "대신물산 면곤약 800g",
-    "nutrition": {
-      "servingSize": "200g",
-      "servings": 4,
-      "calories": 10,
-      "protein": 0,
-      "carbs": 3,
-      "sugar": 0,
-      "fat": 0
-    },
     "currentPrice": 890,
     "priceHistory": [
       {
@@ -1681,15 +1520,6 @@
     "weight": "150g x 7팩",
     "naverProductId": "48919401153",
     "naverSearchKeyword": "농협 곤약젤리 150g 7팩",
-    "nutrition": {
-      "servingSize": "150g",
-      "servings": 7,
-      "calories": 15,
-      "protein": 0,
-      "carbs": 4,
-      "sugar": 0,
-      "fat": 0
-    },
     "currentPrice": 7980,
     "priceHistory": [
       {
@@ -1711,15 +1541,6 @@
     "weight": "238g x 3개",
     "naverProductId": "58164186214",
     "naverSearchKeyword": "롯데 제로 후르츠 젤리 238g 3개",
-    "nutrition": {
-      "servingSize": "34g",
-      "servings": 21,
-      "calories": 10,
-      "protein": 0,
-      "carbs": 10,
-      "sugar": 0,
-      "fat": 0
-    },
     "currentPrice": 13090,
     "priceHistory": [
       {
@@ -1741,15 +1562,6 @@
     "weight": "130g",
     "naverProductId": "48242260467",
     "naverSearchKeyword": "빙그레 곤약젤리 청포도 130g",
-    "nutrition": {
-      "servingSize": "130g",
-      "servings": 1,
-      "calories": 8,
-      "protein": 0,
-      "carbs": 2,
-      "sugar": 0,
-      "fat": 0
-    },
     "currentPrice": 6600,
     "priceHistory": [
       {
@@ -1771,15 +1583,6 @@
     "weight": "250g x 3개",
     "naverProductId": "58918894419",
     "naverSearchKeyword": "아이엠그라운드 대두 두부면 250g 3개",
-    "nutrition": {
-      "servingSize": "250g",
-      "servings": 3,
-      "calories": 90,
-      "protein": 12,
-      "carbs": 3,
-      "sugar": 0,
-      "fat": 3
-    },
     "currentPrice": 9800,
     "priceHistory": [
       {
@@ -1801,15 +1604,6 @@
     "weight": "180g x 10개",
     "naverProductId": "58972251982",
     "naverSearchKeyword": "마이노멀 국산콩 두부면 180g 10개",
-    "nutrition": {
-      "servingSize": "180g",
-      "servings": 10,
-      "calories": 85,
-      "protein": 11,
-      "carbs": 3,
-      "sugar": 0,
-      "fat": 3
-    },
     "currentPrice": 28400,
     "priceHistory": [
       {
@@ -1831,15 +1625,6 @@
     "weight": "10팩",
     "naverProductId": "58043747040",
     "naverSearchKeyword": "라라스팜 두부곤약면 넙적 10팩",
-    "nutrition": {
-      "servingSize": "200g",
-      "servings": 10,
-      "calories": 25,
-      "protein": 2,
-      "carbs": 5,
-      "sugar": 0,
-      "fat": 0
-    },
     "currentPrice": 17000,
     "priceHistory": [
       {
@@ -1861,15 +1646,6 @@
     "weight": "250g",
     "naverProductId": "90011048897",
     "naverSearchKeyword": "농가식품 포두부 건두부면 250g",
-    "nutrition": {
-      "servingSize": "50g",
-      "servings": 5,
-      "calories": 180,
-      "protein": 18,
-      "carbs": 5,
-      "sugar": 0,
-      "fat": 10
-    },
     "currentPrice": 2900,
     "priceHistory": [
       {
@@ -1891,15 +1667,6 @@
     "weight": "6팩",
     "naverProductId": "87802218892",
     "naverSearchKeyword": "얌쿡 다이어트 냉동 도시락 미용식 6팩",
-    "nutrition": {
-      "servingSize": "250g",
-      "servings": 6,
-      "calories": 350,
-      "protein": 25,
-      "carbs": 40,
-      "sugar": 5,
-      "fat": 8
-    },
     "currentPrice": 27900,
     "priceHistory": [
       {
@@ -1921,15 +1688,6 @@
     "weight": "1팩~",
     "naverProductId": "84394360413",
     "naverSearchKeyword": "식스밀 다이어트 식단 냉동 도시락",
-    "nutrition": {
-      "servingSize": "300g",
-      "servings": 1,
-      "calories": 380,
-      "protein": 28,
-      "carbs": 42,
-      "sugar": 4,
-      "fat": 9
-    },
     "currentPrice": 8900,
     "priceHistory": [
       {
@@ -1951,15 +1709,6 @@
     "weight": "12팩",
     "naverProductId": "85259654930",
     "naverSearchKeyword": "시그니처벨 건강한 도시락 12팩",
-    "nutrition": {
-      "servingSize": "280g",
-      "servings": 12,
-      "calories": 370,
-      "protein": 26,
-      "carbs": 38,
-      "sugar": 5,
-      "fat": 10
-    },
     "currentPrice": 57500,
     "priceHistory": [
       {
@@ -1981,15 +1730,6 @@
     "weight": "5팩",
     "naverProductId": "83030614198",
     "naverSearchKeyword": "얌쿡 고기고기 도시락 5종",
-    "nutrition": {
-      "servingSize": "300g",
-      "servings": 5,
-      "calories": 420,
-      "protein": 30,
-      "carbs": 38,
-      "sugar": 4,
-      "fat": 14
-    },
     "currentPrice": 34500,
     "priceHistory": [
       {
@@ -2011,15 +1751,6 @@
     "weight": "12팩",
     "naverProductId": "10647407953",
     "naverSearchKeyword": "굿스푼 다이어트 식단 12종 12팩",
-    "nutrition": {
-      "servingSize": "280g",
-      "servings": 12,
-      "calories": 360,
-      "protein": 27,
-      "carbs": 40,
-      "sugar": 5,
-      "fat": 8
-    },
     "currentPrice": 55900,
     "priceHistory": [
       {
@@ -2041,15 +1772,6 @@
     "weight": "6팩",
     "naverProductId": "82551508982",
     "naverSearchKeyword": "헬로잇츠 도시락 미미덮밥 6종",
-    "nutrition": {
-      "servingSize": "250g",
-      "servings": 6,
-      "calories": 330,
-      "protein": 22,
-      "carbs": 38,
-      "sugar": 4,
-      "fat": 8
-    },
     "currentPrice": 20900,
     "priceHistory": [
       {
@@ -2071,15 +1793,6 @@
     "weight": "1팩~",
     "naverProductId": "89950206581",
     "naverSearchKeyword": "인생닭 단백질 냉동 도시락 9종",
-    "nutrition": {
-      "servingSize": "280g",
-      "servings": 1,
-      "calories": 340,
-      "protein": 26,
-      "carbs": 36,
-      "sugar": 4,
-      "fat": 9
-    },
     "currentPrice": 2900,
     "priceHistory": [
       {
@@ -2101,15 +1814,6 @@
     "weight": "1팩~",
     "naverProductId": "90377242396",
     "naverSearchKeyword": "블랙컨슈머 다이어트 도시락",
-    "nutrition": {
-      "servingSize": "300g",
-      "servings": 1,
-      "calories": 380,
-      "protein": 24,
-      "carbs": 42,
-      "sugar": 5,
-      "fat": 10
-    },
     "currentPrice": 3700,
     "priceHistory": [
       {
@@ -2131,15 +1835,6 @@
     "weight": "6팩",
     "naverProductId": "83780746323",
     "naverSearchKeyword": "고온어 다이어트 도시락 6팩",
-    "nutrition": {
-      "servingSize": "270g",
-      "servings": 6,
-      "calories": 350,
-      "protein": 25,
-      "carbs": 38,
-      "sugar": 4,
-      "fat": 9
-    },
     "currentPrice": 24200,
     "priceHistory": [
       {
@@ -2161,15 +1856,6 @@
     "weight": "20팩",
     "naverProductId": "12931774867",
     "naverSearchKeyword": "더바른도시락 냉동 식단관리 20팩",
-    "nutrition": {
-      "servingSize": "280g",
-      "servings": 20,
-      "calories": 360,
-      "protein": 26,
-      "carbs": 40,
-      "sugar": 4,
-      "fat": 9
-    },
     "currentPrice": 59900,
     "priceHistory": [
       {
@@ -2191,15 +1877,6 @@
     "weight": "100g x 6개",
     "naverProductId": "90379571299",
     "naverSearchKeyword": "요즘 저당 그릭요거트 6개",
-    "nutrition": {
-      "servingSize": "100g",
-      "servings": 6,
-      "calories": 68,
-      "protein": 11,
-      "carbs": 4,
-      "sugar": 3,
-      "fat": 0.5
-    },
     "currentPrice": 18400,
     "priceHistory": [
       {
@@ -2207,7 +1884,16 @@
         "price": 18400
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "100ml",
+      "servings": 1,
+      "calories": 50,
+      "protein": 2,
+      "carbs": 18,
+      "sugar": 2,
+      "fat": 1.9
+    }
   },
   {
     "slug": "yojeom-greek-yogurt-10-honey",
@@ -2221,15 +1907,6 @@
     "weight": "100g x 10개 + 꿀스틱 10포",
     "naverProductId": "87845954868",
     "naverSearchKeyword": "요즘 저당 그릭요거트 소프트 10개 꿀스틱",
-    "nutrition": {
-      "servingSize": "100g",
-      "servings": 10,
-      "calories": 68,
-      "protein": 11,
-      "carbs": 4,
-      "sugar": 3,
-      "fat": 0.5
-    },
     "currentPrice": 34900,
     "priceHistory": [
       {
@@ -2237,7 +1914,16 @@
         "price": 34900
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "100ml",
+      "servings": 1,
+      "calories": 50,
+      "protein": 2,
+      "carbs": 18,
+      "sugar": 2,
+      "fat": 1.9
+    }
   },
   {
     "slug": "greeksine-greek-yogurt-8",
@@ -2251,15 +1937,6 @@
     "weight": "150g x 8개",
     "naverProductId": "89579544735",
     "naverSearchKeyword": "그릭씨네 그릭요거트 150g 8개",
-    "nutrition": {
-      "servingSize": "150g",
-      "servings": 8,
-      "calories": 95,
-      "protein": 15,
-      "carbs": 5,
-      "sugar": 4,
-      "fat": 1
-    },
     "currentPrice": 37800,
     "priceHistory": [
       {
@@ -2281,15 +1958,6 @@
     "weight": "1kg",
     "naverProductId": "87092482001",
     "naverSearchKeyword": "요거트그릭요 수제 무가당 그릭요거트 1kg",
-    "nutrition": {
-      "servingSize": "100g",
-      "servings": 10,
-      "calories": 70,
-      "protein": 10,
-      "carbs": 4,
-      "sugar": 3,
-      "fat": 1.5
-    },
     "currentPrice": 16900,
     "priceHistory": [
       {
@@ -2311,15 +1979,6 @@
     "weight": "400g",
     "naverProductId": "89817595111",
     "naverSearchKeyword": "매일 바이오 그릭 요거트 무가당 400g",
-    "nutrition": {
-      "servingSize": "100g",
-      "servings": 4,
-      "calories": 60,
-      "protein": 9,
-      "carbs": 4,
-      "sugar": 3,
-      "fat": 0
-    },
     "currentPrice": 3780,
     "priceHistory": [
       {
@@ -2341,15 +2000,6 @@
     "weight": "907g x 2개",
     "naverProductId": "89694583719",
     "naverSearchKeyword": "커클랜드 그릭요거트 907g 2개",
-    "nutrition": {
-      "servingSize": "100g",
-      "servings": 18,
-      "calories": 55,
-      "protein": 10,
-      "carbs": 3,
-      "sugar": 2,
-      "fat": 0
-    },
     "currentPrice": 16900,
     "priceHistory": [
       {
@@ -2371,15 +2021,6 @@
     "weight": "400g x 2개",
     "naverProductId": "88911981170",
     "naverSearchKeyword": "덴마크 락토프리 하이 그릭 요거트 400g 2개",
-    "nutrition": {
-      "servingSize": "100g",
-      "servings": 8,
-      "calories": 62,
-      "protein": 10,
-      "carbs": 4,
-      "sugar": 3,
-      "fat": 0
-    },
     "currentPrice": 5320,
     "priceHistory": [
       {
@@ -2401,15 +2042,6 @@
     "weight": "1kg",
     "naverProductId": "85057983380",
     "naverSearchKeyword": "요거트빌리지 수제 그릭요거트 1kg",
-    "nutrition": {
-      "servingSize": "100g",
-      "servings": 10,
-      "calories": 72,
-      "protein": 11,
-      "carbs": 4,
-      "sugar": 3,
-      "fat": 1
-    },
     "currentPrice": 20500,
     "priceHistory": [
       {
@@ -2431,15 +2063,6 @@
     "weight": "1kg",
     "naverProductId": "85177324899",
     "naverSearchKeyword": "온드리목장 무가당 그릭요거트 1kg",
-    "nutrition": {
-      "servingSize": "100g",
-      "servings": 10,
-      "calories": 75,
-      "protein": 11,
-      "carbs": 4,
-      "sugar": 3,
-      "fat": 1.5
-    },
     "currentPrice": 17800,
     "priceHistory": [
       {
@@ -2461,15 +2084,6 @@
     "weight": "900g x 3개",
     "naverProductId": "89906692653",
     "naverSearchKeyword": "요플레 그릭 마일드 무가당 900g 3개",
-    "nutrition": {
-      "servingSize": "100g",
-      "servings": 27,
-      "calories": 55,
-      "protein": 8,
-      "carbs": 4,
-      "sugar": 3,
-      "fat": 0.5
-    },
     "currentPrice": 14790,
     "priceHistory": [
       {
@@ -2498,7 +2112,16 @@
         "price": 16550
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "5g (1스틱)",
+      "servings": 1,
+      "calories": 30,
+      "protein": 0,
+      "carbs": 8,
+      "sugar": 0,
+      "fat": 0
+    }
   },
   {
     "slug": "teazen-kombucha-berry-10",
@@ -2519,7 +2142,16 @@
         "price": 2900
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "5g (1스틱)",
+      "servings": 1,
+      "calories": 30,
+      "protein": 0,
+      "carbs": 8,
+      "sugar": 0,
+      "fat": 0
+    }
   },
   {
     "slug": "danongwon-kombucha-lemon-20",
@@ -2561,7 +2193,16 @@
         "price": 9900
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "5g (1스틱)",
+      "servings": 1,
+      "calories": 30,
+      "protein": 0,
+      "carbs": 8,
+      "sugar": 0,
+      "fat": 0
+    }
   },
   {
     "slug": "teazen-kombucha-peach-10",
@@ -2582,7 +2223,16 @@
         "price": 2900
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "5g (1스틱)",
+      "servings": 1,
+      "calories": 30,
+      "protein": 0,
+      "carbs": 8,
+      "sugar": 0,
+      "fat": 0
+    }
   },
   {
     "slug": "danongwon-kombucha-berry-20",
@@ -2624,7 +2274,16 @@
         "price": 2900
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "5g (1스틱)",
+      "servings": 1,
+      "calories": 30,
+      "protein": 0,
+      "carbs": 8,
+      "sugar": 0,
+      "fat": 0
+    }
   },
   {
     "slug": "teazen-kombucha-muscat-60",
@@ -2645,7 +2304,16 @@
         "price": 16550
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "5g (1스틱)",
+      "servings": 1,
+      "calories": 30,
+      "protein": 0,
+      "carbs": 8,
+      "sugar": 0,
+      "fat": 0
+    }
   },
   {
     "slug": "danongwon-kombucha-grapefruit-20",
@@ -2687,6 +2355,15 @@
         "price": 16550
       }
     ],
-    "updatedAt": "2026-03-09"
+    "updatedAt": "2026-03-09",
+    "nutrition": {
+      "servingSize": "5g (1스틱)",
+      "servings": 1,
+      "calories": 30,
+      "protein": 0,
+      "carbs": 8,
+      "sugar": 0,
+      "fat": 0
+    }
   }
 ]
