@@ -103,3 +103,99 @@ export function createArticleSchema({
     ...(image ? { image } : {}),
   };
 }
+
+// Organization + WebSite schema for homepage
+export function createOrganizationSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "칼로링",
+    url: SITE_URL,
+    logo: `${SITE_URL}/icon.svg`,
+    description: "다이어트 계산기와 식품 최저가 비교 서비스",
+    sameAs: [],
+  };
+}
+
+export function createWebSiteSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "칼로링",
+    url: SITE_URL,
+    description: "40kg 뺀 언니의 다이어트 비서. 칼로리 계산기, 식단 가이드, 다이어트 식품 최저가 비교.",
+    inLanguage: "ko",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: `${SITE_URL}/products/?q={search_term_string}`,
+      "query-input": "required name=search_term_string",
+    },
+  };
+}
+
+// Product schema for product detail pages
+interface ProductSchemaOptions {
+  name: string;
+  description: string;
+  url: string;
+  image?: string;
+  brand: string;
+  category: string;
+  price: number;
+  priceCurrency?: string;
+}
+
+export function createProductSchema({
+  name,
+  description,
+  url,
+  image,
+  brand,
+  category,
+  price,
+  priceCurrency = "KRW",
+}: ProductSchemaOptions) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name,
+    description,
+    url,
+    ...(image ? { image } : {}),
+    brand: {
+      "@type": "Brand",
+      name: brand,
+    },
+    category,
+    offers: {
+      "@type": "Offer",
+      price: price.toString(),
+      priceCurrency,
+      availability: "https://schema.org/InStock",
+      url,
+    },
+  };
+}
+
+// ItemList schema for product listing pages
+interface ItemListItem {
+  name: string;
+  url: string;
+  image?: string;
+}
+
+export function createItemListSchema(name: string, items: ItemListItem[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name,
+    numberOfItems: items.length,
+    itemListElement: items.slice(0, 30).map((item, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: item.name,
+      url: item.url,
+      ...(item.image ? { image: item.image } : {}),
+    })),
+  };
+}

@@ -1,95 +1,98 @@
 import type { MetadataRoute } from "next";
-import { getAllSlugs } from "@/data/products";
+import { getAllSlugs, products } from "@/data/products";
 
 export const dynamic = "force-static";
 
 const SITE_URL = "https://caloring.kr";
+const BUILD_DATE = "2026-03-10";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date().toISOString();
-
   const staticPages: MetadataRoute.Sitemap = [
     {
       url: SITE_URL,
-      lastModified: now,
+      lastModified: BUILD_DATE,
       changeFrequency: "weekly",
       priority: 1.0,
     },
     {
       url: `${SITE_URL}/calc/bmi/`,
-      lastModified: now,
+      lastModified: BUILD_DATE,
       changeFrequency: "monthly",
       priority: 0.9,
     },
     {
       url: `${SITE_URL}/calc/bmr/`,
-      lastModified: now,
+      lastModified: BUILD_DATE,
       changeFrequency: "monthly",
       priority: 0.9,
     },
     {
       url: `${SITE_URL}/calc/calorie/`,
-      lastModified: now,
+      lastModified: BUILD_DATE,
       changeFrequency: "monthly",
       priority: 0.9,
     },
     {
       url: `${SITE_URL}/calc/body-fat/`,
-      lastModified: now,
+      lastModified: BUILD_DATE,
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
       url: `${SITE_URL}/calc/ideal-weight/`,
-      lastModified: now,
+      lastModified: BUILD_DATE,
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
       url: `${SITE_URL}/calc/water/`,
-      lastModified: now,
+      lastModified: BUILD_DATE,
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
       url: `${SITE_URL}/products/`,
-      lastModified: now,
+      lastModified: BUILD_DATE,
       changeFrequency: "daily",
       priority: 0.8,
     },
     // Diet guides
     {
       url: `${SITE_URL}/diet/`,
-      lastModified: now,
+      lastModified: BUILD_DATE,
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
       url: `${SITE_URL}/diet/intermittent-fasting/`,
-      lastModified: now,
+      lastModified: "2026-03-09",
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
       url: `${SITE_URL}/diet/1200kcal/`,
-      lastModified: now,
+      lastModified: "2026-03-09",
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
       url: `${SITE_URL}/diet/high-protein/`,
-      lastModified: now,
+      lastModified: "2026-03-09",
       changeFrequency: "monthly",
       priority: 0.8,
     },
   ];
 
-  const productPages: MetadataRoute.Sitemap = getAllSlugs().map((slug) => ({
-    url: `${SITE_URL}/products/${slug}/`,
-    lastModified: now,
-    changeFrequency: "daily" as const,
-    priority: 0.6,
-  }));
+  // Product pages with actual updatedAt dates
+  const productPages: MetadataRoute.Sitemap = getAllSlugs().map((slug) => {
+    const product = products.find((p) => p.slug === slug);
+    return {
+      url: `${SITE_URL}/products/${slug}/`,
+      lastModified: product?.updatedAt ?? BUILD_DATE,
+      changeFrequency: "daily" as const,
+      priority: 0.6,
+    };
+  });
 
   return [...staticPages, ...productPages];
 }

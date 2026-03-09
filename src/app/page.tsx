@@ -18,6 +18,30 @@ import {
   CardContent,
 } from "@/components/ui/card";
 import { getHomepageProducts } from "@/data/products";
+import {
+  createOrganizationSchema,
+  createWebSiteSchema,
+  createFAQSchema,
+} from "@/lib/seo/schema";
+
+const HOME_FAQ = [
+  {
+    question: "칼로링은 어떤 서비스인가요?",
+    answer: "칼로링은 칼로리 계산기, 기초대사량 계산기, BMI 계산기 등 다이어트에 필요한 무료 계산기와 다이어트 식품 375개의 최저가 비교를 제공하는 서비스입니다.",
+  },
+  {
+    question: "하루에 몇 칼로리를 먹어야 다이어트가 되나요?",
+    answer: "개인의 키, 몸무게, 활동량에 따라 다르지만, 일반적으로 TDEE(하루 총 소비 칼로리)에서 300~500kcal을 줄인 양이 안전한 다이어트 칼로리입니다. 칼로링의 칼로리 계산기로 정확하게 계산할 수 있습니다.",
+  },
+  {
+    question: "기초대사량(BMR)이란 무엇인가요?",
+    answer: "기초대사량(BMR)은 숨쉬기, 체온 유지 등 생명 유지에 필요한 최소 칼로리입니다. 다이어트 시 기초대사량 이하로 먹으면 근손실과 요요 현상이 올 수 있어, 최소 BMR 이상은 섭취해야 합니다.",
+  },
+  {
+    question: "다이어트 식품 가격은 어디서 가져오나요?",
+    answer: "네이버 쇼핑 API를 통해 매일 최저가를 수집합니다. 프로틴, 닭가슴살, 다이어트 도시락 등 9개 카테고리 375개 제품의 가격 변동 추이를 확인할 수 있습니다.",
+  },
+];
 
 const calculators = [
   {
@@ -72,9 +96,23 @@ const calculators = [
 
 const homepageProducts = getHomepageProducts(6);
 
+const jsonLd = [
+  createOrganizationSchema(),
+  createWebSiteSchema(),
+  createFAQSchema(HOME_FAQ),
+];
+
 export default function Home() {
   return (
     <div className="mx-auto max-w-5xl px-4 py-8">
+      {jsonLd.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
+
       {/* Hero */}
       <section className="py-12 text-center md:py-20">
         <h1 className="text-4xl font-bold tracking-tight md:text-5xl">
@@ -212,6 +250,26 @@ export default function Home() {
                 </CardContent>
               </Card>
             </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* FAQ Section — GEO: AI-citable Q&A */}
+      <section className="mt-16">
+        <h2 className="mb-6 text-xl font-bold">자주 묻는 질문</h2>
+        <div className="space-y-3">
+          {HOME_FAQ.map((faq) => (
+            <details
+              key={faq.question}
+              className="group rounded-lg border border-border bg-card"
+            >
+              <summary className="cursor-pointer px-4 py-3 text-sm font-medium">
+                {faq.question}
+              </summary>
+              <p className="px-4 pb-4 text-sm text-muted-foreground leading-relaxed">
+                {faq.answer}
+              </p>
+            </details>
           ))}
         </div>
       </section>

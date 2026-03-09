@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { createMetadata } from "@/lib/seo/metadata";
+import { SITE_URL } from "@/lib/seo/metadata";
+import { createProductSchema, createBreadcrumbSchema } from "@/lib/seo/schema";
 import { getProductBySlug, getAllSlugs } from "@/data/products";
 import { analyzePrices, getPriceStatusLabel } from "@/lib/price/analyze";
 import { formatKRW } from "@/lib/utils/format";
@@ -43,5 +45,33 @@ export default async function ProductPage({ params }: PageProps) {
   const product = getProductBySlug(slug);
   if (!product) notFound();
 
-  return <ProductDetailPage product={product} />;
+  const productUrl = `${SITE_URL}/products/${slug}/`;
+  const jsonLd = [
+    createProductSchema({
+      name: product.name,
+      description: product.description,
+      url: productUrl,
+      image: product.imageUrl,
+      brand: product.brand,
+      category: product.categoryLabel,
+      price: product.currentPrice,
+    }),
+    createBreadcrumbSchema([
+      { label: "다이어트 식품", href: "/products/" },
+      { label: product.name },
+    ]),
+  ];
+
+  return (
+    <>
+      {jsonLd.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
+      <ProductDetailPage product={product} />
+    </>
+  );
 }

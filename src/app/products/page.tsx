@@ -1,4 +1,6 @@
-import { createMetadata } from "@/lib/seo/metadata";
+import { createMetadata, SITE_URL } from "@/lib/seo/metadata";
+import { createItemListSchema, createBreadcrumbSchema } from "@/lib/seo/schema";
+import { products } from "@/data/products";
 import { ProductsPage } from "./ProductsPage";
 
 export const metadata = createMetadata({
@@ -17,6 +19,29 @@ export const metadata = createMetadata({
   ],
 });
 
+const jsonLd = [
+  createItemListSchema(
+    "다이어트 식품 최저가 비교",
+    products.slice(0, 30).map((p) => ({
+      name: p.name,
+      url: `${SITE_URL}/products/${p.slug}/`,
+      image: p.imageUrl,
+    }))
+  ),
+  createBreadcrumbSchema([{ label: "다이어트 식품" }]),
+];
+
 export default function Products() {
-  return <ProductsPage />;
+  return (
+    <>
+      {jsonLd.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
+      <ProductsPage />
+    </>
+  );
 }
