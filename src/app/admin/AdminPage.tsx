@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect, useCallback } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -39,6 +39,8 @@ function slugify(text: string) {
     .replace(/-+/g, "-");
 }
 
+const ADMIN_API = "http://localhost:3099";
+
 export function AdminPage() {
   const [products, setProducts] = useState<ProductFormData[]>(
     productsJson as ProductFormData[]
@@ -48,6 +50,39 @@ export function AdminPage() {
   const [searchQuery, setSearchQuery] = useState("");
   const [editData, setEditData] = useState<ProductFormData | null>(null);
   const [isNew, setIsNew] = useState(false);
+  const [serverOnline, setServerOnline] = useState(false);
+  const [saveStatus, setSaveStatus] = useState<"idle" | "saving" | "saved" | "error">("idle");
+  const [hasUnsaved, setHasUnsaved] = useState(false);
+
+  // Check if admin server is running
+  useEffect(() => {
+    fetch(`${ADMIN_API}/health`)
+      .then((r) => r.ok && setServerOnline(true))
+      .catch(() => setServerOnline(false));
+  }, []);
+
+  const handleSaveToServer = useCallback(async (data: ProductFormData[]) => {
+    if (!serverOnline) return;
+    setSaveStatus("saving");
+    try {
+      const res = await fetch(`${ADMIN_API}/products`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      if (!res.ok) {
+        const err = await res.json();
+        throw new Error(err.error);
+      }
+      setSaveStatus("saved");
+      setHasUnsaved(false);
+      setTimeout(() => setSaveStatus("idle"), 2000);
+    } catch (err) {
+      setSaveStatus("error");
+      window.alert("저장 실패: " + (err instanceof Error ? err.message : err));
+      setTimeout(() => setSaveStatus("idle"), 3000);
+    }
+  }, [serverOnline]);
 
   const filtered = useMemo(() => {
     return products
@@ -115,6 +150,7 @@ export function AdminPage() {
       updated[selectedIdx] = editData;
     }
     setProducts(updated);
+    setHasUnsaved(true);
     setIsNew(false);
   }
 
@@ -123,6 +159,7 @@ export function AdminPage() {
     if (!window.confirm(`"${products[selectedIdx].name}" 삭제?`)) return;
     const updated = products.filter((_, i) => i !== selectedIdx);
     setProducts(updated);
+    setHasUnsaved(true);
     setSelectedIdx(null);
     setEditData(null);
   }
@@ -147,28 +184,59 @@ export function AdminPage() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
-      <header className="mb-6 flex items-center justify-between">
-        <div>
-          <h1 className="text-2xl font-bold">상품 관리</h1>
-          <p className="text-sm text-muted-foreground">
-            {products.length}개 상품 (
-            {filterCat === "all"
-              ? "전체"
-              : CATEGORY_MAP[filterCat as ProductCategory]}
-            {searchQuery && ` · "${searchQuery}" 검색`}: {filtered.length}개)
-          </p>
+      <header className="mb-6 space-y-3">
+        <div className="flex items-center justify-between">
+          <div>
+            <h1 className="text-2xl font-bold">상품 관리</h1>
+            <p className="text-sm text-muted-foreground">
+              {products.length}개 상품 (
+              {filterCat === "all"
+                ? "전체"
+                : CATEGORY_MAP[filterCat as ProductCategory]}
+              {searchQuery && ` · "${searchQuery}" 검색`}: {filtered.length}개)
+            </p>
+          </div>
+          <div className="flex gap-2 items-center">
+            {serverOnline ? (
+              <span className="text-xs text-green-600 flex items-center gap-1">
+                <span className="w-2 h-2 bg-green-500 rounded-full inline-block" />
+                로컬 서버 연결됨
+              </span>
+            ) : (
+              <span className="text-xs text-muted-foreground flex items-center gap-1">
+                <span className="w-2 h-2 bg-gray-300 rounded-full inline-block" />
+                로컬 서버 꺼짐
+              </span>
+            )}
+            <Button variant="outline" size="sm" onClick={handleCopyJson}>
+              JSON 복사
+            </Button>
+            <Button variant="outline" size="sm" onClick={handleExport}>
+              JSON 다운로드
+            </Button>
+            <Button size="sm" onClick={handleNew}>
+              + 새 상품
+            </Button>
+          </div>
         </div>
-        <div className="flex gap-2">
-          <Button variant="outline" size="sm" onClick={handleCopyJson}>
-            JSON 복사
-          </Button>
-          <Button variant="outline" size="sm" onClick={handleExport}>
-            JSON 다운로드
-          </Button>
-          <Button size="sm" onClick={handleNew}>
-            + 새 상품
-          </Button>
-        </div>
+        {serverOnline && hasUnsaved && (
+          <div className="flex items-center gap-3 p-3 bg-amber-50 dark:bg-amber-950 border border-amber-200 dark:border-amber-800 rounded-lg">
+            <span className="text-sm text-amber-800 dark:text-amber-200">
+              저장하지 않은 변경사항이 있습니다
+            </span>
+            <Button
+              size="sm"
+              disabled={saveStatus === "saving"}
+              onClick={() => handleSaveToServer(products)}
+            >
+              {saveStatus === "saving"
+                ? "저장중..."
+                : saveStatus === "saved"
+                  ? "저장 완료!"
+                  : "파일에 저장"}
+            </Button>
+          </div>
+        )}
       </header>
 
       <div className="grid grid-cols-[320px_1fr] gap-6">
