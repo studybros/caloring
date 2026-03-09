@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { CalculatorLayout } from "@/components/calculator/CalculatorLayout";
+import { ResultShare } from "@/components/calculator/ResultShare";
 import { ProductRecommendation } from "@/components/product/ProductRecommendation";
 import { getRecommendProducts } from "@/data/products";
 import {
@@ -124,13 +125,13 @@ export function CalorieCalculator() {
           <ProductRecommendation
             title={
               goal === "lose"
-                ? "다이어트 식품 추천"
-                : "건강 식품 추천"
+                ? "이 칼로리에 딱 맞는 식품"
+                : "언니가 추천하는 식품"
             }
             description={
               goal === "lose"
-                ? `하루 ${formatNumber(result.goalCalories)}kcal 목표라면, 한 끼를 저칼로리 식품으로 바꿔보세요`
-                : "균형 잡힌 영양 섭취에 도움이 되는 고단백 식품이에요"
+                ? `나도 다이어트할 때 이것들 진짜 많이 먹었어`
+                : "나도 다이어트할 때 이것들 진짜 많이 먹었어"
             }
             products={goal === "lose" ? DIET_PRODUCTS : HEALTH_PRODUCTS}
           />
@@ -261,6 +262,13 @@ export function CalorieCalculator() {
                   {formatNumber(result.goalCalories)}
                 </p>
                 <p className="mt-1 text-sm text-muted-foreground">kcal/일</p>
+                <p className="mt-2 text-sm italic text-muted-foreground">
+                  {goal === "lose"
+                    ? "언니 tip: 이 칼로리면 닭가슴살 도시락 2끼 + 가벼운 한 끼면 딱이야!"
+                    : goal === "maintain"
+                      ? "언니 tip: 지금 체중 잘 유지하고 있는 거야! 이대로 가자 💪"
+                      : "언니 tip: 단백질 위주로 천천히 늘려가는 게 포인트야!"}
+                </p>
               </div>
 
               {/* TDEE & BMR */}
@@ -316,6 +324,19 @@ export function CalorieCalculator() {
               </div>
             </CardContent>
           </Card>
+        )}
+
+        {result && (
+          <ResultShare
+            resultText={[
+              "[칼로링] 칼로리 계산 결과",
+              `일일 권장 칼로리: ${formatNumber(result.goalCalories)} kcal`,
+              `기초대사량: ${formatNumber(result.bmr)} kcal`,
+              `TDEE: ${formatNumber(result.tdee)} kcal`,
+              `목표: ${result.goalLabel}`,
+              "https://caloring.kr/calc/calorie",
+            ].join("\n")}
+          />
         )}
       </div>
     </CalculatorLayout>

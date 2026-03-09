@@ -25,10 +25,10 @@ export function Footer() {
           <div className="col-span-2 md:col-span-1">
             <div className="text-lg font-bold">칼로링</div>
             <p className="mt-2 text-sm text-muted-foreground">
-              칼로리 계산, 이제 칼로링.
+              40kg 뺀 언니의 다이어트 비서
             </p>
             <p className="mt-1 text-xs text-muted-foreground">
-              다이어트 계산기 & 식품 최저가 비교
+              직접 해보고 알려주는 칼로리·식단·식품 가이드
             </p>
           </div>
 

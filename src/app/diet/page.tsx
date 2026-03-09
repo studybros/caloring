@@ -118,10 +118,9 @@ export default function DietIndexPage() {
           다이어트 식단 가이드
         </h1>
         <p className="text-muted-foreground leading-relaxed">
-          간헐적 단식부터 지중해식까지, 검증된 다이어트 방법과 칼로리별 식단표를
-          한곳에 모았습니다.
+          직접 다 해보고 정리한 다이어트 식단 가이드.
           <br className="hidden sm:block" />
-          나에게 맞는 다이어트를 찾고, 계산기로 목표를 세워보세요.
+          나에게 맞는 방법을 찾아봐!
         </p>
       </header>
 
@@ -130,7 +129,7 @@ export default function DietIndexPage() {
         <p className="text-sm text-muted-foreground">
           어떤 식단이 나에게 맞을지 모르겠다면?
         </p>
-        <p className="mt-1 font-bold">내 기초대사량부터 계산해보세요</p>
+        <p className="mt-1 font-bold">언니가 제일 먼저 한 것도 이거야. 기초대사량부터 계산해봐!</p>
         <div className="mt-3 flex flex-wrap justify-center gap-2">
           <Link
             href="/calc/calorie/"

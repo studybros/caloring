@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { ShoppingBasket, ArrowRight } from "lucide-react";
 import {
   Card,
@@ -40,8 +41,24 @@ export function ProductRecommendation({
               href={`/products/${product.slug}/`}
               className="flex min-w-[160px] flex-col rounded-lg border border-border bg-background p-3 transition-colors hover:border-primary/50"
             >
-              <div className="mb-2 flex h-20 items-center justify-center rounded bg-muted text-3xl">
-                {product.image ?? "📦"}
+              <div className="relative mb-2 flex h-20 items-center justify-center rounded bg-muted overflow-hidden">
+                {product.imageUrl ? (
+                  <Image
+                    src={product.imageUrl}
+                    alt={product.name}
+                    fill
+                    className="object-contain p-1"
+                    sizes="160px"
+                    unoptimized
+                  />
+                ) : (
+                  <span className="text-3xl">{product.image ?? "📦"}</span>
+                )}
+                {product.naverRank && product.naverRank <= 10 && (
+                  <span className="absolute left-1 top-1 rounded bg-primary px-1.5 py-0.5 text-[10px] font-bold text-primary-foreground">
+                    {product.category} {product.naverRank}위
+                  </span>
+                )}
               </div>
               <div className="text-xs text-muted-foreground">
                 {product.category}
@@ -59,7 +76,6 @@ export function ProductRecommendation({
             </Link>
           ))}
         </div>
-        {/* Disclosure hidden until affiliate links are active */}
       </CardContent>
     </Card>
   );

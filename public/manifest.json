@@ -1,0 +1,17 @@
+{
+  "name": "칼로링 - 다이어트 계산기",
+  "short_name": "칼로링",
+  "description": "다이어트 계산기 & 식품 최저가 비교",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#FFCCBC",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -22,7 +22,8 @@
     "group": "칼로바이-프로틴",
     "naverRank": 1,
     "coupangPrice": 64500,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5477090/54770905586.20260102160011.jpg"
   },
   {
     "slug": "milpam-bavarian-food-2kg",
@@ -47,7 +48,8 @@
     "group": "밀팜-프로틴",
     "naverRank": 1,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5296100/52961000066.20250212145233.jpg"
   },
   {
     "slug": "healthio-muscle-helper-whey-1kg",
@@ -72,7 +74,8 @@
     "group": "헬시오-프로틴",
     "naverRank": 1,
     "coupangPrice": 40900,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8227154/82271542438.19.jpg"
   },
   {
     "slug": "healthio-hitchiway-wpi-1-5kg",
@@ -97,7 +100,8 @@
     "group": "헬시오-프로틴",
     "naverRank": 1,
     "coupangPrice": 81900,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8203664/82036647858.9.jpg"
   },
   {
     "slug": "german-prot-9000-wpi-1kg",
@@ -122,7 +126,8 @@
     "group": "프로틴마켓-프로틴",
     "naverRank": 1,
     "coupangPrice": 58680,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_1062000/10620003279.36.jpg"
   },
   {
     "slug": "syntha6-protein-choco-2-26kg",
@@ -147,7 +152,8 @@
     "group": "신타6-프로틴",
     "naverRank": 1,
     "coupangPrice": 118200,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8853000/88530005301.2.jpg"
   },
   {
     "slug": "optimum-gold-standard-whey-2-74kg",
@@ -172,7 +178,8 @@
     "group": "옵티멈뉴트리션-프로틴",
     "naverRank": 1,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_1026853/10268533183.1.jpg"
   },
   {
     "slug": "makebody-whey-protein-2kg",
@@ -197,7 +204,8 @@
     "group": "메이크바디-프로틴",
     "naverRank": 1,
     "coupangPrice": 59460,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8683485/8683485586.35.jpg"
   },
   {
     "slug": "benetin-monster-protein-gainer-2kg",
@@ -231,7 +239,8 @@
     "group": "베네틴-프로틴",
     "naverRank": 1,
     "coupangPrice": 39800,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5498399/54983999591.20251204115004.jpg"
   },
   {
     "slug": "jambaeki-essential-whey-protein",
@@ -256,7 +265,8 @@
     "group": "잠백이-프로틴",
     "naverRank": 1,
     "coupangPrice": 43900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8935468/89354680583.jpg"
   },
   {
     "slug": "heodak-chicken-steak-15pack",
@@ -290,7 +300,8 @@
     "group": "허닭-닭가슴살",
     "naverRank": 1,
     "coupangPrice": 66300,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8876225/88762254935.2.jpg"
   },
   {
     "slug": "dehadak-steak-ball-30pack",
@@ -324,7 +335,8 @@
     "group": "더하닭-닭가슴살",
     "naverRank": 4,
     "coupangPrice": 17400,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_9035844/90358444892.jpg"
   },
   {
     "slug": "heodak-chicken-steak-50pack",
@@ -358,7 +370,8 @@
     "group": "허닭-닭가슴살",
     "naverRank": 3,
     "coupangPrice": 85900,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5527424/55274246301.1.jpg"
   },
   {
     "slug": "heodak-best-package-21pack",
@@ -392,7 +405,8 @@
     "group": "허닭-닭가슴살",
     "naverRank": 1,
     "coupangPrice": 38120,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8294412/82944128403.15.jpg"
   },
   {
     "slug": "imdak-chicken-sausage-20pack",
@@ -417,7 +431,8 @@
     "group": "아임닭-닭가슴살",
     "naverRank": 2,
     "coupangPrice": 14600,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_9545865/9545865510.22.jpg"
   },
   {
     "slug": "yuksigtokki-chicken-sausage-35pack",
@@ -442,7 +457,8 @@
     "group": "육식토끼-닭가슴살",
     "naverRank": 1,
     "coupangPrice": 7500,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8283433/82834337949.11.jpg"
   },
   {
     "slug": "heodak-chicken-cube-30pack",
@@ -476,7 +492,8 @@
     "group": "허닭-닭가슴살",
     "naverRank": 1,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5795395/57953956267.20251129095012.jpg"
   },
   {
     "slug": "hankkitonsal-grilled-10pack",
@@ -510,7 +527,8 @@
     "group": "한끼통살-닭가슴살",
     "naverRank": 1,
     "coupangPrice": 39100,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8414546/84145464007.11.jpg"
   },
   {
     "slug": "meetree-chicken-106-pick",
@@ -544,7 +562,8 @@
     "group": "미트리-닭가슴살",
     "naverRank": 1,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8123877/81238778644.18.jpg"
   },
   {
     "slug": "cj-healthy-chicken-sausage",
@@ -578,7 +597,8 @@
     "group": "더건강한-닭가슴살",
     "naverRank": 2,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5307453/53074536214.20250218162403.jpg"
   },
   {
     "slug": "switchon-diet-program-46",
@@ -603,7 +623,8 @@
     "group": "스위치온-프로틴",
     "naverRank": 1,
     "coupangPrice": 451900,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5319189/53191895938.20251127112533.jpg"
   },
   {
     "slug": "mileat-protein-shake-choco-560g",
@@ -637,7 +658,8 @@
     "group": "밀잇-프로틴",
     "naverRank": 2,
     "coupangPrice": 43970,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5450820/54508208437.20250624202708.jpg"
   },
   {
     "slug": "mileat-protein-shake-grain-500g",
@@ -671,7 +693,8 @@
     "group": "밀잇-프로틴",
     "naverRank": 1,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8610425/86104252526.1.jpg"
   },
   {
     "slug": "flymeal-protein-shake-black-630g",
@@ -696,7 +719,8 @@
     "group": "플라이밀-프로틴",
     "naverRank": 1,
     "coupangPrice": 398050,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8560778/85607786685.7.jpg"
   },
   {
     "slug": "eatnayo-enzyme-diet-shake-630g",
@@ -721,7 +745,8 @@
     "group": "있나요-프로틴",
     "naverRank": 2,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_9068124/90681249378.jpg"
   },
   {
     "slug": "kkobaggobap-protein-shake-choco-400g",
@@ -746,7 +771,8 @@
     "group": "꼬박꼬밥-프로틴",
     "naverRank": 3,
     "coupangPrice": 21150,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8949313/89493139840.1.jpg"
   },
   {
     "slug": "growit-protein-shake-14pack",
@@ -771,7 +797,8 @@
     "group": "그로우잇-쉐이크-음료",
     "naverRank": 1,
     "coupangPrice": 27500,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8920369/89203692253.15.jpg"
   },
   {
     "slug": "fitt-protein-shake-pouch-14",
@@ -796,7 +823,8 @@
     "group": "핏트-쉐이크-음료",
     "naverRank": 1,
     "coupangPrice": 51890,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_9017767/90177673349.2.jpg"
   },
   {
     "slug": "reenfit-protein-shake-pouch",
@@ -821,7 +849,8 @@
     "group": "리앤핏-쉐이크-음료",
     "naverRank": 1,
     "coupangPrice": 25900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8961422/89614223911.15.jpg"
   },
   {
     "slug": "selecs-protein-drink-original-36",
@@ -855,7 +884,8 @@
     "group": "셀렉스-쉐이크-음료",
     "naverRank": 1,
     "coupangPrice": 41370,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8912619/89126195471.jpg"
   },
   {
     "slug": "selecs-protein-drink-lowsugar-36",
@@ -889,7 +919,8 @@
     "group": "셀렉스-쉐이크-음료",
     "naverRank": 1,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8353986/83539865199.14.jpg"
   },
   {
     "slug": "hymune-protein-balance-36",
@@ -923,7 +954,8 @@
     "group": "하이뮨-쉐이크-음료",
     "naverRank": 1,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_9011394/90113947665.jpg"
   },
   {
     "slug": "maeil-almond-breeze-protein-24",
@@ -948,7 +980,8 @@
     "group": "매일유업-쉐이크-음료",
     "naverRank": 1,
     "coupangPrice": 25000,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5362597/53625976870.20250318125946.jpg"
   },
   {
     "slug": "selecs-protein-drink-original-24",
@@ -982,7 +1015,8 @@
     "group": "셀렉스-쉐이크-음료",
     "naverRank": 2,
     "coupangPrice": 23390,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8907343/89073432479.jpg"
   },
   {
     "slug": "hymune-protein-balance-12",
@@ -1016,7 +1050,8 @@
     "group": "하이뮨-쉐이크-음료",
     "naverRank": 1,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8809657/88096572383.jpg"
   },
   {
     "slug": "ililhau-slimming-shake-7pack",
@@ -1041,7 +1076,8 @@
     "group": "일일하우-쉐이크-음료",
     "naverRank": 1,
     "coupangPrice": 31200,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8622577/86225774534.8.jpg"
   },
   {
     "slug": "dryou-protein-bar-mini-44",
@@ -1075,7 +1111,8 @@
     "group": "닥터유-프로틴바",
     "naverRank": 2,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8446448/84464484374.1.jpg"
   },
   {
     "slug": "kirkland-protein-bar-20",
@@ -1100,7 +1137,8 @@
     "group": "커클랜드-프로틴바",
     "naverRank": 1,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5353083/53530832773.20250313160726.jpg"
   },
   {
     "slug": "soyjoy-variety-16",
@@ -1125,7 +1163,8 @@
     "group": "소이조이-프로틴바",
     "naverRank": 1,
     "coupangPrice": 26100,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8913140/89131403003.12.jpg"
   },
   {
     "slug": "dryou-protein-bar-50g",
@@ -1159,7 +1198,8 @@
     "group": "닥터유-프로틴바",
     "naverRank": 2,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5314288/53142881768.20250221095737.jpg"
   },
   {
     "slug": "harudanbaekba-jet-protein-bar-12",
@@ -1184,7 +1224,8 @@
     "group": "프로틴방앗간-프로틴바",
     "naverRank": 1,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8424032/84240328518.28.jpg"
   },
   {
     "slug": "soyjoy-blueberry-12",
@@ -1218,7 +1259,8 @@
     "group": "소이조이-프로틴바",
     "naverRank": 1,
     "coupangPrice": 23400,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8801213/88012137113.5.jpg"
   },
   {
     "slug": "post-protein-bar-50g-30pack",
@@ -1243,7 +1285,8 @@
     "group": "포스트-프로틴바",
     "naverRank": 2,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5314350/53143503130.20250327192356.jpg"
   },
   {
     "slug": "benoph-protein-bar-variety-20",
@@ -1268,7 +1311,8 @@
     "group": "베노프-프로틴바",
     "naverRank": 1,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8671023/86710231575.1.jpg"
   },
   {
     "slug": "dryou-pro-crunch-mini-27p-2pack",
@@ -1302,7 +1346,8 @@
     "group": "닥터유-프로틴바",
     "naverRank": 1,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5437688/54376888641.1.jpg"
   },
   {
     "slug": "soyjoy-baked-cheese-12",
@@ -1327,7 +1372,8 @@
     "group": "소이조이-프로틴바",
     "naverRank": 1,
     "coupangPrice": 19800,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8885401/88854016097.6.jpg"
   },
   {
     "slug": "pepsi-zero-sugar-lime-48",
@@ -1361,7 +1407,8 @@
     "group": "펩시-제로음료",
     "naverRank": 1,
     "coupangPrice": 32370,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5404466/54044668082.20250827123643.jpg"
   },
   {
     "slug": "chilsung-cider-zero-12",
@@ -1395,7 +1442,8 @@
     "group": "칠성사이다-제로음료",
     "naverRank": 1,
     "coupangPrice": 21940,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5373332/53733320380.20250324104331.jpg"
   },
   {
     "slug": "sprite-zero-250ml-30",
@@ -1429,7 +1477,8 @@
     "group": "스프라이트-제로음료",
     "naverRank": 1,
     "coupangPrice": 17700,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5852248/58522488255.20260115103220.jpg"
   },
   {
     "slug": "coca-cola-zero-190ml-30",
@@ -1463,7 +1512,8 @@
     "group": "코카콜라-제로음료",
     "naverRank": 1,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5388017/53880178191.20250826091632.jpg"
   },
   {
     "slug": "narangd-cider-zero-345ml-24",
@@ -1497,7 +1547,8 @@
     "group": "나랑드사이다-제로음료",
     "naverRank": 1,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5390112/53901124701.20250401110704.jpg"
   },
   {
     "slug": "pepsi-zero-lime-500ml-20",
@@ -1531,7 +1582,8 @@
     "group": "펩시-제로음료",
     "naverRank": 1,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5387313/53873138672.20250331113121.jpg"
   },
   {
     "slug": "powerade-zero-355ml-20",
@@ -1565,7 +1617,8 @@
     "group": "파워에이드-제로음료",
     "naverRank": 1,
     "coupangPrice": 22100,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5807855/58078559996.20251209200753.jpg"
   },
   {
     "slug": "ionthefit-zero-500ml-24",
@@ -1599,7 +1652,8 @@
     "group": "이온더핏-제로음료",
     "naverRank": 1,
     "coupangPrice": 16900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5364688/53646883282.20250319152204.jpg"
   },
   {
     "slug": "gatorade-zero-1-5l-12",
@@ -1633,7 +1687,8 @@
     "group": "게토레이-제로음료",
     "naverRank": 2,
     "coupangPrice": 14000,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5364739/53647396538.20250319155020.jpg"
   },
   {
     "slug": "clubb-acv-soda-zero-500ml-24",
@@ -1667,7 +1722,8 @@
     "group": "클룹-제로음료",
     "naverRank": 1,
     "coupangPrice": 23800,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8780370/87803707904.18.jpg"
   },
   {
     "slug": "bbaebbae-konjac-noodle-20",
@@ -1692,7 +1748,8 @@
     "group": "빼빼곤약-곤약-두부면",
     "naverRank": 2,
     "coupangPrice": 25600,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5771705/57717056023.20251110192906.jpg"
   },
   {
     "slug": "dashin-konjac-kimbap-7",
@@ -1717,7 +1774,8 @@
     "group": "다신샵-곤약-두부면",
     "naverRank": 1,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5374121/53741217785.1.jpg"
   },
   {
     "slug": "daeshin-konjac-noodle-800g",
@@ -1742,7 +1800,8 @@
     "group": "대신-곤약-두부면",
     "naverRank": 1,
     "coupangPrice": 6160,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5919584/59195845944.20260309225239.jpg"
   },
   {
     "slug": "nonghyup-konjac-jelly-7pack",
@@ -1767,7 +1826,8 @@
     "group": "농협식품-곤약-두부면",
     "naverRank": 2,
     "coupangPrice": 30630,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_4891940/48919401153.20240705025006.jpg"
   },
   {
     "slug": "lotte-zero-fruits-jelly-3pack",
@@ -1792,7 +1852,8 @@
     "group": "롯데웰푸드-곤약-두부면",
     "naverRank": 10,
     "coupangPrice": 17790,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5421911/54219113619.1.jpg"
   },
   {
     "slug": "binggrae-konjac-jelly-grape",
@@ -1817,7 +1878,8 @@
     "group": "빙그레-곤약-두부면",
     "naverRank": 5,
     "coupangPrice": 750,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_4824226/48242260467.20240906161822.jpg"
   },
   {
     "slug": "iamground-tofu-noodle-3pack",
@@ -1842,7 +1904,8 @@
     "group": "아이엠그라운드-곤약-두부면",
     "naverRank": 1,
     "coupangPrice": 7000,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5891889/58918894419.20260214012553.jpg"
   },
   {
     "slug": "mynormal-tofu-noodle-10pack",
@@ -1867,7 +1930,8 @@
     "group": "마이노멀-곤약-두부면",
     "naverRank": 1,
     "coupangPrice": 21050,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5897225/58972251982.20260219221107.jpg"
   },
   {
     "slug": "larasfarm-tofu-konjac-noodle-10pack",
@@ -1892,7 +1956,8 @@
     "group": "라라스팜-곤약-두부면",
     "naverRank": 1,
     "coupangPrice": 18000,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5804374/58043747040.1.jpg"
   },
   {
     "slug": "nongga-potofu-250g",
@@ -1917,7 +1982,8 @@
     "group": "농가식품-곤약-두부면",
     "naverRank": 9,
     "coupangPrice": 9600,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_9001104/90011048897.jpg"
   },
   {
     "slug": "yamcook-diet-lunchbox-6",
@@ -1942,7 +2008,8 @@
     "group": "얌쿡-다이어트-도시락",
     "naverRank": 1,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8780221/87802218892.jpg"
   },
   {
     "slug": "sixmeal-diet-lunchbox",
@@ -1967,7 +2034,8 @@
     "group": "식스밀-다이어트-도시락",
     "naverRank": 1,
     "coupangPrice": 53500,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8439436/84394360413.19.jpg"
   },
   {
     "slug": "signaturebel-lunchbox-12",
@@ -1992,7 +2060,8 @@
     "group": "시그니처벨-다이어트-도시락",
     "naverRank": 1,
     "coupangPrice": 51800,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8525965/85259654930.4.jpg"
   },
   {
     "slug": "yamcook-meat-lunchbox-5",
@@ -2017,7 +2086,8 @@
     "group": "얌쿡-다이어트-도시락",
     "naverRank": 1,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8303061/83030614198.8.jpg"
   },
   {
     "slug": "goodspoon-diet-lunchbox-12",
@@ -2042,7 +2112,8 @@
     "group": "미스터네이처-다이어트-도시락",
     "naverRank": 1,
     "coupangPrice": 83240,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_1064740/10647407953.32.jpg"
   },
   {
     "slug": "helloits-mini-rice-bowl-6",
@@ -2067,7 +2138,8 @@
     "group": "헬로잇츠-다이어트-도시락",
     "naverRank": 1,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8255150/82551508982.28.jpg"
   },
   {
     "slug": "insaengdak-lunchbox-9types",
@@ -2092,7 +2164,8 @@
     "group": "인생닭-다이어트-도시락",
     "naverRank": 1,
     "coupangPrice": 28900,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8995020/89950206581.jpg"
   },
   {
     "slug": "blackconsumer-diet-lunchbox",
@@ -2117,7 +2190,8 @@
     "group": "블랙컨슈머-다이어트-도시락",
     "naverRank": 1,
     "coupangPrice": 24050,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_9037724/90377242396.2.jpg"
   },
   {
     "slug": "goonuh-diet-lunchbox-6",
@@ -2142,7 +2216,8 @@
     "group": "고온어다이어트-다이어트-도시락",
     "naverRank": 1,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8378074/83780746323.4.jpg"
   },
   {
     "slug": "thebarun-diet-lunchbox-20",
@@ -2167,7 +2242,8 @@
     "group": "더바른도시락-다이어트-도시락",
     "naverRank": 1,
     "coupangPrice": 39900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_1293177/12931774867.4.jpg"
   },
   {
     "slug": "yojeom-greek-yogurt-6",
@@ -2201,7 +2277,8 @@
     "group": "요즘-그릭요거트",
     "naverRank": 1,
     "coupangPrice": 21460,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_9037957/90379571299.1.jpg"
   },
   {
     "slug": "yojeom-greek-yogurt-10-honey",
@@ -2235,7 +2312,8 @@
     "group": "요즘-그릭요거트",
     "naverRank": 1,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8784595/87845954868.6.jpg"
   },
   {
     "slug": "greeksine-greek-yogurt-8",
@@ -2260,7 +2338,8 @@
     "group": "그릭씨네-그릭요거트",
     "naverRank": 1,
     "coupangPrice": 5500,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8957954/89579544735.jpg"
   },
   {
     "slug": "yogurtgriyo-1kg",
@@ -2285,7 +2364,8 @@
     "group": "요거트그릭요-그릭요거트",
     "naverRank": 1,
     "coupangPrice": 11000,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8709248/87092482001.20.jpg"
   },
   {
     "slug": "maeil-bio-greek-plain-400g",
@@ -2310,7 +2390,8 @@
     "group": "매일유업-그릭요거트",
     "naverRank": 13,
     "coupangPrice": 6990,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_4641680/46416809245.60.jpg"
   },
   {
     "slug": "kirkland-greek-yogurt-907g-2",
@@ -2335,7 +2416,8 @@
     "group": "코스트코-그릭요거트",
     "naverRank": 1,
     "coupangPrice": 15850,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8969458/89694583719.10.jpg"
   },
   {
     "slug": "denmark-lactofree-greek-400g-2",
@@ -2360,7 +2442,8 @@
     "group": "덴마크우유-그릭요거트",
     "naverRank": 27,
     "coupangPrice": 28400,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5746468/57464681741.1.jpg"
   },
   {
     "slug": "yogurtvillage-greek-1kg",
@@ -2385,7 +2468,8 @@
     "group": "요거트빌리지-그릭요거트",
     "naverRank": 1,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8505798/85057983380.2.jpg"
   },
   {
     "slug": "ondri-greek-yogurt-1kg",
@@ -2410,7 +2494,8 @@
     "group": "온드리목장-그릭요거트",
     "naverRank": 1,
     "coupangPrice": 1600,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8517732/85177324899.11.jpg"
   },
   {
     "slug": "yople-greek-mild-900g-3",
@@ -2435,7 +2520,8 @@
     "group": "요플레-그릭요거트",
     "naverRank": 2,
     "coupangPrice": 9290,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8990669/89906692653.jpg"
   },
   {
     "slug": "teazen-kombucha-lemon-60",
@@ -2469,7 +2555,8 @@
     "group": "티젠-콤부차",
     "naverRank": 3,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8837312/88373120015.jpg"
   },
   {
     "slug": "teazen-kombucha-berry-10",
@@ -2503,7 +2590,8 @@
     "group": "티젠-콤부차",
     "naverRank": 1,
     "coupangPrice": 6300,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8217622/82176229748.7.jpg"
   },
   {
     "slug": "danongwon-kombucha-lemon-20",
@@ -2528,7 +2616,8 @@
     "group": "다농원-콤부차",
     "naverRank": 2,
     "coupangPrice": 8500,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5248332/52483320665.20250114153905.jpg"
   },
   {
     "slug": "teazen-kombucha-lemon-30",
@@ -2562,7 +2651,8 @@
     "group": "티젠-콤부차",
     "naverRank": 1,
     "coupangPrice": 18700,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5336985/53369857652.20250305093931.jpg"
   },
   {
     "slug": "teazen-kombucha-peach-10",
@@ -2596,7 +2686,8 @@
     "group": "티젠-콤부차",
     "naverRank": 1,
     "coupangPrice": 4000,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5335011/53350114920.20250304123717.jpg"
   },
   {
     "slug": "danongwon-kombucha-berry-20",
@@ -2621,7 +2712,8 @@
     "group": "다농원-콤부차",
     "naverRank": 1,
     "coupangPrice": 6490,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_9048085/90480855901.jpg"
   },
   {
     "slug": "teazen-kombucha-yuzu-10",
@@ -2655,7 +2747,8 @@
     "group": "티젠-콤부차",
     "naverRank": 13,
     "coupangPrice": 7050,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8584757/85847575965.1.jpg"
   },
   {
     "slug": "teazen-kombucha-muscat-60",
@@ -2689,7 +2782,8 @@
     "group": "티젠-콤부차",
     "naverRank": 6,
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8863523/88635239041.jpg"
   },
   {
     "slug": "danongwon-kombucha-grapefruit-20",
@@ -2714,7 +2808,8 @@
     "group": "다농원-콤부차",
     "naverRank": 1,
     "coupangPrice": 8820,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_9074457/90744574895.jpg"
   },
   {
     "slug": "teazen-kombucha-berry-60",
@@ -2748,7 +2843,8 @@
     "group": "티젠-콤부차",
     "naverRank": 16,
     "coupangPrice": 35980,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8863523/88635239041.jpg"
   },
   {
     "slug": "칼로바이-55024416",
@@ -2773,7 +2869,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 19900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5502441/55024416607.20260102160020.jpg"
   },
   {
     "slug": "칼로바이-52997919",
@@ -2798,7 +2895,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 19900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5299791/52997919680.20260102180437.jpg"
   },
   {
     "slug": "칼로바이-53017187",
@@ -2823,7 +2921,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 19900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5301718/53017187122.20260102180447.jpg"
   },
   {
     "slug": "칼로바이-53191535",
@@ -2848,10 +2947,11 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 19900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5319153/53191535064.20250224162821.jpg"
   },
   {
-    "slug": "칼로바이-52997919",
+    "slug": "칼로바이-52997919-813",
     "name": "제이엠바이오 칼로바이 퍼펙트 파워쉐이크 믹스 초코맛 , 2kg, 1개",
     "brand": "칼로바이",
     "category": "protein",
@@ -2873,10 +2973,11 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 19900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5299791/52997919813.20250903144055.jpg"
   },
   {
-    "slug": "칼로바이-52997919",
+    "slug": "칼로바이-52997919-782",
     "name": "바이오셀 칼로바이 퍼펙트 파워쉐이크 초코맛 , 2kg, 1개",
     "brand": "칼로바이",
     "category": "protein",
@@ -2898,7 +2999,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 19900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5299791/52997919782.20250903143214.jpg"
   },
   {
     "slug": "칼로바이-56497329",
@@ -2923,7 +3025,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 19900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5649732/56497329786.20260102161908.jpg"
   },
   {
     "slug": "칼로바이-53017900",
@@ -2948,7 +3051,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 19900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5301790/53017900903.20250214152652.jpg"
   },
   {
     "slug": "칼로바이-53191678",
@@ -2973,7 +3077,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 19900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5319153/53191535064.20250224162821.jpg"
   },
   {
     "slug": "칼로바이-57722498",
@@ -2998,7 +3103,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 19900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5477090/54770905586.20260102160011.jpg"
   },
   {
     "slug": "밀팜-53000021",
@@ -3023,7 +3129,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5300002/53000021249.20250213150531.jpg"
   },
   {
     "slug": "밀팜-53017314",
@@ -3048,7 +3155,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5301731/53017314126.20250214145809.jpg"
   },
   {
     "slug": "밀팜-53015873",
@@ -3073,7 +3181,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5301587/53015873038.20250214113927.jpg"
   },
   {
     "slug": "밀팜-53092195",
@@ -3098,7 +3207,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5309219/53092195531.20250219092720.jpg"
   },
   {
     "slug": "헬시오-58144727",
@@ -3123,7 +3233,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 40900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5814472/58144727529.20251215103454.jpg"
   },
   {
     "slug": "헬시오-53016143",
@@ -3148,7 +3259,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 40900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5301614/53016143692.20250214114626.jpg"
   },
   {
     "slug": "헬시오-56457230",
@@ -3173,7 +3285,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 40900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5645723/56457230701.20250827164932.jpg"
   },
   {
     "slug": "신타6-53550577",
@@ -3198,7 +3311,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 59900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5355057/53550577605.20251010164633.jpg"
   },
   {
     "slug": "신타6-53055532",
@@ -3223,7 +3337,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 59900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5305553/53055532143.20250217092853.jpg"
   },
   {
     "slug": "신타6-55381231",
@@ -3248,7 +3363,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 59900,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5538123/55381231510.20250619152238.jpg"
   },
   {
     "slug": "신타6-57153805",
@@ -3273,7 +3389,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 59900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5715380/57153805580.20251010170452.jpg"
   },
   {
     "slug": "신타6-52998213",
@@ -3298,7 +3415,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 59900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5299821/52998213853.20250213113359.jpg"
   },
   {
     "slug": "신타6-26840038",
@@ -3323,7 +3441,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 59900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_2684003/26840038524.20210420152826.jpg"
   },
   {
     "slug": "신타6-53550050",
@@ -3348,7 +3467,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 59900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5355005/53550050200.20250314163154.jpg"
   },
   {
     "slug": "신타6-53549966",
@@ -3373,7 +3493,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 59900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5354996/53549966171.20250314161818.jpg"
   },
   {
     "slug": "신타6-53550331",
@@ -3398,7 +3519,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 59900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5355033/53550331124.20250314163713.jpg"
   },
   {
     "slug": "신타6-57153794",
@@ -3423,7 +3545,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 59900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5715379/57153794637.20251010165515.jpg"
   },
   {
     "slug": "신타6-53018888",
@@ -3448,7 +3571,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 59900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5301888/53018888008.20250214173721.jpg"
   },
   {
     "slug": "신타6-53647969",
@@ -3473,7 +3597,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 59900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5538123/55381231510.20250619152238.jpg"
   },
   {
     "slug": "신타6-53121112",
@@ -3498,7 +3623,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 59900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8853000/88530005301.2.jpg"
   },
   {
     "slug": "신타6-53664803",
@@ -3523,7 +3649,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 59900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5538123/55381231510.20250619152238.jpg"
   },
   {
     "slug": "옵티멈뉴트리션-53647969",
@@ -3548,7 +3675,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 77060,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5364796/53647969442.20250319164543.jpg"
   },
   {
     "slug": "옵티멈뉴트리션-52998220",
@@ -3573,7 +3701,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 77060,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5299822/52998220900.20250213113609.jpg"
   },
   {
     "slug": "옵티멈뉴트리션-52997918",
@@ -3598,7 +3727,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 77060,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5299791/52997918978.20250213105253.jpg"
   },
   {
     "slug": "옵티멈뉴트리션-53646883",
@@ -3623,7 +3753,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 77060,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5364688/53646883334.20250319152556.jpg"
   },
   {
     "slug": "옵티멈뉴트리션-55499106",
@@ -3648,7 +3779,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 77060,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5549910/55499106094.20250626124636.jpg"
   },
   {
     "slug": "옵티멈뉴트리션-53647987",
@@ -3673,7 +3805,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 77060,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5364798/53647987552.20250319172041.jpg"
   },
   {
     "slug": "옵티멈뉴트리션-53055987",
@@ -3698,7 +3831,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 77060,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5305598/53055987342.20250217104721.jpg"
   },
   {
     "slug": "옵티멈뉴트리션-32731231",
@@ -3723,7 +3857,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 77060,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_3273123/32731231622.20220603161528.jpg"
   },
   {
     "slug": "옵티멈뉴트리션-53647768",
@@ -3748,7 +3883,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 77060,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_1026853/10268533183.1.jpg"
   },
   {
     "slug": "옵티멈뉴트리션-53663909",
@@ -3773,7 +3909,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 77060,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_1026853/10268533183.1.jpg"
   },
   {
     "slug": "옵티멈뉴트리션-53056506",
@@ -3798,7 +3935,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 77060,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_1026853/10268533183.1.jpg"
   },
   {
     "slug": "옵티멈뉴트리션-35342853",
@@ -3823,7 +3961,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 77060,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5364796/53647969442.20250319164543.jpg"
   },
   {
     "slug": "옵티멈뉴트리션-53056582",
@@ -3848,7 +3987,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 77060,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5299791/52997918978.20250213105253.jpg"
   },
   {
     "slug": "옵티멈뉴트리션-35344983",
@@ -3873,7 +4013,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 77060,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_3273123/32731231622.20220603161528.jpg"
   },
   {
     "slug": "메이크바디-53121704",
@@ -3898,7 +4039,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5312170/53121704558.20250220121725.jpg"
   },
   {
     "slug": "메이크바디-53190091",
@@ -3923,7 +4065,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8683485/8683485586.35.jpg"
   },
   {
     "slug": "베네틴-52999459",
@@ -3948,7 +4091,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 22900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5299945/52999459657.20250213143908.jpg"
   },
   {
     "slug": "베네틴-55936295",
@@ -3973,7 +4117,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 22900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5593629/55936295155.20250724181107.jpg"
   },
   {
     "slug": "베네틴-58783584",
@@ -3998,7 +4143,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 22900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5878358/58783584684.20260203180946.jpg"
   },
   {
     "slug": "베네틴-53122862",
@@ -4023,7 +4169,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 22900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5312286/53122862903.20250220144129.jpg"
   },
   {
     "slug": "베네틴-52997593",
@@ -4048,7 +4195,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 22900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5299759/52997593914.20250213090949.jpg"
   },
   {
     "slug": "베네틴-52959747",
@@ -4073,7 +4221,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 22900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5295974/52959747819.20250212115206.jpg"
   },
   {
     "slug": "베네틴-52961788",
@@ -4098,7 +4247,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 22900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5296178/52961788553.20250212154507.jpg"
   },
   {
     "slug": "베네틴-52958701",
@@ -4123,7 +4273,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 22900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5295870/52958701543.20250213103040.jpg"
   },
   {
     "slug": "베네틴-52960697",
@@ -4148,7 +4299,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 22900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5498399/54983999591.20251204115004.jpg"
   },
   {
     "slug": "베네틴-53015086",
@@ -4173,7 +4325,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 22900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5498399/54983999591.20251204115004.jpg"
   },
   {
     "slug": "잠백이-57916997",
@@ -4198,7 +4351,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 19900,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5791699/57916997432.20251126092803.jpg"
   },
   {
     "slug": "잠백이-58363038",
@@ -4223,7 +4377,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 19900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5836303/58363038617.20260102145002.jpg"
   },
   {
     "slug": "잠백이-57636907",
@@ -4248,7 +4403,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 19900,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8675536/86755363426.5.jpg"
   },
   {
     "slug": "허닭-57905187",
@@ -4273,7 +4429,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5790518/57905187222.20251125151759.jpg"
   },
   {
     "slug": "허닭-57939734",
@@ -4298,10 +4455,11 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5793973/57939734897.20251128102634.jpg"
   },
   {
-    "slug": "허닭-57905187",
+    "slug": "허닭-57905187-093",
     "name": "허닭 허닭FIT 저당 소스 통 닭가슴살 100g 5종 100g, 10개",
     "brand": "허닭",
     "category": "chicken",
@@ -4323,7 +4481,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5795395/57953956267.20251129095012.jpg"
   },
   {
     "slug": "허닭-58243554",
@@ -4348,7 +4507,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8256297/82562973333.12.jpg"
   },
   {
     "slug": "허닭-53228180",
@@ -4373,7 +4533,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5795395/57953956267.20251129095012.jpg"
   },
   {
     "slug": "허닭-53211765",
@@ -4398,7 +4559,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8256297/82562973333.12.jpg"
   },
   {
     "slug": "아임닭-53191969",
@@ -4423,7 +4585,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5319196/53191969614.20250224173344.jpg"
   },
   {
     "slug": "아임닭-58031673",
@@ -4448,7 +4611,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5803167/58031673879.20251205101324.jpg"
   },
   {
     "slug": "아임닭-53209439",
@@ -4473,7 +4637,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5803167/58031673879.20251205101324.jpg"
   },
   {
     "slug": "육식토끼-57904862",
@@ -4498,7 +4663,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5790486/57904862678.20251125145617.jpg"
   },
   {
     "slug": "육식토끼-57905410",
@@ -4523,7 +4689,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5790541/57905410470.20251125153503.jpg"
   },
   {
     "slug": "육식토끼-57904785",
@@ -4548,7 +4715,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5790478/57904785761.20251125144833.jpg"
   },
   {
     "slug": "육식토끼-57904787",
@@ -4573,7 +4741,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5790478/57904787578.20251125144843.jpg"
   },
   {
     "slug": "육식토끼-58042403",
@@ -4598,7 +4767,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5804240/58042403647.20251206102248.jpg"
   },
   {
     "slug": "한끼통살-55888916",
@@ -4623,7 +4793,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8409534/84095347432.18.jpg"
   },
   {
     "slug": "미트리-59082662",
@@ -4648,7 +4819,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5908266/59082662120.20260227223215.jpg"
   },
   {
     "slug": "미트리-59083198",
@@ -4673,7 +4845,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5908319/59083198142.20260228013100.jpg"
   },
   {
     "slug": "미트리-58377181",
@@ -4698,7 +4871,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5837718/58377181946.20260104004843.jpg"
   },
   {
     "slug": "더건강한-53074536",
@@ -4723,7 +4897,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5307453/53074536006.20250218161852.jpg"
   },
   {
     "slug": "더건강한-53074535",
@@ -4748,7 +4923,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5307453/53074535933.20250218161541.jpg"
   },
   {
     "slug": "더건강한-53074504",
@@ -4773,10 +4949,11 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5307450/53074504893.20250218154824.jpg"
   },
   {
-    "slug": "더건강한-53074535",
+    "slug": "더건강한-53074535-328",
     "name": "CJ제일제당 더건강한 부드러운 닭가슴살 직화 통살구이, 100g, 10개",
     "brand": "더건강한",
     "category": "chicken",
@@ -4798,7 +4975,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5307453/53074535328.20250218161110.jpg"
   },
   {
     "slug": "더건강한-53074518",
@@ -4823,7 +5001,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5307451/53074518495.20250218160445.jpg"
   },
   {
     "slug": "더건강한-53074830",
@@ -4848,7 +5027,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5307483/53074830806.20250218163601.jpg"
   },
   {
     "slug": "더건강한-58575211",
@@ -4873,10 +5053,11 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5857521/58575211869.20260119224250.jpg"
   },
   {
-    "slug": "더건강한-53074830",
+    "slug": "더건강한-53074830-617",
     "name": "CJ제일제당 더건강한 닭가슴살 소시지 청양고추 꼬지형 , 80g, 10개",
     "brand": "더건강한",
     "category": "chicken",
@@ -4898,7 +5079,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5307483/53074830617.20250218163359.jpg"
   },
   {
     "slug": "더건강한-53074726",
@@ -4923,7 +5105,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5307472/53074726449.20250218163020.jpg"
   },
   {
     "slug": "더건강한-58673790",
@@ -4948,7 +5131,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5867379/58673790742.20260126193134.jpg"
   },
   {
     "slug": "스위치온-57826060",
@@ -4973,7 +5157,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 28800,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5782606/57826060866.20251119161815.jpg"
   },
   {
     "slug": "밀잇-54508208",
@@ -4998,7 +5183,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5450820/54508208390.20250626143107.jpg"
   },
   {
     "slug": "밀잇-54490697",
@@ -5023,7 +5209,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5449069/54490697349.20250624202627.jpg"
   },
   {
     "slug": "밀잇-58782446",
@@ -5048,7 +5235,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5878244/58782446144.20260203160146.jpg"
   },
   {
     "slug": "밀잇-54508209",
@@ -5073,7 +5261,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5450820/54508209649.20250509081130.jpg"
   },
   {
     "slug": "밀잇-58782621",
@@ -5098,7 +5287,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5878262/58782621643.20260203160719.jpg"
   },
   {
     "slug": "밀잇-54490700",
@@ -5123,7 +5313,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5449070/54490700571.20250626143117.jpg"
   },
   {
     "slug": "플라이밀-52997859",
@@ -5148,7 +5339,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 26900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5299785/52997859207.20250213095609.jpg"
   },
   {
     "slug": "플라이밀-52961787",
@@ -5173,7 +5365,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 26900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5296178/52961787746.20250212154054.jpg"
   },
   {
     "slug": "플라이밀-53017059",
@@ -5198,7 +5391,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 26900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5301705/53017059641.20250214142810.jpg"
   },
   {
     "slug": "플라이밀-52961788",
@@ -5223,7 +5417,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 26900,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8562893/85628930181.7.jpg"
   },
   {
     "slug": "플라이밀-52997866",
@@ -5248,7 +5443,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 26900,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8562893/85628930181.7.jpg"
   },
   {
     "slug": "있나요-53074984",
@@ -5273,7 +5469,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 25900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5307498/53074984688.20250218170258.jpg"
   },
   {
     "slug": "있나요-58780489",
@@ -5298,7 +5495,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 25900,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5878048/58780489811.20260203121245.jpg"
   },
   {
     "slug": "있나요-58780521",
@@ -5323,10 +5521,11 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 25900,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5878052/58780521986.20260203122249.jpg"
   },
   {
-    "slug": "있나요-53074984",
+    "slug": "있나요-53074984-971",
     "name": "소울네이처푸드 있나요 스윗 콘 크런치 다이어트 프로틴 단백질 쉐이크 , 750g, 1개",
     "brand": "있나요",
     "category": "protein",
@@ -5348,7 +5547,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 25900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5307498/53074984688.20250218170258.jpg"
   },
   {
     "slug": "있나요-58780570",
@@ -5373,7 +5573,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 25900,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8682387/86823875650.jpg"
   },
   {
     "slug": "있나요-58780603",
@@ -5398,10 +5599,11 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 25900,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8682387/86823875650.jpg"
   },
   {
-    "slug": "있나요-58780603",
+    "slug": "있나요-58780603-758",
     "name": "소울네이처푸드 있나요 엑스트라 크런치 그래놀라 다이어트 프로틴 단백질 쉐이크, 40g, 1개",
     "brand": "있나요",
     "category": "protein",
@@ -5423,7 +5625,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 25900,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8682387/86823875650.jpg"
   },
   {
     "slug": "꼬박꼬밥-57635115",
@@ -5448,7 +5651,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5763511/57635115217.20251107121015.jpg"
   },
   {
     "slug": "꼬박꼬밥-57635184",
@@ -5473,7 +5677,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5763518/57635184914.20251107120601.jpg"
   },
   {
     "slug": "꼬박꼬밥-57635481",
@@ -5498,7 +5703,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5763548/57635481522.20251107123146.jpg"
   },
   {
     "slug": "꼬박꼬밥-57327828",
@@ -5523,7 +5729,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5732782/57327828109.20251107123237.jpg"
   },
   {
     "slug": "꼬박꼬밥-53055800",
@@ -5548,7 +5755,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5305580/53055800213.20250217095054.jpg"
   },
   {
     "slug": "꼬박꼬밥-57635520",
@@ -5573,7 +5781,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5763552/57635520198.20251107123057.jpg"
   },
   {
     "slug": "꼬박꼬밥-57635143",
@@ -5598,7 +5807,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8943132/89431325717.9.jpg"
   },
   {
     "slug": "꼬박꼬밥-52999405",
@@ -5623,7 +5833,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8716833/87168337161.7.jpg"
   },
   {
     "slug": "꼬박꼬밥-57635186",
@@ -5648,7 +5859,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8943132/89431325717.9.jpg"
   },
   {
     "slug": "꼬박꼬밥-57635521",
@@ -5673,7 +5885,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8943132/89431325717.9.jpg"
   },
   {
     "slug": "꼬박꼬밥-53058690",
@@ -5698,7 +5911,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8943132/89431325717.9.jpg"
   },
   {
     "slug": "꼬박꼬밥-53737709",
@@ -5723,7 +5937,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8943132/89431325717.9.jpg"
   },
   {
     "slug": "그로우잇-54857383",
@@ -5748,7 +5963,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 27500,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5485738/54857383675.20250519124514.jpg"
   },
   {
     "slug": "리앤핏-57705276",
@@ -5773,7 +5989,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 25900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5770527/57705276133.20251110120827.jpg"
   },
   {
     "slug": "리앤핏-57705005",
@@ -5798,7 +6015,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 25900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5770500/57705005906.20251110113836.jpg"
   },
   {
     "slug": "리앤핏-57705224",
@@ -5823,10 +6041,11 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 25900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5770522/57705224204.20251110114851.jpg"
   },
   {
-    "slug": "리앤핏-57705224",
+    "slug": "리앤핏-57705224-506",
     "name": "스포츠바이오텍 리앤핏 단백질 쉐이크 곡물흑임자 , 630g, 1개",
     "brand": "리앤핏",
     "category": "shake",
@@ -5848,7 +6067,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 25900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5770522/57705224506.20251110115739.jpg"
   },
   {
     "slug": "리앤핏-57704587",
@@ -5873,7 +6093,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 25900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5770458/57704587348.20251110113105.jpg"
   },
   {
     "slug": "리앤핏-57705174",
@@ -5898,7 +6119,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 25900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5770517/57705174974.20251110114421.jpg"
   },
   {
     "slug": "셀렉스-52959304",
@@ -5923,7 +6145,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 36500,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5295930/52959304947.20250213103255.jpg"
   },
   {
     "slug": "셀렉스-56457146",
@@ -5948,7 +6171,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 36500,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5645714/56457146088.20250827163303.jpg"
   },
   {
     "slug": "셀렉스-55744433",
@@ -5973,7 +6197,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 36500,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5574443/55744433904.20250711114626.jpg"
   },
   {
     "slug": "셀렉스-52959310",
@@ -5998,7 +6223,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 36500,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5295931/52959310184.20250212111852.jpg"
   },
   {
     "slug": "셀렉스-53646883",
@@ -6023,7 +6249,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 36500,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5364688/53646883226.20250319152007.jpg"
   },
   {
     "slug": "셀렉스-52999412",
@@ -6048,7 +6275,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 36500,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5295930/52959304947.20250213103255.jpg"
   },
   {
     "slug": "셀렉스-55946290",
@@ -6073,7 +6301,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 36500,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8858764/88587646219.13.jpg"
   },
   {
     "slug": "하이뮨-53191088",
@@ -6098,7 +6327,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 72800,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5319108/53191088622.20250224152333.jpg"
   },
   {
     "slug": "하이뮨-52960789",
@@ -6123,7 +6353,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 72800,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5296078/52960789780.20250212143904.jpg"
   },
   {
     "slug": "하이뮨-56029462",
@@ -6148,7 +6379,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 72800,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_9073175/90731751193.jpg"
   },
   {
     "slug": "하이뮨-55579499",
@@ -6173,7 +6405,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 72800,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_9068662/90686620253.1.jpg"
   },
   {
     "slug": "매일유업-56457146",
@@ -6198,7 +6431,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 67080,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5645714/56457146088.20250827163303.jpg"
   },
   {
     "slug": "매일유업-52959304",
@@ -6223,7 +6457,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 67080,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5295930/52959304947.20250213103255.jpg"
   },
   {
     "slug": "매일유업-55744433",
@@ -6248,7 +6483,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 67080,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5574443/55744433904.20250711114626.jpg"
   },
   {
     "slug": "매일유업-52959310",
@@ -6273,7 +6509,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 67080,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5295931/52959310184.20250212111852.jpg"
   },
   {
     "slug": "매일유업-53646883",
@@ -6298,7 +6535,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 67080,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5364688/53646883226.20250319152007.jpg"
   },
   {
     "slug": "매일유업-52999412",
@@ -6323,7 +6561,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 67080,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5299941/52999412315.20250213142555.jpg"
   },
   {
     "slug": "매일유업-55946290",
@@ -6348,7 +6587,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 67080,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5594629/55946290060.20250725102258.jpg"
   },
   {
     "slug": "매일유업-52999626",
@@ -6373,7 +6613,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 67080,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5299962/52999626927.20250213145716.jpg"
   },
   {
     "slug": "매일유업-55816671",
@@ -6398,7 +6639,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 67080,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5581667/55816671556.20250716160006.jpg"
   },
   {
     "slug": "매일유업-53095235",
@@ -6423,7 +6665,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 67080,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5645714/56457146088.20250827163303.jpg"
   },
   {
     "slug": "닥터유-53142915",
@@ -6448,7 +6691,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 16100,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5314291/53142915350.20250221103657.jpg"
   },
   {
     "slug": "닥터유-53125545",
@@ -6473,7 +6717,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 16100,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5312554/53125545902.20250220184057.jpg"
   },
   {
     "slug": "닥터유-53125602",
@@ -6498,7 +6743,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 16100,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5312560/53125602775.20250220184552.jpg"
   },
   {
     "slug": "커클랜드-53143510",
@@ -6523,7 +6769,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5314351/53143510070.20250221111629.jpg"
   },
   {
     "slug": "커클랜드-25303207",
@@ -6548,7 +6795,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_2530320/25303207397.20230323120842.jpg"
   },
   {
     "slug": "소이조이-55577116",
@@ -6573,7 +6821,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5557711/55577116318.20250701110259.jpg"
   },
   {
     "slug": "소이조이-55576871",
@@ -6598,7 +6847,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5557687/55576871310.20250701111924.jpg"
   },
   {
     "slug": "소이조이-55576968",
@@ -6623,7 +6873,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5557711/55577116318.20250701110259.jpg"
   },
   {
     "slug": "소이조이-55576904",
@@ -6648,7 +6899,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5557711/55577116318.20250701110259.jpg"
   },
   {
     "slug": "프로틴방앗간-53143856",
@@ -6673,7 +6925,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 21040,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5314385/53143856220.20250221122941.jpg"
   },
   {
     "slug": "프로틴방앗간-53145307",
@@ -6698,7 +6951,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 21040,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5314530/53145307603.20250221145909.jpg"
   },
   {
     "slug": "프로틴방앗간-53143838",
@@ -6723,7 +6977,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 21040,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5314383/53143838567.20250221121234.jpg"
   },
   {
     "slug": "포스트-53142990",
@@ -6748,7 +7003,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5314299/53142990729.20250221104308.jpg"
   },
   {
     "slug": "포스트-53143508",
@@ -6773,7 +7029,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5314350/53143508651.20250221110801.jpg"
   },
   {
     "slug": "포스트-53903483",
@@ -6798,7 +7055,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5390348/53903483006.20250401153109.jpg"
   },
   {
     "slug": "포스트-53903520",
@@ -6823,10 +7081,11 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5390352/53903520408.20250401160618.jpg"
   },
   {
-    "slug": "포스트-53143508",
+    "slug": "포스트-53143508-744",
     "name": "포스트 에너지바 미니 액티브 10g , 21개입, 2개",
     "brand": "포스트",
     "category": "protein-bar",
@@ -6848,7 +7107,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5314350/53143508744.20250221111113.jpg"
   },
   {
     "slug": "베노프-58568465",
@@ -6873,7 +7133,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 23170,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5856846/58568465524.20260119093832.jpg"
   },
   {
     "slug": "베노프-58568705",
@@ -6898,7 +7159,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 23170,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5856870/58568705459.20260119095315.jpg"
   },
   {
     "slug": "베노프-53143698",
@@ -6923,7 +7185,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 23170,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8671023/86710231575.1.jpg"
   },
   {
     "slug": "펩시-53827646",
@@ -6948,7 +7211,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5382764/53827646979.20250328162840.jpg"
   },
   {
     "slug": "펩시-53827169",
@@ -6973,7 +7237,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5382716/53827169677.20251013143624.jpg"
   },
   {
     "slug": "펩시-53872778",
@@ -6998,7 +7263,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5387277/53872778408.20250331105012.jpg"
   },
   {
     "slug": "펩시-57232706",
@@ -7023,7 +7289,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5723270/57232706226.20251015100042.jpg"
   },
   {
     "slug": "펩시-53872749",
@@ -7048,7 +7315,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5382764/53827646979.20250328162840.jpg"
   },
   {
     "slug": "펩시-53956722",
@@ -7073,7 +7341,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5387313/53873138672.20250331113121.jpg"
   },
   {
     "slug": "칠성사이다-53733319",
@@ -7098,7 +7367,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5373331/53733319454.20250324101822.jpg"
   },
   {
     "slug": "칠성사이다-53733066",
@@ -7123,7 +7393,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5373306/53733066410.20250324093520.jpg"
   },
   {
     "slug": "칠성사이다-57764241",
@@ -7148,7 +7419,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5776424/57764241695.20251114113312.jpg"
   },
   {
     "slug": "칠성사이다-55397918",
@@ -7173,7 +7445,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5539791/55397918767.20250620143753.jpg"
   },
   {
     "slug": "칠성사이다-53733304",
@@ -7198,10 +7471,11 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5373330/53733304429.20250324100902.jpg"
   },
   {
-    "slug": "칠성사이다-53733304",
+    "slug": "칠성사이다-53733304-458",
     "name": "롯데칠성음료 칠성사이다제로 제로 그린 플럼 , 355ml, 24개",
     "brand": "칠성사이다",
     "category": "zero-drink",
@@ -7223,7 +7497,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5373330/53733304458.20250324101024.jpg"
   },
   {
     "slug": "스프라이트-54343490",
@@ -7248,7 +7523,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5434349/54343490994.20260115085504.jpg"
   },
   {
     "slug": "코카콜라-53903160",
@@ -7273,7 +7549,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 20920,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5390316/53903160103.20250515103854.jpg"
   },
   {
     "slug": "코카콜라-53900358",
@@ -7298,7 +7575,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 20920,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5390035/53900358056.20250401101510.jpg"
   },
   {
     "slug": "코카콜라-53875775",
@@ -7323,7 +7601,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 20920,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5387577/53875775596.20250331171953.jpg"
   },
   {
     "slug": "코카콜라-53828101",
@@ -7348,10 +7627,11 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 20920,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5382810/53828101230.20260106114227.jpg"
   },
   {
-    "slug": "코카콜라-53828101",
+    "slug": "코카콜라-53828101-302",
     "name": "코카콜라 제로 무라벨 , 370ml, 24개",
     "brand": "코카콜라",
     "category": "zero-drink",
@@ -7373,7 +7653,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 20920,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5382810/53828101302.20250328170147.jpg"
   },
   {
     "slug": "코카콜라-53955819",
@@ -7398,7 +7679,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 20920,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5395581/53955819088.20250404114401.jpg"
   },
   {
     "slug": "코카콜라-55934461",
@@ -7423,7 +7705,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 20920,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5593446/55934461683.20250724151022.jpg"
   },
   {
     "slug": "코카콜라-53880053",
@@ -7448,7 +7731,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 20920,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5388005/53880053876.20250331211532.jpg"
   },
   {
     "slug": "나랑드사이다-53688330",
@@ -7473,7 +7757,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5368833/53688330407.20250321172813.jpg"
   },
   {
     "slug": "나랑드사이다-53688320",
@@ -7498,7 +7783,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5368832/53688320582.20250321173019.jpg"
   },
   {
     "slug": "파워에이드-54398342",
@@ -7523,7 +7809,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 21000,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5439834/54398342674.20251210104728.jpg"
   },
   {
     "slug": "파워에이드-54398511",
@@ -7548,7 +7835,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 21000,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5439851/54398511938.20250515140919.jpg"
   },
   {
     "slug": "이온더핏-55984954",
@@ -7573,7 +7861,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 10020,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5598495/55984954350.20250828111054.jpg"
   },
   {
     "slug": "이온더핏-53646883",
@@ -7598,7 +7887,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 10020,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5364688/53646883186.20250319151736.jpg"
   },
   {
     "slug": "게토레이-58042403",
@@ -7623,7 +7913,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 17000,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5804240/58042403754.20251206102250.jpg"
   },
   {
     "slug": "클룹-58003734",
@@ -7648,7 +7939,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 23760,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5800373/58003734153.20251203105722.jpg"
   },
   {
     "slug": "클룹-57763997",
@@ -7673,7 +7965,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 23760,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5776399/57763997783.20251114105917.jpg"
   },
   {
     "slug": "클룹-53534348",
@@ -7698,7 +7991,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 23760,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8780370/87803707904.18.jpg"
   },
   {
     "slug": "클룹-56783772",
@@ -7723,7 +8017,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 23760,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5678377/56783772769.20250918151519.jpg"
   },
   {
     "slug": "클룹-56783333",
@@ -7748,7 +8043,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 23760,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5678333/56783333359.20250918143648.jpg"
   },
   {
     "slug": "클룹-52818132",
@@ -7773,7 +8069,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 23760,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8780370/87803707904.18.jpg"
   },
   {
     "slug": "클룹-56783802",
@@ -7798,7 +8095,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 23760,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8780370/87803707904.18.jpg"
   },
   {
     "slug": "클룹-52818496",
@@ -7823,7 +8121,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 23760,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8780370/87803707904.18.jpg"
   },
   {
     "slug": "클룹-52818494",
@@ -7848,7 +8147,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 23760,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8780370/87803707904.18.jpg"
   },
   {
     "slug": "빼빼곤약-58042361",
@@ -7873,7 +8173,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 15440,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5804236/58042361939.20251206100736.jpg"
   },
   {
     "slug": "빼빼곤약-57382257",
@@ -7898,7 +8199,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 15440,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5738225/57382257064.20251026105212.jpg"
   },
   {
     "slug": "대신-55693470",
@@ -7923,7 +8225,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5569347/55693470633.20250708102745.jpg"
   },
   {
     "slug": "대신-55693383",
@@ -7948,7 +8251,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8587386/85873867516.4.jpg"
   },
   {
     "slug": "대신-51929288",
@@ -7973,7 +8277,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8587386/85873867516.4.jpg"
   },
   {
     "slug": "대신-55693568",
@@ -7998,7 +8303,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8587386/85873867516.4.jpg"
   },
   {
     "slug": "농협식품-54528887",
@@ -8023,7 +8329,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 23980,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5452888/54528887421.20250531052745.jpg"
   },
   {
     "slug": "농협식품-48644941",
@@ -8048,7 +8355,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 23980,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_4864494/48644941179.20240624093338.jpg"
   },
   {
     "slug": "농협식품-40536678",
@@ -8073,7 +8381,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 23980,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8806604/88066047364.2.jpg"
   },
   {
     "slug": "롯데웰푸드-58164186",
@@ -8098,7 +8407,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 17790,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5816418/58164186215.20251216194546.jpg"
   },
   {
     "slug": "롯데웰푸드-51051925",
@@ -8123,7 +8433,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 17790,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5105192/51051925533.20241027003149.jpg"
   },
   {
     "slug": "롯데웰푸드-57905543",
@@ -8148,7 +8459,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 17790,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5790554/57905543090.20251125154252.jpg"
   },
   {
     "slug": "빙그레-47972056",
@@ -8173,7 +8485,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 750,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_4797205/47972056771.20240525143517.jpg"
   },
   {
     "slug": "빙그레-50422906",
@@ -8198,7 +8511,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 750,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5042290/50422906090.20240921185123.jpg"
   },
   {
     "slug": "빙그레-48055890",
@@ -8223,7 +8537,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 750,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_4805589/48055890498.20250605052929.jpg"
   },
   {
     "slug": "빙그레-46633298",
@@ -8248,7 +8563,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 750,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_4663329/46633298892.20250807001121.jpg"
   },
   {
     "slug": "빙그레-48523699",
@@ -8272,7 +8588,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 750,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_4852369/48523699905.20240618125500.jpg"
   },
   {
     "slug": "빙그레-49479587",
@@ -8297,7 +8614,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 750,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8237115/82371159200.1.jpg"
   },
   {
     "slug": "빙그레-54258684",
@@ -8322,7 +8640,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 750,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5042290/50422906090.20240921185123.jpg"
   },
   {
     "slug": "라라스팜-55632674",
@@ -8347,7 +8666,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 2700,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5563267/55632674034.20250906165632.jpg"
   },
   {
     "slug": "라라스팜-56630526",
@@ -8372,7 +8692,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 2700,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5663052/56630526353.20250907191906.jpg"
   },
   {
     "slug": "라라스팜-55694133",
@@ -8397,7 +8718,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 2700,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5152524/51525241711.1.jpg"
   },
   {
     "slug": "라라스팜-56630638",
@@ -8422,7 +8744,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 2700,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8339627/83396276422.4.jpg"
   },
   {
     "slug": "라라스팜-57727651",
@@ -8447,7 +8770,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 2700,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8339627/83396276422.4.jpg"
   },
   {
     "slug": "라라스팜-56745248",
@@ -8472,7 +8796,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 2700,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8339627/83396276422.4.jpg"
   },
   {
     "slug": "시그니처벨-39054749",
@@ -8496,7 +8821,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 29290,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_3905474/39054749618.20241205152938.jpg"
   },
   {
     "slug": "시그니처벨-38809065",
@@ -8520,7 +8846,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 29290,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_3880906/38809065618.20241205154016.jpg"
   },
   {
     "slug": "미스터네이처-39045585",
@@ -8544,7 +8871,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_3904558/39045585628.20230330134804.jpg"
   },
   {
     "slug": "미스터네이처-41479388",
@@ -8568,7 +8896,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_3904558/39045585628.20230330134804.jpg"
   },
   {
     "slug": "헬로잇츠-38610919",
@@ -8592,7 +8921,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 25900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_3861091/38610919618.20240502095914.jpg"
   },
   {
     "slug": "헬로잇츠-38611209",
@@ -8616,7 +8946,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 25900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_3861120/38611209620.20230313161945.jpg"
   },
   {
     "slug": "헬로잇츠-38610525",
@@ -8640,7 +8971,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 25900,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_3861052/38610525618.20240502095945.jpg"
   },
   {
     "slug": "고온어다이어트-38674836",
@@ -8665,7 +8997,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 55400,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_3867483/38674836624.20230315161345.jpg"
   },
   {
     "slug": "더바른도시락-38666313",
@@ -8689,7 +9022,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_3866631/38666313621.20230315115753.jpg"
   },
   {
     "slug": "요즘-59048129",
@@ -8714,7 +9048,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5904812/59048129780.20260225161026.jpg"
   },
   {
     "slug": "요즘-54188744",
@@ -8739,7 +9074,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5418874/54188744425.20250414144329.jpg"
   },
   {
     "slug": "요즘-51929514",
@@ -8764,7 +9100,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5192951/51929514382.20241213221302.jpg"
   },
   {
     "slug": "요즘-54189450",
@@ -8789,7 +9126,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5418945/54189450249.20250414145801.jpg"
   },
   {
     "slug": "그릭씨네-51929540",
@@ -8814,7 +9152,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 5500,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5192954/51929540044.20241213221739.jpg"
   },
   {
     "slug": "그릭씨네-58403421",
@@ -8839,7 +9178,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 5500,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5840342/58403421411.20260106170226.jpg"
   },
   {
     "slug": "그릭씨네-58572155",
@@ -8864,7 +9204,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 5500,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8956824/89568240116.jpg"
   },
   {
     "slug": "요거트그릭요-58671309",
@@ -8889,7 +9230,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 11000,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5867130/58671309783.20260126144829.jpg"
   },
   {
     "slug": "매일유업-58671675",
@@ -8914,7 +9256,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 15970,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5867167/58671675303.20260126154918.jpg"
   },
   {
     "slug": "매일유업-51929609",
@@ -8939,7 +9282,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 15970,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5192960/51929609701.20241213221832.jpg"
   },
   {
     "slug": "매일유업-51929089",
@@ -8964,7 +9308,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 15970,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5192908/51929089227.20241213204005.jpg"
   },
   {
     "slug": "매일유업-51929487",
@@ -8989,7 +9334,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 15970,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5192948/51929487099.20241213220351.jpg"
   },
   {
     "slug": "매일유업-51929579",
@@ -9014,7 +9360,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 15970,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5192957/51929579702.20241213221344.jpg"
   },
   {
     "slug": "매일유업-51929297",
@@ -9039,10 +9386,11 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 15970,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5192929/51929297524.20241213211641.jpg"
   },
   {
-    "slug": "매일유업-51929579",
+    "slug": "매일유업-51929579-834",
     "name": "매일유업 매일바이오 그릭요거트 허니 120ml, 12개",
     "brand": "매일유업",
     "category": "yogurt",
@@ -9064,7 +9412,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 15970,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5192957/51929579834.20241213221453.jpg"
   },
   {
     "slug": "매일유업-55918940",
@@ -9089,7 +9438,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 15970,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5591894/55918940407.20250723160921.jpg"
   },
   {
     "slug": "매일유업-53018507",
@@ -9114,7 +9464,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 15970,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8981759/89817595111.jpg"
   },
   {
     "slug": "코스트코-51929540",
@@ -9139,7 +9490,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 7990,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5192954/51929540044.20241213221739.jpg"
   },
   {
     "slug": "덴마크우유-53543573",
@@ -9164,7 +9516,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 13200,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5354357/53543573628.20250314092252.jpg"
   },
   {
     "slug": "덴마크우유-51929230",
@@ -9189,7 +9542,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 13200,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5192923/51929230521.20250124174410.jpg"
   },
   {
     "slug": "덴마크우유-51929354",
@@ -9214,7 +9568,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 13200,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5192935/51929354749.20250219140233.jpg"
   },
   {
     "slug": "온드리목장-55434563",
@@ -9239,7 +9594,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 1600,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5543456/55434563755.20250622192717.jpg"
   },
   {
     "slug": "온드리목장-55416205",
@@ -9264,7 +9620,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 1600,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5541620/55416205416.20250621192054.jpg"
   },
   {
     "slug": "요플레-55919915",
@@ -9289,7 +9646,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 5740,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5591991/55919915263.20260112174547.jpg"
   },
   {
     "slug": "요플레-55922918",
@@ -9314,7 +9672,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 5740,
-    "coupangCompetitive": true
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5592291/55922918750.20250724113344.jpg"
   },
   {
     "slug": "요플레-51929040",
@@ -9339,7 +9698,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": 5740,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8990669/89906692645.jpg"
   },
   {
     "slug": "티젠-53369857",
@@ -9364,7 +9724,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5336985/53369857652.20250305093931.jpg"
   },
   {
     "slug": "티젠-53350114",
@@ -9389,7 +9750,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5335011/53350114920.20250304123717.jpg"
   },
   {
     "slug": "티젠-53349317",
@@ -9414,7 +9776,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5334931/53349317136.20250304104027.jpg"
   },
   {
     "slug": "티젠-53393761",
@@ -9439,7 +9802,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5339376/53393761297.20250306155355.jpg"
   },
   {
     "slug": "티젠-53393089",
@@ -9464,7 +9828,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5339308/53393089036.20250306145913.jpg"
   },
   {
     "slug": "티젠-53350056",
@@ -9489,7 +9854,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5335005/53350056337.20250304115649.jpg"
   },
   {
     "slug": "티젠-53350076",
@@ -9514,7 +9880,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5335007/53350076409.20250304120652.jpg"
   },
   {
     "slug": "티젠-53349192",
@@ -9539,7 +9906,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5334919/53349192844.20250304101520.jpg"
   },
   {
     "slug": "티젠-53370153",
@@ -9564,7 +9932,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5337015/53370153361.20250305102923.jpg"
   },
   {
     "slug": "티젠-53349476",
@@ -9589,7 +9958,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5336985/53369857652.20250305093931.jpg"
   },
   {
     "slug": "티젠-58377398",
@@ -9614,7 +9984,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8385419/83854197781.23.jpg"
   },
   {
     "slug": "티젠-53350081",
@@ -9639,7 +10010,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5336985/53369857652.20250305093931.jpg"
   },
   {
     "slug": "다농원-52482778",
@@ -9664,7 +10036,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5248277/52482778566.20250114145146.jpg"
   },
   {
     "slug": "다농원-52483330",
@@ -9689,7 +10062,8 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5248333/52483330315.20250822155840.jpg"
   },
   {
     "slug": "다농원-58689283",
@@ -9714,6 +10088,7 @@
     ],
     "updatedAt": "2026-03-09",
     "coupangPrice": null,
-    "coupangCompetitive": false
+    "coupangCompetitive": false,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5868928/58689283804.20260128020957.jpg"
   }
 ]

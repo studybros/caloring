@@ -1,9 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { ChevronRight } from "lucide-react";
+
+const ITEMS_PER_PAGE = 20;
 import { products } from "@/data/products";
 import {
   analyzePrices,
@@ -49,6 +52,23 @@ export function ProductsPage() {
   const [selectedCategory, setSelectedCategory] =
     useState<FilterCategory>("all");
   const [sortMode, setSortMode] = useState<SortMode>("deal");
+  const [page, setPage] = useState(1);
+
+  // Reset page to 1 when category or sort changes
+  const handleCategoryChange = useCallback((cat: FilterCategory) => {
+    setSelectedCategory(cat);
+    setPage(1);
+  }, []);
+
+  const handleSortChange = useCallback((sort: SortMode) => {
+    setSortMode(sort);
+    setPage(1);
+  }, []);
+
+  // Scroll to top when page changes
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [page]);
 
   const analysisCache = getAnalysisCache();
 
@@ -68,6 +88,12 @@ export function ProductsPage() {
     const bAnalysis = analysisCache.get(b.slug)!;
     return aAnalysis.percentFromAvg - bAnalysis.percentFromAvg;
   });
+
+  const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE);
+  const paginatedProducts = filtered.slice(
+    (page - 1) * ITEMS_PER_PAGE,
+    page * ITEMS_PER_PAGE
+  );
 
   const cheapCount = products.filter((p) => {
     const a = analysisCache.get(p.slug)!;
@@ -102,7 +128,7 @@ export function ProductsPage() {
         {CATEGORIES.map((cat) => (
           <button
             key={cat.value}
-            onClick={() => setSelectedCategory(cat.value)}
+            onClick={() => handleCategoryChange(cat.value)}
             className={`shrink-0 rounded-full px-4 py-2 text-sm transition-colors ${
               selectedCategory === cat.value
                 ? "bg-primary font-medium text-primary-foreground shadow-sm"
@@ -120,7 +146,7 @@ export function ProductsPage() {
         {SORT_OPTIONS.map((opt) => (
           <button
             key={opt.value}
-            onClick={() => setSortMode(opt.value)}
+            onClick={() => handleSortChange(opt.value)}
             className={`rounded-lg px-3 py-1.5 text-xs font-medium transition-colors ${
               sortMode === opt.value
                 ? "bg-foreground text-background"
@@ -137,7 +163,7 @@ export function ProductsPage() {
 
       {/* Product Grid */}
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
-        {filtered.map((product) => {
+        {paginatedProducts.map((product) => {
           const analysis = analysisCache.get(product.slug)!;
           const statusColor = getPriceStatusColor(analysis.status);
           const statusLabel = getPriceStatusLabel(analysis.status);
@@ -148,8 +174,19 @@ export function ProductsPage() {
               <Card className="h-full transition-all hover:shadow-md hover:-translate-y-0.5">
                 <CardContent className="p-4">
                   <div className="flex gap-3">
-                    <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-peach/15 text-2xl">
-                      {product.image}
+                    <div className="relative flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-peach/15 overflow-hidden">
+                      {product.imageUrl ? (
+                        <Image
+                          src={product.imageUrl}
+                          alt={product.name}
+                          fill
+                          className="object-contain p-0.5"
+                          sizes="56px"
+                          unoptimized
+                        />
+                      ) : (
+                        <span className="text-2xl">{product.image}</span>
+                      )}
                     </div>
                     <div className="min-w-0 flex-1">
                       <div className="flex items-center gap-1.5">
@@ -161,6 +198,11 @@ export function ProductsPage() {
                         <span className="text-[11px] text-muted-foreground">
                           {product.brand}
                         </span>
+                        {product.naverRank && product.naverRank <= 10 && (
+                          <span className="rounded bg-primary/10 px-1.5 py-0.5 text-[10px] font-medium text-primary">
+                            {product.naverRank}위
+                          </span>
+                        )}
                       </div>
                       <p className="mt-1 text-sm font-semibold leading-tight line-clamp-2">
                         {product.name}
@@ -187,6 +229,29 @@ export function ProductsPage() {
           );
         })}
       </div>
+
+      {/* Pagination */}
+      {totalPages > 1 && (
+        <div className="mt-8 flex items-center justify-center gap-3">
+          <button
+            onClick={() => setPage((p) => Math.max(1, p - 1))}
+            disabled={page === 1}
+            className="rounded-full px-5 py-2 text-sm font-medium transition-colors bg-primary/10 text-primary hover:bg-primary/20 disabled:opacity-40 disabled:cursor-not-allowed"
+          >
+            이전
+          </button>
+          <span className="text-sm text-muted-foreground">
+            {page} / {totalPages} 페이지
+          </span>
+          <button
+            onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
+            disabled={page === totalPages}
+            className="rounded-full px-5 py-2 text-sm font-medium transition-colors bg-primary/10 text-primary hover:bg-primary/20 disabled:opacity-40 disabled:cursor-not-allowed"
+          >
+            다음
+          </button>
+        </div>
+      )}
 
       {/* Disclosure (hidden until affiliate links are active) */}
       {/* <p className="mt-8 text-center text-[11px] text-muted-foreground/60">

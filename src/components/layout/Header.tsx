@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   Calculator,
   Menu,
@@ -11,6 +11,8 @@ import {
   Scale,
   Activity,
   BookOpen,
+  Sun,
+  Moon,
 } from "lucide-react";
 
 const navItems = [
@@ -43,6 +45,22 @@ const navItems = [
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [isDark, setIsDark] = useState(false);
+
+  useEffect(() => {
+    const stored = localStorage.getItem("theme");
+    if (stored === "dark" || (!stored && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+      document.documentElement.classList.add("dark");
+      setIsDark(true);
+    }
+  }, []);
+
+  const toggleDarkMode = () => {
+    document.documentElement.classList.toggle("dark");
+    const next = !isDark;
+    setIsDark(next);
+    localStorage.setItem("theme", next ? "dark" : "light");
+  };
 
   return (
     <header className="sticky top-0 z-50 border-b border-border/50 bg-background/95 backdrop-blur-sm">
@@ -67,6 +85,13 @@ export function Header() {
               {item.label}
             </Link>
           ))}
+          <button
+            onClick={toggleDarkMode}
+            className="rounded-md p-2 text-muted-foreground transition-colors hover:bg-accent"
+            aria-label={isDark ? "라이트 모드로 전환" : "다크 모드로 전환"}
+          >
+            {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+          </button>
         </nav>
 
         {/* Mobile Menu Toggle */}
@@ -97,6 +122,13 @@ export function Header() {
               {item.label}
             </Link>
           ))}
+          <button
+            onClick={toggleDarkMode}
+            className="flex w-full items-center gap-2 rounded-md px-3 py-2.5 text-sm text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+          >
+            {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+            {isDark ? "라이트 모드" : "다크 모드"}
+          </button>
         </nav>
       )}
     </header>

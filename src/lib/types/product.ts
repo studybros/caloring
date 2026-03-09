@@ -38,6 +38,7 @@ export interface Product {
   naverProductId?: string; // for price tracking
   naverSearchKeyword?: string; // search keyword for price updates
   naverRank?: number; // naver shopping search ranking
+  imageUrl?: string; // product image URL from Naver API
   nutrition?: NutritionInfo;
   currentPrice: number; // naver lowest price (tracking)
   coupangPrice?: number; // lowest coupang price from naver search

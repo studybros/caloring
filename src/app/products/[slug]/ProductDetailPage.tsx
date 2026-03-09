@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import {
   ArrowLeft,
   ExternalLink,
@@ -226,9 +227,25 @@ export function ProductDetailPage({ product }: ProductDetailPageProps) {
       {/* ── Hero + Price 통합 ───────────────────────── */}
       <div className="mt-2 overflow-hidden rounded-2xl bg-gradient-to-b from-peach/20 via-peach/5 to-transparent">
         <div className="px-5 pt-6 pb-2 text-center">
-          <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-2xl bg-white text-5xl shadow-sm">
-            {product.image}
+          <div className="relative mx-auto flex h-20 w-20 items-center justify-center rounded-2xl bg-white shadow-sm overflow-hidden">
+            {product.imageUrl ? (
+              <Image
+                src={product.imageUrl}
+                alt={product.name}
+                fill
+                className="object-contain p-1"
+                sizes="80px"
+                unoptimized
+              />
+            ) : (
+              <span className="text-5xl">{product.image}</span>
+            )}
           </div>
+          {product.naverRank && product.naverRank <= 10 && (
+            <span className="mt-2 inline-block rounded-full bg-primary/10 px-2.5 py-1 text-xs font-semibold text-primary">
+              네이버 쇼핑 {product.categoryLabel} {product.naverRank}위
+            </span>
+          )}
           <p className="mt-3 text-xs font-medium tracking-wide text-muted-foreground uppercase">
             {product.brand}
           </p>
@@ -624,11 +641,7 @@ export function ProductDetailPage({ product }: ProductDetailPageProps) {
             공유
           </button>
           <a
-            href={
-              product.naverProductId
-                ? `https://search.shopping.naver.com/catalog/${product.naverProductId}`
-                : `https://search.shopping.naver.com/search/all?query=${encodeURIComponent(product.name)}`
-            }
+            href={`https://search.shopping.naver.com/search/all?query=${encodeURIComponent(product.name)}`}
             target="_blank"
             rel="noopener noreferrer nofollow"
             className="flex flex-1 items-center justify-center gap-2 rounded-xl mx-3 my-2 py-3 text-sm font-bold text-primary-foreground bg-primary transition-all hover:bg-primary/90 active:scale-[0.98]"

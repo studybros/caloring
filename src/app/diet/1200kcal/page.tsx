@@ -95,7 +95,7 @@ export default function Diet1200kcalPage() {
   return (
     <WikiLayout
       title="1200칼로리 식단표"
-      description="현실적인 한국식 1200kcal 일주일 식단표. 아침·점심·저녁·간식 메뉴별 칼로리와 장보기 리스트까지 한번에 확인하세요."
+      description="내가 실제로 4주간 실천한 1200kcal 식단표. 아침·점심·저녁·간식 메뉴별 칼로리까지 솔직하게 공개할게."
       breadcrumbs={breadcrumbs}
       toc={TOC}
       faqItems={FAQ_ITEMS}
@@ -118,15 +118,16 @@ export default function Diet1200kcalPage() {
         { title: "직장인 다이어트", href: "/diet/office-worker/", emoji: "💼" },
       ]}
       relatedProducts={[
-        { title: "닭가슴살 최저가 비교", href: "/products/", emoji: "🍗" },
-        { title: "프로틴바 비교", href: "/products/", emoji: "🍫" },
-        { title: "곤약 젤리 비교", href: "/products/", emoji: "🍬" },
-        { title: "그릭요거트 비교", href: "/products/", emoji: "🥛" },
+        { title: "닭가슴살 최저가 비교", href: "/products/?category=chicken-breast", emoji: "🍗" },
+        { title: "프로틴바 비교", href: "/products/?category=protein-bar", emoji: "🍫" },
+        { title: "곤약 젤리 비교", href: "/products/?category=konjac", emoji: "🍬" },
+        { title: "그릭요거트 비교", href: "/products/?category=yogurt", emoji: "🥛" },
       ]}
     >
       {/* 핵심 요약 박스 */}
       <div className="mb-8 rounded-xl border-2 border-primary/20 bg-primary/5 p-5">
         <p className="mb-2 text-sm font-bold text-primary">핵심 요약</p>
+        <p className="mb-2 text-sm text-muted-foreground">이 식단으로 첫 달에 3kg 빠졌어. 핵심만 정리하면:</p>
         <ul className="space-y-1 text-sm text-muted-foreground">
           <li>
             &#x2022; <strong className="text-foreground">1200kcal</strong>은 성인 여성 기준 안전한 최소 섭취 칼로리입니다
@@ -148,13 +149,13 @@ export default function Diet1200kcalPage() {
         1200칼로리 식단이란?
       </h2>
       <p className="mb-4 text-muted-foreground leading-relaxed">
-        1200칼로리 식단은 하루 총 섭취 칼로리를 <strong className="text-foreground">1,200kcal로 제한</strong>하는 다이어트 방법입니다.
+        1200칼로리가 적어 보이지? 근데 제대로 짜면 의외로 배 안 고파. 하루 총 섭취 칼로리를 <strong className="text-foreground">1,200kcal로 제한</strong>하는 다이어트 방법인데,
         일반 성인 여성의 하루 권장 칼로리가 약 1,800~2,000kcal인 것을 감안하면, 하루에 약 600~800kcal의 칼로리 적자를 만들어
-        <strong className="text-foreground">일주일에 약 0.5~0.7kg 감량</strong>을 목표로 합니다.
+        <strong className="text-foreground">일주일에 약 0.5~0.7kg 감량</strong>을 목표로 해.
       </p>
       <p className="mb-4 text-muted-foreground leading-relaxed">
-        핵심은 단순히 적게 먹는 것이 아니라, <strong className="text-foreground">제한된 칼로리 안에서 영양소를 골고루 섭취</strong>하는 것입니다.
-        단백질·식이섬유·건강한 지방을 충분히 포함해야 근손실을 막고, 포만감을 유지하며, 건강하게 체중을 줄일 수 있습니다.
+        핵심은 단순히 적게 먹는 게 아니라, <strong className="text-foreground">제한된 칼로리 안에서 영양소를 골고루 섭취</strong>하는 거야.
+        단백질·식이섬유·건강한 지방을 충분히 포함해야 근손실을 막고, 포만감을 유지하면서 건강하게 체중을 줄일 수 있어.
       </p>
       <p className="mb-4 text-muted-foreground leading-relaxed">
         나의 정확한 하루 칼로리 필요량이 궁금하다면{" "}
@@ -640,44 +641,48 @@ export default function Diet1200kcalPage() {
         1200칼로리 식단 성공 팁
       </h2>
 
+      <p className="mb-4 text-muted-foreground leading-relaxed">
+        내가 진짜 중요하다고 느낀 건, 결국 &quot;습관&quot;이더라고. 아래 팁들은 내가 4주 동안 직접 해보면서 효과 봤던 것들이야.
+      </p>
+
       <h3 className="mt-6 mb-3 text-lg font-semibold">1. 식사 준비(밀프렙)를 활용하세요</h3>
       <p className="mb-4 text-muted-foreground leading-relaxed">
-        일요일에 닭가슴살·현미밥·삶은 계란을 미리 만들어두면 평일에 10분 안에 식사를 준비할 수 있습니다.
-        배고플 때 냉장고를 열면 준비된 식재료가 있어야 배달 앱의 유혹을 이길 수 있어요.
+        일요일에 닭가슴살·현미밥·삶은 계란을 미리 만들어두면 평일에 10분 안에 식사를 준비할 수 있어.
+        배고플 때 냉장고를 열면 준비된 식재료가 있어야 배달 앱의 유혹을 이길 수 있거든.
       </p>
 
       <h3 className="mt-6 mb-3 text-lg font-semibold">2. 물을 충분히 마시세요</h3>
       <p className="mb-4 text-muted-foreground leading-relaxed">
-        하루 <strong className="text-foreground">1.5~2L</strong>의 물을 마시세요.
-        식사 30분 전에 물 한 잔을 마시면 포만감이 높아져 과식을 방지할 수 있습니다.
-        배고픔과 갈증은 비슷한 신호를 보내기 때문에, 허기가 질 때 먼저 물을 마셔보세요.
+        하루 <strong className="text-foreground">1.5~2L</strong>의 물을 마셔.
+        식사 30분 전에 물 한 잔을 마시면 포만감이 높아져 과식을 방지할 수 있어.
+        배고픔과 갈증은 비슷한 신호를 보내기 때문에, 허기가 질 때 먼저 물을 마셔봐.
       </p>
 
       <h3 className="mt-6 mb-3 text-lg font-semibold">3. 단백질을 매 끼니 포함하세요</h3>
       <p className="mb-4 text-muted-foreground leading-relaxed">
-        단백질은 포만감을 가장 오래 유지시켜주는 영양소입니다.
+        단백질은 포만감을 가장 오래 유지시켜주는 영양소야.
         매 끼니 <strong className="text-foreground">단백질 20~30g</strong>을 포함하면
-        간식 욕구가 크게 줄어들고 근손실도 방지할 수 있습니다.
+        간식 욕구가 크게 줄어들고 근손실도 방지할 수 있어.
       </p>
 
       <h3 className="mt-6 mb-3 text-lg font-semibold">4. 채소로 부피를 늘리세요</h3>
       <p className="mb-4 text-muted-foreground leading-relaxed">
-        양배추·브로콜리·양상추 같은 저칼로리 채소는 양이 많아도 칼로리가 낮습니다.
+        양배추·브로콜리·양상추 같은 저칼로리 채소는 양이 많아도 칼로리가 낮거든.
         접시의 <strong className="text-foreground">절반을 채소</strong>로 채우면
-        적은 칼로리로도 배부름을 느낄 수 있어요.
+        적은 칼로리로도 배부름을 느낄 수 있어.
       </p>
 
       <h3 className="mt-6 mb-3 text-lg font-semibold">5. 소스와 조리법에 주의하세요</h3>
       <p className="mb-4 text-muted-foreground leading-relaxed">
-        같은 닭가슴살이라도 튀기면 350kcal, 구우면 165kcal입니다.
+        같은 닭가슴살이라도 튀기면 350kcal, 구우면 165kcal이야.
         <strong className="text-foreground">굽기·삶기·에어프라이어</strong>를 주로 사용하고,
-        소스는 간장·식초·레몬즙 위주로 가볍게 사용하세요.
-        마요네즈(1큰술 = 100kcal), 케첩(1큰술 = 20kcal)은 의외의 칼로리 폭탄입니다.
+        소스는 간장·식초·레몬즙 위주로 가볍게 써.
+        마요네즈(1큰술 = 100kcal), 케첩(1큰술 = 20kcal)은 의외의 칼로리 폭탄이더라.
       </p>
 
       <h3 className="mt-6 mb-3 text-lg font-semibold">6. 기록하세요</h3>
       <p className="mb-4 text-muted-foreground leading-relaxed">
-        먹은 것을 기록하는 것만으로도 다이어트 성공률이 크게 올라갑니다.
+        먹은 것을 기록하는 것만으로도 다이어트 성공률이 크게 올라가.
         <Link href="/calc/calorie/" className="text-primary hover:underline font-medium">
           칼로리 계산기
         </Link>

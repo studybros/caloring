@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import {
   Flame,
   Activity,
@@ -77,20 +78,36 @@ export default function Home() {
       {/* Hero */}
       <section className="py-12 text-center md:py-20">
         <h1 className="text-4xl font-bold tracking-tight md:text-5xl">
-          칼로리 계산,{" "}
-          <span className="text-primary">이제 칼로링.</span>
+          40kg 뺀 언니의{" "}
+          <span className="text-primary">다이어트 비서</span>
         </h1>
         <p className="mx-auto mt-4 max-w-lg text-lg text-muted-foreground">
-          다이어트 계산기로 내 몸에 맞는 칼로리를 계산하고,
+          직접 해보고 알려주는 칼로리 계산기,
           <br className="hidden sm:block" />
-          다이어트 식품 최저가를 비교해보세요.
+          진짜 먹어본 다이어트 식품 비교까지.
         </p>
+        <div className="mt-6 flex items-center justify-center gap-3">
+          <Link
+            href="/calc/calorie/"
+            className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-md transition-colors hover:bg-primary/90"
+          >
+            <Flame className="h-4 w-4" />
+            내 칼로리 계산하기
+          </Link>
+          <Link
+            href="/diet/"
+            className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-6 py-3 text-sm font-semibold text-foreground shadow-sm transition-colors hover:bg-accent"
+          >
+            <BookOpen className="h-4 w-4" />
+            식단 가이드 보기
+          </Link>
+        </div>
       </section>
 
       {/* Calculators Grid */}
       <section>
         <div className="mb-6 flex items-center justify-between">
-          <h2 className="text-xl font-bold">다이어트 계산기</h2>
+          <h2 className="text-xl font-bold">언니가 매일 쓰는 계산기</h2>
         </div>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {calculators.map((calc) => (
@@ -118,7 +135,7 @@ export default function Home() {
       {/* Diet Guide Section */}
       <section className="mt-16">
         <div className="mb-6 flex items-center justify-between">
-          <h2 className="text-xl font-bold">다이어트 식단 가이드</h2>
+          <h2 className="text-xl font-bold">언니의 식단 노하우</h2>
           <Link
             href="/diet"
             className="flex items-center gap-1 text-sm text-primary hover:underline"
@@ -152,7 +169,7 @@ export default function Home() {
       {/* Products Section */}
       <section className="mt-16">
         <div className="mb-6 flex items-center justify-between">
-          <h2 className="text-xl font-bold">다이어트 식품 최저가</h2>
+          <h2 className="text-xl font-bold">언니가 찾은 착한가격</h2>
           <Link
             href="/products"
             className="flex items-center gap-1 text-sm text-primary hover:underline"
@@ -166,8 +183,24 @@ export default function Home() {
             <Link key={product.slug} href={`/products/${product.slug}/`}>
               <Card className="h-full transition-all hover:shadow-md hover:-translate-y-0.5">
                 <CardContent className="p-3">
-                  <div className="flex h-16 items-center justify-center rounded bg-muted text-2xl">
-                    {product.image ?? "📦"}
+                  <div className="relative flex h-20 items-center justify-center rounded bg-muted overflow-hidden">
+                    {product.imageUrl ? (
+                      <Image
+                        src={product.imageUrl}
+                        alt={product.name}
+                        fill
+                        className="object-contain p-1"
+                        sizes="(max-width: 640px) 50vw, 33vw"
+                        unoptimized
+                      />
+                    ) : (
+                      <span className="text-2xl">{product.image ?? "📦"}</span>
+                    )}
+                    {product.naverRank && product.naverRank <= 10 && (
+                      <span className="absolute left-1 top-1 rounded bg-primary px-1.5 py-0.5 text-[10px] font-bold text-primary-foreground">
+                        {product.naverRank}위
+                      </span>
+                    )}
                   </div>
                   <div className="mt-2">
                     <p className="text-xs text-muted-foreground">{product.category}</p>

@@ -150,6 +150,11 @@ async function main() {
           product.coupangPrice = coupangLowest;
           product.coupangCompetitive = competitive;
 
+          // Save image URL from Naver API
+          if (match.item.image) {
+            product.imageUrl = match.item.image;
+          }
+
           // Update price history
           const todayEntry = product.priceHistory.find((e) => e.date === today);
           if (todayEntry) {

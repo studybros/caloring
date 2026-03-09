@@ -23,6 +23,8 @@ export interface RecommendProduct {
   price: string;
   link: string;
   image?: string;
+  imageUrl?: string;
+  naverRank?: number;
   slug: string;
 }
 
@@ -34,6 +36,8 @@ function toRecommendProduct(p: Product): RecommendProduct {
     price: formatKRW(p.currentPrice),
     link: p.link && p.link !== "#" ? p.link : `/products/${p.slug}/`,
     image: p.image,
+    imageUrl: p.imageUrl,
+    naverRank: p.naverRank,
     slug: p.slug,
   };
 }
