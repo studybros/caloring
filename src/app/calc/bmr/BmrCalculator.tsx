@@ -6,9 +6,12 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { CalculatorLayout } from "@/components/calculator/CalculatorLayout";
 import { ProductRecommendation } from "@/components/product/ProductRecommendation";
+import { getRecommendProducts } from "@/data/products";
 import { calculateBmr, type Gender } from "@/lib/calculators/bmr";
 import { createWebAppSchema, createFAQSchema } from "@/lib/seo/schema";
 import { formatNumber } from "@/lib/utils/format";
+
+const PROTEIN_PRODUCTS = getRecommendProducts(["protein", "chicken", "yogurt", "protein-bar"]);
 
 const FAQ_ITEMS = [
   {
@@ -55,42 +58,6 @@ const RELATED_ITEMS = [
   },
 ];
 
-const PROTEIN_PRODUCTS = [
-  {
-    name: "프로틴 쉐이크",
-    category: "단백질 보충",
-    price: "24,900원",
-    originalPrice: "32,000원",
-    discount: "-22%",
-    link: "#",
-    image: "🥛",
-  },
-  {
-    name: "닭가슴살 30팩",
-    category: "고단백",
-    price: "29,900원",
-    originalPrice: "39,900원",
-    discount: "-25%",
-    link: "#",
-    image: "🍗",
-  },
-  {
-    name: "그릭요거트 12개",
-    category: "고단백 간식",
-    price: "15,800원",
-    link: "#",
-    image: "🥣",
-  },
-  {
-    name: "프로틴 바 12개",
-    category: "단백질 간식",
-    price: "18,500원",
-    originalPrice: "22,000원",
-    discount: "-16%",
-    link: "#",
-    image: "🍫",
-  },
-];
 
 export function BmrCalculator() {
   const [gender, setGender] = useState<Gender>("female");
@@ -132,7 +99,7 @@ export function BmrCalculator() {
         result ? (
           <ProductRecommendation
             title="기초대사량 높이는 고단백 식품"
-            description="근육량을 늘려 기초대사량을 높이는 데 도움이 되는 식품이에요"
+            description={`기초대사량 ${formatNumber(result.bmr)}kcal — 근육을 키워 더 높이려면 단백질이 필수예요`}
             products={PROTEIN_PRODUCTS}
           />
         ) : undefined

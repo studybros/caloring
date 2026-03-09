@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { AdminPage } from "./AdminPage";
+import { AdminAuth } from "./AdminAuth";
 
 export const metadata: Metadata = {
   title: "상품 관리",
@@ -7,5 +8,9 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  return <AdminPage />;
+  return (
+    <AdminAuth>
+      <AdminPage />
+    </AdminAuth>
+  );
 }

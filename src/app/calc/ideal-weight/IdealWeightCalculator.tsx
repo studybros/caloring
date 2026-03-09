@@ -6,11 +6,14 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { CalculatorLayout } from "@/components/calculator/CalculatorLayout";
 import { ProductRecommendation } from "@/components/product/ProductRecommendation";
+import { getRecommendProducts } from "@/data/products";
 import {
   calculateIdealWeight,
   type Gender,
 } from "@/lib/calculators/ideal-weight";
 import { createWebAppSchema, createFAQSchema } from "@/lib/seo/schema";
+
+const HEALTH_PRODUCTS = getRecommendProducts(["yogurt", "protein", "chicken", "shake"]);
 
 const FAQ_ITEMS = [
   {
@@ -57,40 +60,6 @@ const RELATED_ITEMS = [
   },
 ];
 
-const HEALTH_PRODUCTS = [
-  {
-    name: "디지털 체중계",
-    category: "체중 관리",
-    price: "19,900원",
-    originalPrice: "29,900원",
-    discount: "-33%",
-    link: "#",
-    image: "⚖️",
-  },
-  {
-    name: "프로틴 쉐이크",
-    category: "영양 보충",
-    price: "24,900원",
-    originalPrice: "32,000원",
-    discount: "-22%",
-    link: "#",
-    image: "🥛",
-  },
-  {
-    name: "종합비타민 90일분",
-    category: "건강 관리",
-    price: "18,900원",
-    link: "#",
-    image: "💊",
-  },
-  {
-    name: "그릭요거트 12개",
-    category: "고단백 간식",
-    price: "15,800원",
-    link: "#",
-    image: "🥣",
-  },
-];
 
 export function IdealWeightCalculator() {
   const [gender, setGender] = useState<Gender>("female");
@@ -131,8 +100,8 @@ export function IdealWeightCalculator() {
       productSlot={
         result ? (
           <ProductRecommendation
-            title="건강 체중 관리 추천 제품"
-            description="적정 체중을 유지하는 데 도움이 되는 제품이에요"
+            title="건강 체중 관리 식품"
+            description={`적정 체중 ${result.average}kg — 균형 잡힌 영양 섭취로 건강하게 유지하세요`}
             products={HEALTH_PRODUCTS}
           />
         ) : undefined

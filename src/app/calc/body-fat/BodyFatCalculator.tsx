@@ -6,11 +6,15 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { CalculatorLayout } from "@/components/calculator/CalculatorLayout";
 import { ProductRecommendation } from "@/components/product/ProductRecommendation";
+import { getRecommendProducts } from "@/data/products";
 import {
   calculateBodyFat,
   type Gender,
 } from "@/lib/calculators/body-fat";
 import { createWebAppSchema, createFAQSchema } from "@/lib/seo/schema";
+
+const DIET_PRODUCTS = getRecommendProducts(["lunchbox", "shake", "konjac", "zero-drink"]);
+const HEALTH_PRODUCTS = getRecommendProducts(["protein", "chicken", "yogurt", "protein-bar"]);
 
 const FAQ_ITEMS = [
   {
@@ -57,42 +61,6 @@ const RELATED_ITEMS = [
   },
 ];
 
-const DIET_PRODUCTS = [
-  {
-    name: "인바디 체중계",
-    category: "체성분 측정",
-    price: "49,900원",
-    originalPrice: "69,900원",
-    discount: "-29%",
-    link: "#",
-    image: "⚖️",
-  },
-  {
-    name: "프로틴 쉐이크",
-    category: "식사 대용",
-    price: "24,900원",
-    originalPrice: "32,000원",
-    discount: "-22%",
-    link: "#",
-    image: "🥛",
-  },
-  {
-    name: "다이어트 도시락 5팩",
-    category: "저칼로리 식단",
-    price: "27,900원",
-    originalPrice: "35,000원",
-    discount: "-20%",
-    link: "#",
-    image: "🍱",
-  },
-  {
-    name: "줄넘기 + 카운터",
-    category: "유산소 운동",
-    price: "12,900원",
-    link: "#",
-    image: "🏋️",
-  },
-];
 
 export function BodyFatCalculator() {
   const [gender, setGender] = useState<Gender>("female");
@@ -166,11 +134,19 @@ export function BodyFatCalculator() {
           <ProductRecommendation
             title={
               result.category === "비만" || result.category === "보통"
-                ? "체지방 관리 추천 제품"
-                : "건강 유지 추천 제품"
+                ? "체지방 관리 식품"
+                : "건강 유지 식품"
             }
-            description={`체지방률 ${result.bodyFatPercent}% — ${result.category} 단계에 맞는 제품이에요`}
-            products={DIET_PRODUCTS}
+            description={`체지방률 ${result.bodyFatPercent}% (${result.category}) — ${
+              result.category === "비만" || result.category === "보통"
+                ? "저칼로리 식단으로 체지방을 줄여보세요"
+                : "단백질 보충으로 근육량을 유지하세요"
+            }`}
+            products={
+              result.category === "비만" || result.category === "보통"
+                ? DIET_PRODUCTS
+                : HEALTH_PRODUCTS
+            }
           />
         ) : undefined
       }

@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
+import { BulkLinkEditor } from "./BulkLinkEditor";
 import productsJson from "@/data/products/products.json";
 import { CATEGORY_MAP, CATEGORY_EMOJI } from "@/lib/types/product";
 import type { Product, ProductCategory } from "@/lib/types/product";
@@ -53,6 +54,7 @@ export function AdminPage() {
   const [serverOnline, setServerOnline] = useState(false);
   const [saveStatus, setSaveStatus] = useState<"idle" | "saving" | "saved" | "error">("idle");
   const [hasUnsaved, setHasUnsaved] = useState(false);
+  const [activeTab, setActiveTab] = useState<"products" | "links">("products");
 
   // Check if admin server is running
   useEffect(() => {
@@ -83,6 +85,19 @@ export function AdminPage() {
       setTimeout(() => setSaveStatus("idle"), 3000);
     }
   }, [serverOnline]);
+
+  const handleUpdateLink = useCallback((idx: number, link: string) => {
+    setProducts((prev) => {
+      const updated = [...prev];
+      updated[idx] = { ...updated[idx], link };
+      return updated;
+    });
+    setHasUnsaved(true);
+  }, []);
+
+  const handleBulkSave = useCallback(() => {
+    handleSaveToServer(products);
+  }, [products, handleSaveToServer]);
 
   const filtered = useMemo(() => {
     return products
@@ -182,6 +197,8 @@ export function AdminPage() {
     });
   }
 
+  const noLinkCount = products.filter((p) => p.link === "#" || !p.link).length;
+
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
       <header className="mb-6 space-y-3">
@@ -189,11 +206,16 @@ export function AdminPage() {
           <div>
             <h1 className="text-2xl font-bold">상품 관리</h1>
             <p className="text-sm text-muted-foreground">
-              {products.length}개 상품 (
-              {filterCat === "all"
-                ? "전체"
-                : CATEGORY_MAP[filterCat as ProductCategory]}
-              {searchQuery && ` · "${searchQuery}" 검색`}: {filtered.length}개)
+              {products.length}개 상품
+              {activeTab === "products" && (
+                <>
+                  {" ("}
+                  {filterCat === "all"
+                    ? "전체"
+                    : CATEGORY_MAP[filterCat as ProductCategory]}
+                  {searchQuery && ` · "${searchQuery}" 검색`}: {filtered.length}개)
+                </>
+              )}
             </p>
           </div>
           <div className="flex gap-2 items-center">
@@ -214,12 +236,44 @@ export function AdminPage() {
             <Button variant="outline" size="sm" onClick={handleExport}>
               JSON 다운로드
             </Button>
-            <Button size="sm" onClick={handleNew}>
-              + 새 상품
-            </Button>
+            {activeTab === "products" && (
+              <Button size="sm" onClick={handleNew}>
+                + 새 상품
+              </Button>
+            )}
           </div>
         </div>
-        {serverOnline && hasUnsaved && (
+
+        {/* Tab switcher */}
+        <div className="flex gap-1 p-1 bg-muted rounded-lg w-fit">
+          <button
+            className={`px-4 py-1.5 text-sm rounded-md transition-colors ${
+              activeTab === "products"
+                ? "bg-background font-medium shadow-sm"
+                : "text-muted-foreground hover:text-foreground"
+            }`}
+            onClick={() => setActiveTab("products")}
+          >
+            상품 편집
+          </button>
+          <button
+            className={`px-4 py-1.5 text-sm rounded-md transition-colors ${
+              activeTab === "links"
+                ? "bg-background font-medium shadow-sm"
+                : "text-muted-foreground hover:text-foreground"
+            }`}
+            onClick={() => setActiveTab("links")}
+          >
+            제휴 링크 입력
+            {noLinkCount > 0 && (
+              <span className="ml-1.5 px-1.5 py-0.5 text-[10px] font-bold bg-amber-500 text-white rounded-full">
+                {noLinkCount}
+              </span>
+            )}
+          </button>
+        </div>
+
+        {serverOnline && hasUnsaved && activeTab === "products" && (
           <div className="flex items-center gap-3 p-3 bg-amber-50 dark:bg-amber-950 border border-amber-200 dark:border-amber-800 rounded-lg">
             <span className="text-sm text-amber-800 dark:text-amber-200">
               저장하지 않은 변경사항이 있습니다
@@ -239,7 +293,17 @@ export function AdminPage() {
         )}
       </header>
 
-      <div className="grid grid-cols-[320px_1fr] gap-6">
+      {activeTab === "links" && (
+        <BulkLinkEditor
+          products={products}
+          onUpdateLink={handleUpdateLink}
+          onSave={handleBulkSave}
+          serverOnline={serverOnline}
+          saveStatus={saveStatus}
+        />
+      )}
+
+      {activeTab === "products" && <div className="grid grid-cols-[320px_1fr] gap-6">
         {/* Left: Product List */}
         <div className="space-y-3">
           <Input
@@ -414,12 +478,32 @@ export function AdminPage() {
                   </div>
                   <div className="space-y-2">
                     <Label>제휴 링크</Label>
-                    <Input
-                      value={editData.link}
-                      onChange={(e) =>
-                        setEditData({ ...editData, link: e.target.value })
-                      }
-                    />
+                    <div className="flex gap-2">
+                      <Input
+                        value={editData.link}
+                        onChange={(e) =>
+                          setEditData({ ...editData, link: e.target.value })
+                        }
+                        placeholder="쿠팡파트너스 링크"
+                        className="flex-1"
+                      />
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        onClick={() => {
+                          const q = encodeURIComponent(editData.name);
+                          window.open(`https://www.coupang.com/np/search?q=${q}`, "_blank");
+                        }}
+                        title="쿠팡에서 검색 → 파트너스 확장으로 링크 생성"
+                      >
+                        쿠팡 검색
+                      </Button>
+                    </div>
+                    {editData.link === "#" && (
+                      <p className="text-xs text-amber-600">
+                        제휴 링크 미설정 — 쿠팡 검색 → 파트너스 확장 클릭 → 링크 복사 후 여기에 붙여넣기
+                      </p>
+                    )}
                   </div>
                 </div>
 
@@ -646,7 +730,7 @@ export function AdminPage() {
             </div>
           )}
         </div>
-      </div>
+      </div>}
     </div>
   );
 }

@@ -5,7 +5,6 @@ import {
   Scale,
   Target,
   Droplets,
-  ShoppingBasket,
   ArrowRight,
   TrendingDown,
 } from "lucide-react";
@@ -15,6 +14,7 @@ import {
   CardTitle,
   CardContent,
 } from "@/components/ui/card";
+import { getHomepageProducts } from "@/data/products";
 
 const calculators = [
   {
@@ -66,6 +66,8 @@ const calculators = [
     bgColor: "bg-blue-50 dark:bg-blue-950/30",
   },
 ];
+
+const homepageProducts = getHomepageProducts(6);
 
 export default function Home() {
   return (
@@ -123,17 +125,26 @@ export default function Home() {
             <ArrowRight className="h-4 w-4" />
           </Link>
         </div>
-        <Card className="border-dashed">
-          <CardContent className="flex flex-col items-center justify-center py-12 text-center">
-            <ShoppingBasket className="mb-4 h-12 w-12 text-muted-foreground/50" />
-            <p className="text-lg font-medium text-muted-foreground">
-              곧 오픈 예정
-            </p>
-            <p className="mt-1 text-sm text-muted-foreground/70">
-              단백질 보충제, 다이어트 간식, 제로 음료 최저가를 비교해드려요
-            </p>
-          </CardContent>
-        </Card>
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-3">
+          {homepageProducts.map((product) => (
+            <Link key={product.slug} href={`/products/${product.slug}/`}>
+              <Card className="h-full transition-all hover:shadow-md hover:-translate-y-0.5">
+                <CardContent className="p-3">
+                  <div className="flex h-16 items-center justify-center rounded bg-muted text-2xl">
+                    {product.image ?? "📦"}
+                  </div>
+                  <div className="mt-2">
+                    <p className="text-xs text-muted-foreground">{product.category}</p>
+                    <p className="mt-0.5 line-clamp-2 text-sm font-medium leading-tight">
+                      {product.name}
+                    </p>
+                    <p className="mt-1 text-sm font-bold text-primary">{product.price}</p>
+                  </div>
+                </CardContent>
+              </Card>
+            </Link>
+          ))}
+        </div>
       </section>
     </div>
   );

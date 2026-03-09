@@ -6,8 +6,12 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { CalculatorLayout } from "@/components/calculator/CalculatorLayout";
 import { ProductRecommendation } from "@/components/product/ProductRecommendation";
+import { getRecommendProducts } from "@/data/products";
 import { calculateBmi } from "@/lib/calculators/bmi";
 import { createWebAppSchema, createFAQSchema } from "@/lib/seo/schema";
+
+const DIET_PRODUCTS = getRecommendProducts(["konjac", "lunchbox", "zero-drink", "shake"]);
+const HEALTH_PRODUCTS = getRecommendProducts(["protein-bar", "yogurt", "chicken", "protein"]);
 
 const FAQ_ITEMS = [
   {
@@ -54,43 +58,6 @@ const RELATED_ITEMS = [
   },
 ];
 
-// TODO: Replace with real affiliate product data
-const DIET_PRODUCTS = [
-  {
-    name: "곤약 젤리 10팩",
-    category: "저칼로리 간식",
-    price: "12,900원",
-    originalPrice: "15,900원",
-    discount: "-19%",
-    link: "#",
-    image: "🍬",
-  },
-  {
-    name: "프로틴 바 12개입",
-    category: "단백질 간식",
-    price: "18,500원",
-    originalPrice: "22,000원",
-    discount: "-16%",
-    link: "#",
-    image: "🍫",
-  },
-  {
-    name: "제로 콜라 24캔",
-    category: "제로 음료",
-    price: "16,800원",
-    link: "#",
-    image: "🥤",
-  },
-  {
-    name: "닭가슴살 30팩",
-    category: "고단백",
-    price: "29,900원",
-    originalPrice: "39,900원",
-    discount: "-25%",
-    link: "#",
-    image: "🍗",
-  },
-];
 
 export function BmiCalculator() {
   const [height, setHeight] = useState("");
@@ -126,19 +93,22 @@ export function BmiCalculator() {
     if (!result) return null;
     if (result.bmi >= 25) {
       return {
-        title: "다이어트 식품 추천",
-        description: "체중 관리에 도움이 되는 저칼로리 식품을 확인해보세요",
+        title: "체중 관리 식품 추천",
+        description: `BMI ${result.bmi} (${result.category}) — 저칼로리 식품으로 식단 관리를 시작해보세요`,
+        products: DIET_PRODUCTS,
       };
     }
     if (result.bmi >= 23) {
       return {
         title: "건강 간식 추천",
-        description: "체중 유지에 좋은 고단백 간식을 확인해보세요",
+        description: `BMI ${result.bmi} (${result.category}) — 고단백 간식으로 체중을 유지해보세요`,
+        products: HEALTH_PRODUCTS,
       };
     }
     return {
       title: "건강 유지 식품",
-      description: "균형 잡힌 영양 섭취에 도움이 되는 식품이에요",
+      description: `BMI ${result.bmi} (${result.category}) — 균형 잡힌 영양 섭취를 위한 식품이에요`,
+      products: HEALTH_PRODUCTS,
     };
   };
 
@@ -162,7 +132,7 @@ export function BmiCalculator() {
           <ProductRecommendation
             title={productMessage.title}
             description={productMessage.description}
-            products={DIET_PRODUCTS}
+            products={productMessage.products}
           />
         ) : undefined
       }

@@ -6,12 +6,15 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { CalculatorLayout } from "@/components/calculator/CalculatorLayout";
 import { ProductRecommendation } from "@/components/product/ProductRecommendation";
+import { getRecommendProducts } from "@/data/products";
 import {
   calculateWater,
   type ActivityLevel,
 } from "@/lib/calculators/water";
 import { createWebAppSchema, createFAQSchema } from "@/lib/seo/schema";
 import { formatNumber } from "@/lib/utils/format";
+
+const WATER_PRODUCTS = getRecommendProducts(["zero-drink", "kombucha", "konjac", "yogurt"]);
 
 const FAQ_ITEMS = [
   {
@@ -58,38 +61,6 @@ const RELATED_ITEMS = [
   },
 ];
 
-const WATER_PRODUCTS = [
-  {
-    name: "텀블러 500ml",
-    category: "수분 섭취 도구",
-    price: "15,900원",
-    originalPrice: "22,000원",
-    discount: "-28%",
-    link: "#",
-    image: "🥤",
-  },
-  {
-    name: "타이머 물병 1L",
-    category: "시간별 섭취 관리",
-    price: "12,900원",
-    link: "#",
-    image: "⏰",
-  },
-  {
-    name: "제로 음료 24캔",
-    category: "제로 칼로리",
-    price: "16,800원",
-    link: "#",
-    image: "🥫",
-  },
-  {
-    name: "레몬 농축액",
-    category: "맛있는 수분 섭취",
-    price: "8,900원",
-    link: "#",
-    image: "🍋",
-  },
-];
 
 const ACTIVITY_OPTIONS: { value: ActivityLevel; label: string }[] = [
   { value: "sedentary", label: "비활동적 (사무직)" },

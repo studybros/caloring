@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { CalculatorLayout } from "@/components/calculator/CalculatorLayout";
 import { ProductRecommendation } from "@/components/product/ProductRecommendation";
+import { getRecommendProducts } from "@/data/products";
 import {
   calculateCalorie,
   type Gender,
@@ -14,6 +15,9 @@ import {
 } from "@/lib/calculators/calorie";
 import { createWebAppSchema, createFAQSchema } from "@/lib/seo/schema";
 import { formatNumber } from "@/lib/utils/format";
+
+const DIET_PRODUCTS = getRecommendProducts(["lunchbox", "konjac", "shake", "zero-drink"]);
+const HEALTH_PRODUCTS = getRecommendProducts(["protein", "yogurt", "chicken", "protein-bar"]);
 
 const FAQ_ITEMS = [
   {
@@ -60,40 +64,6 @@ const RELATED_ITEMS = [
   },
 ];
 
-const DIET_FOOD_PRODUCTS = [
-  {
-    name: "다이어트 도시락 5팩",
-    category: "저칼로리 식단",
-    price: "27,900원",
-    originalPrice: "35,000원",
-    discount: "-20%",
-    link: "#",
-    image: "🍱",
-  },
-  {
-    name: "곤약밥 12개입",
-    category: "저칼로리 주식",
-    price: "14,900원",
-    link: "#",
-    image: "🍚",
-  },
-  {
-    name: "프로틴 쉐이크",
-    category: "식사 대용",
-    price: "24,900원",
-    originalPrice: "32,000원",
-    discount: "-22%",
-    link: "#",
-    image: "🥛",
-  },
-  {
-    name: "제로 음료 24캔",
-    category: "제로 칼로리",
-    price: "16,800원",
-    link: "#",
-    image: "🥤",
-  },
-];
 
 const ACTIVITY_OPTIONS: { value: ActivityLevel; label: string }[] = [
   { value: "sedentary", label: "비활동적 (사무직)" },
@@ -159,10 +129,10 @@ export function CalorieCalculator() {
             }
             description={
               goal === "lose"
-                ? `하루 ${formatNumber(result.goalCalories)}kcal 목표에 맞는 저칼로리 식품이에요`
-                : "균형 잡힌 영양 섭취에 도움이 되는 식품이에요"
+                ? `하루 ${formatNumber(result.goalCalories)}kcal 목표라면, 한 끼를 저칼로리 식품으로 바꿔보세요`
+                : "균형 잡힌 영양 섭취에 도움이 되는 고단백 식품이에요"
             }
-            products={DIET_FOOD_PRODUCTS}
+            products={goal === "lose" ? DIET_PRODUCTS : HEALTH_PRODUCTS}
           />
         ) : undefined
       }

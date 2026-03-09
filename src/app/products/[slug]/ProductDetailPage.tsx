@@ -573,9 +573,13 @@ export function ProductDetailPage({ product }: ProductDetailPageProps) {
             공유
           </button>
           <a
-            href={product.link}
+            href={
+              product.link && product.link !== "#"
+                ? product.link
+                : `https://www.coupang.com/np/search?q=${encodeURIComponent(product.name)}`
+            }
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
             className="flex flex-1 items-center justify-center gap-2 rounded-xl mx-3 my-2 py-3 text-sm font-bold text-primary-foreground bg-primary transition-all hover:bg-primary/90 active:scale-[0.98]"
           >
             {analysis.status === "low" ? "지금 구매하기" : "최저가 보러가기"}
