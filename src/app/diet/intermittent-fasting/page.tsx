@@ -121,7 +121,7 @@ export default function IntermittentFastingPage() {
   return (
     <WikiLayout
       title="간헐적 단식 완벽 가이드"
-      description="내가 3개월 동안 직접 해보고 정리한 간헐적 단식의 모든 것. 효과, 식단표, 시작법까지 솔직하게 알려줄게."
+      description="간헐적 단식의 모든 것을 정리했어. 효과, 식단표, 시작법까지 쉽게 알려줄게."
       breadcrumbs={[
         { label: "홈", href: "/" },
         { label: "다이어트 식단 가이드", href: "/diet/" },
@@ -142,9 +142,9 @@ export default function IntermittentFastingPage() {
           <li className="flex items-start gap-2">
             <span className="mt-0.5 text-primary">&#10003;</span>
             <span>
-              나는 16:8로 처음 2달 만에 8kg 빠졌어. 간헐적 단식은{" "}
+              간헐적 단식은{" "}
               <strong className="text-foreground">&quot;언제&quot; 먹을지</strong>를
-              정하는 식사 패턴이고, 가장 대중적인 방법은{" "}
+              정하는 식사 패턴이야. 가장 대중적인 방법은{" "}
               <strong className="text-foreground">16시간 공복 + 8시간 식사(16:8)</strong>
             </span>
           </li>
@@ -179,7 +179,7 @@ export default function IntermittentFastingPage() {
         간헐적 단식이란?
       </h2>
       <p className="mb-4 text-muted-foreground leading-relaxed">
-        솔직히 처음 들었을 때 나도 반신반의했어. &quot;밥을 안 먹는 게 다이어트라고?&quot; 싶었거든.
+        &quot;밥을 안 먹는 게 다이어트라고?&quot; 처음 들으면 반신반의할 수 있어.
         근데 간헐적 단식(Intermittent Fasting, IF)은{" "}
         <strong className="text-foreground">
           일정 시간 동안 음식을 먹지 않고(공복), 나머지 시간에만 식사하는 패턴
@@ -688,7 +688,7 @@ export default function IntermittentFastingPage() {
         시작하는 방법 (초보 가이드)
       </h2>
       <p className="mb-4 text-muted-foreground leading-relaxed">
-        처음엔 나도 12:12도 힘들었는데, 1주만 버티면 진짜 괜찮아져. 바로 16:8에 도전하면 실패 확률이 높으니까,{" "}
+        처음에는 12:12도 힘들 수 있는데, 대부분 1주만 버티면 괜찮아져. 바로 16:8에 도전하면 실패 확률이 높으니까,{" "}
         <strong className="text-foreground">단계적으로 적응하는 것</strong>이 장기적인
         성공의 핵심이야.
       </p>
@@ -778,7 +778,7 @@ export default function IntermittentFastingPage() {
         성공을 위한 실전 팁
       </h2>
       <p className="mb-4 text-muted-foreground leading-relaxed">
-        내가 진짜 효과 본 팁만 모았어. 인터넷에 떠도는 뻔한 얘기 말고, 3개월 동안 직접 부딪히면서 알게 된 것들이야.
+        실제로 간헐적 단식 성공한 사람들이 공통으로 강조하는 팁만 정리했어.
       </p>
 
       <h3 className="mt-6 mb-3 text-lg font-semibold">공복 시간 버티는 법</h3>

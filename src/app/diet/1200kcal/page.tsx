@@ -95,7 +95,7 @@ export default function Diet1200kcalPage() {
   return (
     <WikiLayout
       title="1200칼로리 식단표"
-      description="내가 실제로 4주간 실천한 1200kcal 식단표. 아침·점심·저녁·간식 메뉴별 칼로리까지 솔직하게 공개할게."
+      description="1200kcal 식단표를 일주일치로 정리했어. 아침·점심·저녁·간식 메뉴별 칼로리까지 한눈에 보여줄게."
       breadcrumbs={breadcrumbs}
       toc={TOC}
       faqItems={FAQ_ITEMS}
@@ -127,7 +127,7 @@ export default function Diet1200kcalPage() {
       {/* 핵심 요약 박스 */}
       <div className="mb-8 rounded-xl border-2 border-primary/20 bg-primary/5 p-5">
         <p className="mb-2 text-sm font-bold text-primary">핵심 요약</p>
-        <p className="mb-2 text-sm text-muted-foreground">이 식단으로 첫 달에 3kg 빠졌어. 핵심만 정리하면:</p>
+        <p className="mb-2 text-sm text-muted-foreground">제대로 지키면 한 달에 2~3kg 감량이 가능해. 핵심만 정리하면:</p>
         <ul className="space-y-1 text-sm text-muted-foreground">
           <li>
             &#x2022; <strong className="text-foreground">1200kcal</strong>은 성인 여성 기준 안전한 최소 섭취 칼로리입니다
@@ -149,7 +149,7 @@ export default function Diet1200kcalPage() {
         1200칼로리 식단이란?
       </h2>
       <p className="mb-4 text-muted-foreground leading-relaxed">
-        1200칼로리가 적어 보이지? 근데 제대로 짜면 의외로 배 안 고파. 하루 총 섭취 칼로리를 <strong className="text-foreground">1,200kcal로 제한</strong>하는 다이어트 방법인데,
+        1200칼로리가 적어 보이지? 근데 제대로 짜면 의외로 배 안 고프다는 후기가 많아. 하루 총 섭취 칼로리를 <strong className="text-foreground">1,200kcal로 제한</strong>하는 다이어트 방법인데,
         일반 성인 여성의 하루 권장 칼로리가 약 1,800~2,000kcal인 것을 감안하면, 하루에 약 600~800kcal의 칼로리 적자를 만들어
         <strong className="text-foreground">일주일에 약 0.5~0.7kg 감량</strong>을 목표로 해.
       </p>
@@ -642,7 +642,7 @@ export default function Diet1200kcalPage() {
       </h2>
 
       <p className="mb-4 text-muted-foreground leading-relaxed">
-        내가 진짜 중요하다고 느낀 건, 결국 &quot;습관&quot;이더라고. 아래 팁들은 내가 4주 동안 직접 해보면서 효과 봤던 것들이야.
+        1200칼로리 식단에서 제일 중요한 건, 결국 &quot;습관&quot;이야. 아래는 실제로 성공한 사람들이 공통으로 강조하는 팁들이야.
       </p>
 
       <h3 className="mt-6 mb-3 text-lg font-semibold">1. 식사 준비(밀프렙)를 활용하세요</h3>

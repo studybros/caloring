@@ -132,7 +132,7 @@ export default function HighProteinDietPage() {
   return (
     <WikiLayout
       title="고단백 다이어트 완벽 가이드"
-      description="근육은 지키면서 살만 빼고 싶었던 내가 찾은 답. 고단백 식단의 핵심을 알려줄게."
+      description="근육은 지키면서 살만 빼고 싶다면? 고단백 식단의 핵심을 알려줄게."
       breadcrumbs={breadcrumbs}
       toc={tocItems}
       faqItems={faqItems}
@@ -145,7 +145,7 @@ export default function HighProteinDietPage() {
       {/* Key Summary Box */}
       <div className="mb-8 rounded-xl border border-primary/20 bg-primary/5 p-5">
         <p className="mb-2 text-sm font-bold text-primary">핵심 요약</p>
-        <p className="mb-2 text-sm text-muted-foreground">40kg 감량하면서 근육 지킨 비결이 바로 고단백 식단이었어. 핵심만 정리하면:</p>
+        <p className="mb-2 text-sm text-muted-foreground">체지방은 빼면서 근육은 지키는 비결, 바로 고단백 식단이야. 핵심만 정리하면:</p>
         <ul className="space-y-1 text-sm text-muted-foreground">
           <li>
             <strong className="text-foreground">목표 단백질</strong>: 체중
@@ -171,7 +171,7 @@ export default function HighProteinDietPage() {
         고단백 다이어트란?
       </h2>
       <p className="mb-4 text-muted-foreground leading-relaxed">
-        솔직히 말하면, 다이어트하면서 제일 무서웠던 게 근손실이었어. 살은 빠지는데 팔다리가 가늘어지고 처지는 느낌? 그래서 찾은 게 <strong className="text-foreground">고단백 다이어트</strong>야. 전체
+        다이어트하면서 제일 무서운 게 근손실이잖아. 살은 빠지는데 팔다리가 가늘어지고 처지는 느낌? 그래서 많은 사람들이 선택하는 게 <strong className="text-foreground">고단백 다이어트</strong>야. 전체
         칼로리 중{" "}
         <strong className="text-foreground">단백질 비율을 30% 이상</strong>
         으로 높이는 식사 전략인데, 일반적인 한국인의 단백질 섭취 비율이
@@ -183,8 +183,8 @@ export default function HighProteinDietPage() {
           총 칼로리를 조절하면서 단백질 비율을 전략적으로 높이는 것
         </strong>
         이 핵심이야. 탄수화물이나 지방을 극단적으로 제한하지 않으면서도
-        체지방 감량과 근육 유지를 동시에 달성할 수 있어서, 내가 해본 다이어트 중
-        가장 오래 유지할 수 있었던 방법이기도 해.
+        체지방 감량과 근육 유지를 동시에 달성할 수 있어서, 장기간 유지하기에도
+        무리가 적은 방법이야.
       </p>
       <p className="mb-4 text-muted-foreground leading-relaxed">
         내 하루 적정 칼로리가 궁금하다면{" "}
@@ -700,7 +700,7 @@ export default function HighProteinDietPage() {
         단백질 보충제 활용법
       </h2>
       <p className="mb-4 text-muted-foreground leading-relaxed">
-        내가 직접 먹어보고 추천하는 것들만 모았어. 하루 100g 이상의 단백질을 음식만으로 채우기는 솔직히 힘들거든.{" "}
+        하루 100g 이상의 단백질을 음식만으로 채우기는 솔직히 힘들거든.{" "}
         <strong className="text-foreground">단백질 보충제</strong>를
         전략적으로 활용하면 칼로리는 낮추면서 단백질 목표를 달성할 수
         있어.
