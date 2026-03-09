@@ -29,18 +29,48 @@ const CATEGORIES: { value: FilterCategory; label: string; emoji?: string }[] = [
   { value: "kombucha", label: "콤부차", emoji: "🍵" },
 ];
 
+type SortMode = "deal" | "price" | "popular";
+
+const SORT_OPTIONS: { value: SortMode; label: string }[] = [
+  { value: "deal", label: "착한가격순" },
+  { value: "price", label: "낮은가격순" },
+  { value: "popular", label: "인기순" },
+];
+
+function getAnalysisCache() {
+  const cache = new Map<string, ReturnType<typeof analyzePrices>>();
+  for (const p of products) {
+    cache.set(p.slug, analyzePrices(p.currentPrice, p.priceHistory));
+  }
+  return cache;
+}
+
 export function ProductsPage() {
   const [selectedCategory, setSelectedCategory] =
     useState<FilterCategory>("all");
+  const [sortMode, setSortMode] = useState<SortMode>("deal");
+
+  const analysisCache = getAnalysisCache();
 
   const filtered = (
     selectedCategory === "all"
       ? [...products]
       : products.filter((p) => p.category === selectedCategory)
-  ).sort((a, b) => a.currentPrice - b.currentPrice);
+  ).sort((a, b) => {
+    if (sortMode === "price") {
+      return a.currentPrice - b.currentPrice;
+    }
+    if (sortMode === "popular") {
+      return (a.naverRank ?? 99) - (b.naverRank ?? 99);
+    }
+    // "deal": sort by percentFromAvg ascending (most below average first)
+    const aAnalysis = analysisCache.get(a.slug)!;
+    const bAnalysis = analysisCache.get(b.slug)!;
+    return aAnalysis.percentFromAvg - bAnalysis.percentFromAvg;
+  });
 
   const cheapCount = products.filter((p) => {
-    const a = analyzePrices(p.currentPrice, p.priceHistory);
+    const a = analysisCache.get(p.slug)!;
     return a.status === "low";
   }).length;
 
@@ -85,13 +115,30 @@ export function ProductsPage() {
         ))}
       </div>
 
+      {/* Sort */}
+      <div className="mb-4 flex items-center gap-1.5">
+        {SORT_OPTIONS.map((opt) => (
+          <button
+            key={opt.value}
+            onClick={() => setSortMode(opt.value)}
+            className={`rounded-lg px-3 py-1.5 text-xs font-medium transition-colors ${
+              sortMode === opt.value
+                ? "bg-foreground text-background"
+                : "text-muted-foreground hover:text-foreground"
+            }`}
+          >
+            {opt.label}
+          </button>
+        ))}
+        <span className="ml-auto text-xs text-muted-foreground">
+          {filtered.length}개
+        </span>
+      </div>
+
       {/* Product Grid */}
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {filtered.map((product) => {
-          const analysis = analyzePrices(
-            product.currentPrice,
-            product.priceHistory
-          );
+          const analysis = analysisCache.get(product.slug)!;
           const statusColor = getPriceStatusColor(analysis.status);
           const statusLabel = getPriceStatusLabel(analysis.status);
           const isCheap = analysis.percentFromAvg < 0;
