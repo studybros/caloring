@@ -43,7 +43,7 @@ export function createFAQSchema(items: FAQItem[]) {
   };
 }
 
-const SITE_URL = "https://ddukdak.kr";
+const SITE_URL = "https://caloring.kr";
 
 export interface BreadcrumbItem {
   label: string;
@@ -91,12 +91,12 @@ export function createArticleSchema({
     dateModified: dateModified ?? datePublished,
     author: {
       "@type": "Organization",
-      name: "뚝딱",
+      name: "칼로링",
       url: SITE_URL,
     },
     publisher: {
       "@type": "Organization",
-      name: "뚝딱",
+      name: "칼로링",
       url: SITE_URL,
     },
     inLanguage: "ko",

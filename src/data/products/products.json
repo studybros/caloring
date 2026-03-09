@@ -1,0 +1,2692 @@
+[
+  {
+    "slug": "calobye-power-shake-2kg",
+    "name": "칼로바이 밸런스 파워 쉐이크 아이솔레이트 초코맛 2kg",
+    "brand": "칼로바이",
+    "category": "protein",
+    "categoryLabel": "프로틴",
+    "image": "🥛",
+    "description": "WPI 분리유청단백질, 1서빙 27g 단백질",
+    "link": "#",
+    "weight": "2kg",
+    "naverProductId": "54770905586",
+    "naverSearchKeyword": "칼로바이 밸런스 파워 쉐이크 아이솔레이트 2kg",
+    "nutrition": {
+      "servingSize": "40g",
+      "servings": 50,
+      "calories": 150,
+      "protein": 27,
+      "carbs": 5,
+      "sugar": 2,
+      "fat": 2
+    },
+    "currentPrice": 59900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 59900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "milpam-bavarian-food-2kg",
+    "name": "밀팜 바바리안푸드 단백질보충제 2kg",
+    "brand": "밀팜",
+    "category": "protein",
+    "categoryLabel": "프로틴",
+    "image": "🥛",
+    "description": "독일산 초유 단백질, 고소한 맛",
+    "link": "#",
+    "weight": "2kg",
+    "naverProductId": "52961000066",
+    "naverSearchKeyword": "밀팜 바바리안푸드 2kg",
+    "nutrition": {
+      "servingSize": "40g",
+      "servings": 50,
+      "calories": 155,
+      "protein": 24,
+      "carbs": 8,
+      "sugar": 3,
+      "fat": 3
+    },
+    "currentPrice": 65200,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 65200
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "healthio-muscle-helper-whey-1kg",
+    "name": "머슬헬퍼웨이 식물성 프로틴 초코맛 1kg",
+    "brand": "헬시오",
+    "category": "protein",
+    "categoryLabel": "프로틴",
+    "image": "🥛",
+    "description": "식물성 단백질, 유당 걱정 없는 프로틴",
+    "link": "#",
+    "weight": "1kg",
+    "naverProductId": "82271542438",
+    "naverSearchKeyword": "머슬헬퍼웨이 식물성 프로틴 1kg",
+    "nutrition": {
+      "servingSize": "30g",
+      "servings": 33,
+      "calories": 120,
+      "protein": 21,
+      "carbs": 4,
+      "sugar": 1,
+      "fat": 2
+    },
+    "currentPrice": 25900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 25900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "healthio-hitchiway-wpi-1-5kg",
+    "name": "헬시오 히치웨이 WPI 분리유청단백질 초코맛 1.5kg",
+    "brand": "헬시오",
+    "category": "protein",
+    "categoryLabel": "프로틴",
+    "image": "🥛",
+    "description": "WPI 분리유청, 고단백 저탄수 프로틴",
+    "link": "#",
+    "weight": "1.5kg",
+    "naverProductId": "82036647858",
+    "naverSearchKeyword": "헬시오 히치웨이 WPI 1.5kg",
+    "nutrition": {
+      "servingSize": "35g",
+      "servings": 42,
+      "calories": 135,
+      "protein": 26,
+      "carbs": 3,
+      "sugar": 1,
+      "fat": 1.5
+    },
+    "currentPrice": 64900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 64900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "german-prot-9000-wpi-1kg",
+    "name": "저먼프로트9000 WPI 분리유청단백질 1kg",
+    "brand": "프로틴마켓",
+    "category": "protein",
+    "categoryLabel": "프로틴",
+    "image": "🥛",
+    "description": "독일산 WPI, 포대 형태 가성비 프로틴",
+    "link": "#",
+    "weight": "1kg",
+    "naverProductId": "10620003279",
+    "naverSearchKeyword": "저먼프로트9000 WPI 1kg",
+    "nutrition": {
+      "servingSize": "30g",
+      "servings": 33,
+      "calories": 115,
+      "protein": 25,
+      "carbs": 2,
+      "sugar": 0,
+      "fat": 1
+    },
+    "currentPrice": 49900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 49900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "syntha6-protein-choco-2-26kg",
+    "name": "신타6 프로틴 오리지널 초코 2.26kg",
+    "brand": "신타6",
+    "category": "protein",
+    "categoryLabel": "프로틴",
+    "image": "🥛",
+    "description": "코스트코 인기 프로틴, 맛있는 초코맛",
+    "link": "#",
+    "weight": "2.26kg",
+    "naverProductId": "88530005301",
+    "naverSearchKeyword": "신타6 프로틴 초코 2.26kg",
+    "nutrition": {
+      "servingSize": "47g",
+      "servings": 48,
+      "calories": 200,
+      "protein": 22,
+      "carbs": 15,
+      "sugar": 2,
+      "fat": 6
+    },
+    "currentPrice": 80800,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 80800
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "optimum-gold-standard-whey-2-74kg",
+    "name": "옵티멈 골드스탠다드 웨이 단백질 2.74kg",
+    "brand": "옵티멈뉴트리션",
+    "category": "protein",
+    "categoryLabel": "프로틴",
+    "image": "🥛",
+    "description": "세계 1위 프로틴, WPI 주원료",
+    "link": "#",
+    "weight": "2.74kg",
+    "naverProductId": "10268533183",
+    "naverSearchKeyword": "옵티멈 골드스탠다드 웨이 2.74kg",
+    "nutrition": {
+      "servingSize": "31g",
+      "servings": 88,
+      "calories": 120,
+      "protein": 24,
+      "carbs": 3,
+      "sugar": 1,
+      "fat": 1
+    },
+    "currentPrice": 135890,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 135890
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "makebody-whey-protein-2kg",
+    "name": "메이크바디 유청단백질 게라웨이프로틴 2kg",
+    "brand": "메이크바디",
+    "category": "protein",
+    "categoryLabel": "프로틴",
+    "image": "🥛",
+    "description": "가성비 좋은 대용량 프로틴",
+    "link": "#",
+    "weight": "2kg",
+    "naverProductId": "8683485586",
+    "naverSearchKeyword": "메이크바디 유청단백질 게라웨이프로틴 2kg",
+    "nutrition": {
+      "servingSize": "40g",
+      "servings": 50,
+      "calories": 160,
+      "protein": 23,
+      "carbs": 9,
+      "sugar": 3,
+      "fat": 3
+    },
+    "currentPrice": 52000,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 52000
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "benetin-monster-protein-gainer-2kg",
+    "name": "베네틴 몬스터 프로틴 게이너 초코맛 2kg",
+    "brand": "베네틴",
+    "category": "protein",
+    "categoryLabel": "프로틴",
+    "image": "🥛",
+    "description": "벌크업용 고칼로리 프로틴 게이너",
+    "link": "#",
+    "weight": "2kg",
+    "naverProductId": "54983999591",
+    "naverSearchKeyword": "베네틴 몬스터 프로틴 게이너 2kg",
+    "nutrition": {
+      "servingSize": "65g",
+      "servings": 30,
+      "calories": 260,
+      "protein": 20,
+      "carbs": 35,
+      "sugar": 5,
+      "fat": 4
+    },
+    "currentPrice": 39800,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 39800
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "jambaeki-essential-whey-protein",
+    "name": "잠백이 에센셜 락토프리 웨이프로틴 무맛",
+    "brand": "잠백이",
+    "category": "protein",
+    "categoryLabel": "프로틴",
+    "image": "🥛",
+    "description": "락토프리 무맛 프로틴, 유당불내증도 OK",
+    "link": "#",
+    "weight": "1kg",
+    "naverProductId": "89354680583",
+    "naverSearchKeyword": "잠백이 에센셜 락토프리 웨이프로틴",
+    "nutrition": {
+      "servingSize": "30g",
+      "servings": 33,
+      "calories": 115,
+      "protein": 24,
+      "carbs": 2,
+      "sugar": 0,
+      "fat": 1
+    },
+    "currentPrice": 43900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 43900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "heodak-chicken-steak-15pack",
+    "name": "허닭 오븐에 구운 닭가슴살 스테이크 15팩",
+    "brand": "허닭",
+    "category": "chicken",
+    "categoryLabel": "닭가슴살",
+    "image": "🍗",
+    "description": "오븐 구이, 촉촉하고 부드러운 닭가슴살",
+    "link": "#",
+    "weight": "100g x 15팩",
+    "naverProductId": "88762254935",
+    "naverSearchKeyword": "허닭 닭가슴살 스테이크 15팩",
+    "nutrition": {
+      "servingSize": "100g",
+      "servings": 15,
+      "calories": 120,
+      "protein": 23,
+      "carbs": 3,
+      "fat": 2
+    },
+    "currentPrice": 25900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 25900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "dehadak-steak-ball-30pack",
+    "name": "더하닭 한입 닭가슴살 스테이크볼 3종 혼합 30팩",
+    "brand": "더하닭",
+    "category": "chicken",
+    "categoryLabel": "닭가슴살",
+    "image": "🍗",
+    "description": "한입 크기, 오리지널·치즈·새우살사 3종",
+    "link": "#",
+    "weight": "30팩",
+    "naverProductId": "90358444892",
+    "naverSearchKeyword": "더하닭 한입 닭가슴살 스테이크볼 30팩",
+    "nutrition": {
+      "servingSize": "100g",
+      "servings": 30,
+      "calories": 115,
+      "protein": 22,
+      "carbs": 4,
+      "fat": 2
+    },
+    "currentPrice": 35360,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 35360
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "heodak-chicken-steak-50pack",
+    "name": "허닭 오븐에 구운 닭가슴살 스테이크 5종 혼합 50팩",
+    "brand": "허닭",
+    "category": "chicken",
+    "categoryLabel": "닭가슴살",
+    "image": "🍗",
+    "description": "대용량 50팩, 5가지 맛 혼합 구성",
+    "link": "#",
+    "weight": "100g x 50팩",
+    "naverProductId": "55274246301",
+    "naverSearchKeyword": "허닭 오븐 닭가슴살 스테이크 50팩",
+    "nutrition": {
+      "servingSize": "100g",
+      "servings": 50,
+      "calories": 120,
+      "protein": 23,
+      "carbs": 3,
+      "fat": 2
+    },
+    "currentPrice": 64900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 64900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "heodak-best-package-21pack",
+    "name": "허닭 닭가슴살 BEST 패키지 21팩",
+    "brand": "허닭",
+    "category": "chicken",
+    "categoryLabel": "닭가슴살",
+    "image": "🍗",
+    "description": "스테이크·큐브·스팀·소스·소세지 인기 구성",
+    "link": "#",
+    "weight": "21팩",
+    "naverProductId": "82944128403",
+    "naverSearchKeyword": "허닭 닭가슴살 BEST 패키지 21팩",
+    "nutrition": {
+      "servingSize": "100g",
+      "servings": 21,
+      "calories": 118,
+      "protein": 22,
+      "carbs": 4,
+      "fat": 2
+    },
+    "currentPrice": 31900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 31900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "imdak-chicken-sausage-20pack",
+    "name": "아임닭 닭가슴살 소시지 1+1 골라담기 20팩",
+    "brand": "아임닭",
+    "category": "chicken",
+    "categoryLabel": "닭가슴살",
+    "image": "🍗",
+    "description": "간편 닭가슴살 소시지, 도시락 반찬으로 딱",
+    "link": "#",
+    "weight": "20팩",
+    "naverProductId": "9545865510",
+    "naverSearchKeyword": "아임닭 닭가슴살 소시지 골라담기",
+    "nutrition": {
+      "servingSize": "70g",
+      "servings": 20,
+      "calories": 90,
+      "protein": 14,
+      "carbs": 3,
+      "fat": 2.5
+    },
+    "currentPrice": 27500,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 27500
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "yuksigtokki-chicken-sausage-35pack",
+    "name": "육식토끼 소스 닭가슴살 소시지 30+5팩",
+    "brand": "육식토끼",
+    "category": "chicken",
+    "categoryLabel": "닭가슴살",
+    "image": "🍗",
+    "description": "소스 닭가슴살 소시지, 고단백 훈제",
+    "link": "#",
+    "weight": "35팩",
+    "naverProductId": "82834337949",
+    "naverSearchKeyword": "육식토끼 소스 닭가슴살 소시지 30+5팩",
+    "nutrition": {
+      "servingSize": "100g",
+      "servings": 35,
+      "calories": 110,
+      "protein": 20,
+      "carbs": 5,
+      "fat": 2
+    },
+    "currentPrice": 30900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 30900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "heodak-chicken-cube-30pack",
+    "name": "허닭 한입 닭가슴살 큐브 6종 100g 30개",
+    "brand": "허닭",
+    "category": "chicken",
+    "categoryLabel": "닭가슴살",
+    "image": "🍗",
+    "description": "한입 큐브, 간편하게 단백질 보충",
+    "link": "#",
+    "weight": "100g x 30개",
+    "naverProductId": "57953956267",
+    "naverSearchKeyword": "허닭 한입 닭가슴살 큐브 30개",
+    "nutrition": {
+      "servingSize": "100g",
+      "servings": 30,
+      "calories": 115,
+      "protein": 21,
+      "carbs": 5,
+      "fat": 2
+    },
+    "currentPrice": 41830,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 41830
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "hankkitonsal-grilled-10pack",
+    "name": "한끼통살 그릴드 닭가슴살 100g 10종 세트",
+    "brand": "한끼통살",
+    "category": "chicken",
+    "categoryLabel": "닭가슴살",
+    "image": "🍗",
+    "description": "그릴드 10종, 다양한 맛으로 질리지 않게",
+    "link": "#",
+    "weight": "100g x 10팩",
+    "naverProductId": "84145464007",
+    "naverSearchKeyword": "한끼통살 그릴드 닭가슴살 10종",
+    "nutrition": {
+      "servingSize": "100g",
+      "servings": 10,
+      "calories": 125,
+      "protein": 24,
+      "carbs": 3,
+      "fat": 2
+    },
+    "currentPrice": 24300,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 24300
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "meetree-chicken-106-pick",
+    "name": "미트리 닭가슴살 106종 골라담기",
+    "brand": "미트리",
+    "category": "chicken",
+    "categoryLabel": "닭가슴살",
+    "image": "🍗",
+    "description": "훈제·스팀·소스·스테이크·볶음밥 106종",
+    "link": "#",
+    "weight": "1팩~",
+    "naverProductId": "81238778644",
+    "naverSearchKeyword": "미트리 닭가슴살 106종 골라담기",
+    "nutrition": {
+      "servingSize": "100g",
+      "servings": 1,
+      "calories": 110,
+      "protein": 22,
+      "carbs": 3,
+      "fat": 1.5
+    },
+    "currentPrice": 950,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 950
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "cj-healthy-chicken-sausage",
+    "name": "CJ 더건강한 부드러운 닭가슴살 소시지 120g",
+    "brand": "더건강한",
+    "category": "chicken",
+    "categoryLabel": "닭가슴살",
+    "image": "🍗",
+    "description": "CJ제일제당 닭가슴살 소시지, 부드러운 식감",
+    "link": "#",
+    "weight": "120g",
+    "naverProductId": "53074536214",
+    "naverSearchKeyword": "CJ 더건강한 닭가슴살 소시지 120g",
+    "nutrition": {
+      "servingSize": "30g",
+      "servings": 4,
+      "calories": 48,
+      "protein": 7,
+      "carbs": 3,
+      "fat": 1
+    },
+    "currentPrice": 3100,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 3100
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "switchon-diet-program-46",
+    "name": "스위치온 다이어트 프로그램 46포",
+    "brand": "스위치온",
+    "category": "protein",
+    "categoryLabel": "프로틴",
+    "image": "🥛",
+    "description": "식사대용 파우더 프로그램, 46일분",
+    "link": "#",
+    "weight": "30g x 46포",
+    "naverProductId": "53191895938",
+    "naverSearchKeyword": "스위치온 다이어트 프로그램 46포",
+    "nutrition": {
+      "servingSize": "30g",
+      "servings": 46,
+      "calories": 110,
+      "protein": 15,
+      "carbs": 10,
+      "sugar": 2,
+      "fat": 2
+    },
+    "currentPrice": 176900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 176900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "mileat-protein-shake-choco-560g",
+    "name": "밀잇 식단관리 단백질 쉐이크 초콜릿맛 560g",
+    "brand": "밀잇",
+    "category": "protein",
+    "categoryLabel": "프로틴",
+    "image": "🥛",
+    "description": "대용량 파우더형, 맛있는 초코맛",
+    "link": "#",
+    "weight": "560g",
+    "naverProductId": "54508208437",
+    "naverSearchKeyword": "밀잇 식단관리 단백질 쉐이크 초콜릿 560g",
+    "nutrition": {
+      "servingSize": "35g",
+      "servings": 16,
+      "calories": 130,
+      "protein": 14,
+      "carbs": 12,
+      "sugar": 3,
+      "fat": 3
+    },
+    "currentPrice": 26900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 26900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "mileat-protein-shake-grain-500g",
+    "name": "밀잇 단백질 쉐이크 7곡 곡물맛 대용량 500g",
+    "brand": "밀잇",
+    "category": "protein",
+    "categoryLabel": "프로틴",
+    "image": "🥛",
+    "description": "고소한 곡물맛, 대용량 리필 파우더",
+    "link": "#",
+    "weight": "500g",
+    "naverProductId": "86104252526",
+    "naverSearchKeyword": "밀잇 단백질 쉐이크 곡물맛 500g",
+    "nutrition": {
+      "servingSize": "35g",
+      "servings": 14,
+      "calories": 125,
+      "protein": 13,
+      "carbs": 13,
+      "sugar": 2,
+      "fat": 2.5
+    },
+    "currentPrice": 18900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 18900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "flymeal-protein-shake-black-630g",
+    "name": "플라이밀 단백질 쉐이크 대용량 블랙 630g",
+    "brand": "플라이밀",
+    "category": "protein",
+    "categoryLabel": "프로틴",
+    "image": "🥛",
+    "description": "검은콩 프로틴 파우더, 대용량 가성비",
+    "link": "#",
+    "weight": "630g",
+    "naverProductId": "85607786685",
+    "naverSearchKeyword": "플라이밀 단백질 쉐이크 대용량 블랙 630g",
+    "nutrition": {
+      "servingSize": "35g",
+      "servings": 18,
+      "calories": 128,
+      "protein": 15,
+      "carbs": 11,
+      "sugar": 2,
+      "fat": 3
+    },
+    "currentPrice": 27900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 27900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "eatnayo-enzyme-diet-shake-630g",
+    "name": "있나요 효소 다이어트 단백질 쉐이크 630g",
+    "brand": "있나요",
+    "category": "protein",
+    "categoryLabel": "프로틴",
+    "image": "🥛",
+    "description": "효소 함유 다이어트 파우더, 솔티드 초코",
+    "link": "#",
+    "weight": "630g",
+    "naverProductId": "90681249378",
+    "naverSearchKeyword": "있나요 효소 다이어트 단백질 쉐이크 630g",
+    "nutrition": {
+      "servingSize": "35g",
+      "servings": 18,
+      "calories": 122,
+      "protein": 14,
+      "carbs": 12,
+      "sugar": 3,
+      "fat": 2.5
+    },
+    "currentPrice": 25900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 25900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "kkobaggobap-protein-shake-choco-400g",
+    "name": "꼬박꼬밥 고단저당 단백질 쉐이크 초코 400g",
+    "brand": "꼬박꼬밥",
+    "category": "protein",
+    "categoryLabel": "프로틴",
+    "image": "🥛",
+    "description": "심으뜸 꼬박꼬밥, 고단백 저당 파우더",
+    "link": "#",
+    "weight": "400g",
+    "naverProductId": "89493139840",
+    "naverSearchKeyword": "꼬박꼬밥 단백질 쉐이크 초코 400g",
+    "nutrition": {
+      "servingSize": "35g",
+      "servings": 11,
+      "calories": 130,
+      "protein": 16,
+      "carbs": 10,
+      "sugar": 2,
+      "fat": 3
+    },
+    "currentPrice": 23900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 23900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "growit-protein-shake-14pack",
+    "name": "그로우잇 단백질 쉐이크 파우치 저당 혼합 14개입",
+    "brand": "그로우잇",
+    "category": "shake",
+    "categoryLabel": "쉐이크/음료",
+    "image": "🥤",
+    "description": "저당 파우치형, 바로 마시는 식사대용",
+    "link": "#",
+    "weight": "14개입",
+    "naverProductId": "89203692253",
+    "naverSearchKeyword": "그로우잇 단백질 쉐이크 파우치 14개입",
+    "nutrition": {
+      "servingSize": "200ml",
+      "servings": 14,
+      "calories": 180,
+      "protein": 20,
+      "carbs": 15,
+      "sugar": 3,
+      "fat": 4
+    },
+    "currentPrice": 52000,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 52000
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "fitt-protein-shake-pouch-14",
+    "name": "핏트 단백질 쉐이크 식물성 파우치 14ea",
+    "brand": "핏트",
+    "category": "shake",
+    "categoryLabel": "쉐이크/음료",
+    "image": "🥤",
+    "description": "맛있는 식물성 식사대용 RTD 파우치",
+    "link": "#",
+    "weight": "14개입",
+    "naverProductId": "90177673349",
+    "naverSearchKeyword": "핏트 단백질 쉐이크 식물성 파우치 14",
+    "nutrition": {
+      "servingSize": "200ml",
+      "servings": 14,
+      "calories": 170,
+      "protein": 18,
+      "carbs": 16,
+      "sugar": 4,
+      "fat": 4
+    },
+    "currentPrice": 52000,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 52000
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "reenfit-protein-shake-pouch",
+    "name": "리앤핏 홍진경 단백질쉐이크 식사대용 파우치 4종",
+    "brand": "리앤핏",
+    "category": "shake",
+    "categoryLabel": "쉐이크/음료",
+    "image": "🥤",
+    "description": "홍진경 다이어트 쉐이크, 바로 마시는",
+    "link": "#",
+    "weight": "4종",
+    "naverProductId": "89614223911",
+    "naverSearchKeyword": "리앤핏 홍진경 단백질쉐이크 파우치",
+    "nutrition": {
+      "servingSize": "200ml",
+      "servings": 7,
+      "calories": 165,
+      "protein": 17,
+      "carbs": 14,
+      "sugar": 4,
+      "fat": 4
+    },
+    "currentPrice": 50000,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 50000
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "selecs-protein-drink-original-36",
+    "name": "셀렉스 마시는 프로틴 음료 오리지널 125ml 36개",
+    "brand": "셀렉스",
+    "category": "shake",
+    "categoryLabel": "쉐이크/음료",
+    "image": "🥤",
+    "description": "매일유업 프로틴 음료, 간편 파우치",
+    "link": "#",
+    "weight": "125ml x 36개",
+    "naverProductId": "83539864967",
+    "naverSearchKeyword": "셀렉스 마시는 프로틴 음료 오리지널 36개",
+    "nutrition": {
+      "servingSize": "125ml",
+      "servings": 36,
+      "calories": 60,
+      "protein": 10,
+      "carbs": 3,
+      "sugar": 2,
+      "fat": 1
+    },
+    "currentPrice": 34900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 34900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "selecs-protein-drink-lowsugar-36",
+    "name": "셀렉스 마시는 프로틴 음료 저당 125ml 36개",
+    "brand": "셀렉스",
+    "category": "shake",
+    "categoryLabel": "쉐이크/음료",
+    "image": "🥤",
+    "description": "저당 프로틴 음료, 당류 1g 미만",
+    "link": "#",
+    "weight": "125ml x 36개",
+    "naverProductId": "83539865199",
+    "naverSearchKeyword": "셀렉스 마시는 프로틴 음료 저당 36개",
+    "nutrition": {
+      "servingSize": "125ml",
+      "servings": 36,
+      "calories": 55,
+      "protein": 10,
+      "carbs": 2,
+      "sugar": 0,
+      "fat": 1
+    },
+    "currentPrice": 34900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 34900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "hymune-protein-balance-36",
+    "name": "하이뮨 마시는 프로틴 밸런스 125ml 36입",
+    "brand": "하이뮨",
+    "category": "shake",
+    "categoryLabel": "쉐이크/음료",
+    "image": "🥤",
+    "description": "일동후디스 산양유 단백질 파우치",
+    "link": "#",
+    "weight": "125ml x 36입",
+    "naverProductId": "90113947665",
+    "naverSearchKeyword": "하이뮨 마시는 프로틴 밸런스 125ml 36입",
+    "nutrition": {
+      "servingSize": "125ml",
+      "servings": 36,
+      "calories": 65,
+      "protein": 8,
+      "carbs": 5,
+      "sugar": 3,
+      "fat": 1.5
+    },
+    "currentPrice": 34980,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 34980
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "maeil-almond-breeze-protein-24",
+    "name": "매일 아몬드 브리즈 프로틴 190ml 24팩",
+    "brand": "매일유업",
+    "category": "shake",
+    "categoryLabel": "쉐이크/음료",
+    "image": "🥤",
+    "description": "아몬드 밀크 + 단백질, 식물성 음료",
+    "link": "#",
+    "weight": "190ml x 24팩",
+    "naverProductId": "86794236782",
+    "naverSearchKeyword": "매일 아몬드 브리즈 프로틴 190ml 24팩",
+    "nutrition": {
+      "servingSize": "190ml",
+      "servings": 24,
+      "calories": 80,
+      "protein": 6,
+      "carbs": 8,
+      "sugar": 4,
+      "fat": 2.5
+    },
+    "currentPrice": 22000,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 22000
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "selecs-protein-drink-original-24",
+    "name": "셀렉스 마시는 프로틴 음료 오리지널 125ml 24팩",
+    "brand": "셀렉스",
+    "category": "shake",
+    "categoryLabel": "쉐이크/음료",
+    "image": "🥤",
+    "description": "코스트코 인기 프로틴 파우치 2박스",
+    "link": "#",
+    "weight": "125ml x 24팩",
+    "naverProductId": "89073432479",
+    "naverSearchKeyword": "셀렉스 프로틴 파우치 125ml 24팩",
+    "nutrition": {
+      "servingSize": "125ml",
+      "servings": 24,
+      "calories": 60,
+      "protein": 10,
+      "carbs": 3,
+      "sugar": 2,
+      "fat": 1
+    },
+    "currentPrice": 20790,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 20790
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "hymune-protein-balance-12",
+    "name": "하이뮨 마시는 프로틴 밸런스 1박스 12포",
+    "brand": "하이뮨",
+    "category": "shake",
+    "categoryLabel": "쉐이크/음료",
+    "image": "🥤",
+    "description": "간편한 액상 파우치, 입문용 1박스",
+    "link": "#",
+    "weight": "125ml x 12포",
+    "naverProductId": "88096572383",
+    "naverSearchKeyword": "하이뮨 마시는 프로틴 밸런스 1박스",
+    "nutrition": {
+      "servingSize": "125ml",
+      "servings": 12,
+      "calories": 65,
+      "protein": 8,
+      "carbs": 5,
+      "sugar": 3,
+      "fat": 1.5
+    },
+    "currentPrice": 29900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 29900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "ililhau-slimming-shake-7pack",
+    "name": "일일하우 슬리밍 플랜B 식사대용 쉐이크 귀리 7개입",
+    "brand": "일일하우",
+    "category": "shake",
+    "categoryLabel": "쉐이크/음료",
+    "image": "🥤",
+    "description": "식물성 귀리 쉐이크 파우치, 바로 마시는",
+    "link": "#",
+    "weight": "45g x 7개",
+    "naverProductId": "86225774534",
+    "naverSearchKeyword": "일일하우 슬리밍 플랜B 쉐이크 귀리 7개",
+    "nutrition": {
+      "servingSize": "45g",
+      "servings": 7,
+      "calories": 175,
+      "protein": 16,
+      "carbs": 18,
+      "sugar": 4,
+      "fat": 4
+    },
+    "currentPrice": 26900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 26900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "dryou-protein-bar-mini-44",
+    "name": "닥터유 단백질바 미니 594g (44개)",
+    "brand": "닥터유",
+    "category": "protein-bar",
+    "categoryLabel": "프로틴바",
+    "image": "🍫",
+    "description": "오리온 닥터유, 한입 크기 미니 프로틴바",
+    "link": "#",
+    "weight": "594g (44개)",
+    "naverProductId": "84464484374",
+    "naverSearchKeyword": "닥터유 단백질바 미니 594g",
+    "nutrition": {
+      "servingSize": "13.5g",
+      "servings": 44,
+      "calories": 55,
+      "protein": 4,
+      "carbs": 7,
+      "sugar": 3,
+      "fat": 1.5
+    },
+    "currentPrice": 13400,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 13400
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "kirkland-protein-bar-20",
+    "name": "커클랜드 프로틴 바 20개입",
+    "brand": "커클랜드",
+    "category": "protein-bar",
+    "categoryLabel": "프로틴바",
+    "image": "🍫",
+    "description": "코스트코 인기 프로틴바, 1개당 단백질 21g",
+    "link": "#",
+    "weight": "60g x 20개",
+    "naverProductId": "53530832773",
+    "naverSearchKeyword": "커클랜드 프로틴 바 20개입",
+    "nutrition": {
+      "servingSize": "60g",
+      "servings": 20,
+      "calories": 190,
+      "protein": 21,
+      "carbs": 23,
+      "sugar": 1,
+      "fat": 7
+    },
+    "currentPrice": 26930,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 26930
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "soyjoy-variety-16",
+    "name": "소이조이 8종 버라이어티팩 16개입",
+    "brand": "소이조이",
+    "category": "protein-bar",
+    "categoryLabel": "프로틴바",
+    "image": "🍫",
+    "description": "글루텐프리, 고단백 고식이섬유 소이바",
+    "link": "#",
+    "weight": "16개입",
+    "naverProductId": "89131403003",
+    "naverSearchKeyword": "소이조이 버라이어티팩 16개입",
+    "nutrition": {
+      "servingSize": "30g",
+      "servings": 16,
+      "calories": 130,
+      "protein": 5,
+      "carbs": 15,
+      "sugar": 7,
+      "fat": 6
+    },
+    "currentPrice": 25900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 25900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "dryou-protein-bar-50g",
+    "name": "닥터유 단백질바 50g",
+    "brand": "닥터유",
+    "category": "protein-bar",
+    "categoryLabel": "프로틴바",
+    "image": "🍫",
+    "description": "간편하게 즐기는 오리지널 프로틴바",
+    "link": "#",
+    "weight": "50g",
+    "naverProductId": "53142881768",
+    "naverSearchKeyword": "닥터유 단백질바 50g",
+    "nutrition": {
+      "servingSize": "50g",
+      "servings": 1,
+      "calories": 190,
+      "protein": 12,
+      "carbs": 22,
+      "sugar": 8,
+      "fat": 6
+    },
+    "currentPrice": 870,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 870
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "harudanbaekba-jet-protein-bar-12",
+    "name": "하루단백바 제트 단백질바 12개입",
+    "brand": "프로틴방앗간",
+    "category": "protein-bar",
+    "categoryLabel": "프로틴바",
+    "image": "🍫",
+    "description": "저당 단백질바, 초코케이크맛 외 2종",
+    "link": "#",
+    "weight": "12개입",
+    "naverProductId": "84240328518",
+    "naverSearchKeyword": "하루단백바 제트 단백질바 12개입",
+    "nutrition": {
+      "servingSize": "45g",
+      "servings": 12,
+      "calories": 170,
+      "protein": 20,
+      "carbs": 14,
+      "sugar": 2,
+      "fat": 5
+    },
+    "currentPrice": 21600,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 21600
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "soyjoy-blueberry-12",
+    "name": "소이조이 블루베리 12개입",
+    "brand": "소이조이",
+    "category": "protein-bar",
+    "categoryLabel": "프로틴바",
+    "image": "🍫",
+    "description": "글루텐프리 블루베리맛 소이바",
+    "link": "#",
+    "weight": "12개입",
+    "naverProductId": "88012137113",
+    "naverSearchKeyword": "소이조이 블루베리 12개입",
+    "nutrition": {
+      "servingSize": "30g",
+      "servings": 12,
+      "calories": 130,
+      "protein": 5,
+      "carbs": 15,
+      "sugar": 7,
+      "fat": 6
+    },
+    "currentPrice": 17900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 17900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "post-protein-bar-50g-30pack",
+    "name": "포스트 단백질바 50g 30개입",
+    "brand": "포스트",
+    "category": "protein-bar",
+    "categoryLabel": "프로틴바",
+    "image": "🍫",
+    "description": "대용량 30개, 사무실 간식으로 딱",
+    "link": "#",
+    "weight": "50g x 30개",
+    "naverProductId": "53143503130",
+    "naverSearchKeyword": "포스트 단백질바 50g 30개입",
+    "nutrition": {
+      "servingSize": "50g",
+      "servings": 30,
+      "calories": 185,
+      "protein": 10,
+      "carbs": 24,
+      "sugar": 9,
+      "fat": 6
+    },
+    "currentPrice": 27170,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 27170
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "benoph-protein-bar-variety-20",
+    "name": "베노프 프로틴바 소프트바 10가지맛 1+1 20개",
+    "brand": "베노프",
+    "category": "protein-bar",
+    "categoryLabel": "프로틴바",
+    "image": "🍫",
+    "description": "소프트 타입, 고단백 저당 10가지맛",
+    "link": "#",
+    "weight": "20개입",
+    "naverProductId": "86710231575",
+    "naverSearchKeyword": "베노프 프로틴바 소프트바 10가지맛 1+1",
+    "nutrition": {
+      "servingSize": "50g",
+      "servings": 20,
+      "calories": 175,
+      "protein": 20,
+      "carbs": 15,
+      "sugar": 3,
+      "fat": 5
+    },
+    "currentPrice": 37900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 37900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "dryou-pro-crunch-mini-27p-2pack",
+    "name": "닥터유 프로 단백질바 크런치 미니 27P x 2개",
+    "brand": "닥터유",
+    "category": "protein-bar",
+    "categoryLabel": "프로틴바",
+    "image": "🍫",
+    "description": "바삭한 크런치 미니 프로틴바 54개",
+    "link": "#",
+    "weight": "27P x 2개",
+    "naverProductId": "54376888641",
+    "naverSearchKeyword": "닥터유 프로 단백질바 크런치 미니 27P",
+    "nutrition": {
+      "servingSize": "12g",
+      "servings": 54,
+      "calories": 50,
+      "protein": 4,
+      "carbs": 6,
+      "sugar": 3,
+      "fat": 1.5
+    },
+    "currentPrice": 15130,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 15130
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "soyjoy-baked-cheese-12",
+    "name": "소이조이 후르츠베이크드치즈 12개입",
+    "brand": "소이조이",
+    "category": "protein-bar",
+    "categoryLabel": "프로틴바",
+    "image": "🍫",
+    "description": "치즈케이크맛 글루텐프리 소이바",
+    "link": "#",
+    "weight": "12개입",
+    "naverProductId": "88854016097",
+    "naverSearchKeyword": "소이조이 후르츠베이크드치즈 12개입",
+    "nutrition": {
+      "servingSize": "30g",
+      "servings": 12,
+      "calories": 130,
+      "protein": 5,
+      "carbs": 15,
+      "sugar": 7,
+      "fat": 6
+    },
+    "currentPrice": 17900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 17900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "pepsi-zero-sugar-lime-48",
+    "name": "펩시 제로슈거 라임 355ml 48개",
+    "brand": "펩시",
+    "category": "zero-drink",
+    "categoryLabel": "제로음료",
+    "image": "🥫",
+    "description": "0kcal 라임향 제로 콜라, 대용량 48캔",
+    "link": "#",
+    "weight": "355ml x 48캔",
+    "naverProductId": "53875068017",
+    "naverSearchKeyword": "펩시 제로슈거 355ml 48개",
+    "currentPrice": 28280,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 28280
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "chilsung-cider-zero-12",
+    "name": "칠성사이다 제로 1.5L 12개",
+    "brand": "칠성사이다",
+    "category": "zero-drink",
+    "categoryLabel": "제로음료",
+    "image": "🥫",
+    "description": "0kcal 제로 사이다, 대용량 1.5L",
+    "link": "#",
+    "weight": "1.5L x 12개",
+    "naverProductId": "53733320380",
+    "naverSearchKeyword": "칠성사이다 제로 1.5L 12개",
+    "currentPrice": 21940,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 21940
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "sprite-zero-250ml-30",
+    "name": "스프라이트 제로 250ml 30개",
+    "brand": "스프라이트",
+    "category": "zero-drink",
+    "categoryLabel": "제로음료",
+    "image": "🥫",
+    "description": "0kcal 레몬라임 탄산음료",
+    "link": "#",
+    "weight": "250ml x 30개",
+    "naverProductId": "58522488255",
+    "naverSearchKeyword": "스프라이트 제로 250ml 30개",
+    "currentPrice": 12740,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 12740
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "coca-cola-zero-190ml-30",
+    "name": "코카콜라 제로 190ml 30개",
+    "brand": "코카콜라",
+    "category": "zero-drink",
+    "categoryLabel": "제로음료",
+    "image": "🥫",
+    "description": "0kcal 제로 콜라, 미니캔 30개",
+    "link": "#",
+    "weight": "190ml x 30개",
+    "naverProductId": "53880178191",
+    "naverSearchKeyword": "코카콜라 제로 190ml 30개",
+    "currentPrice": 10950,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 10950
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "narangd-cider-zero-345ml-24",
+    "name": "나랑드사이다 제로 345ml 24개",
+    "brand": "나랑드사이다",
+    "category": "zero-drink",
+    "categoryLabel": "제로음료",
+    "image": "🥫",
+    "description": "동아오츠카 제로 사이다, 깔끔한 맛",
+    "link": "#",
+    "weight": "345ml x 24개",
+    "naverProductId": "53901124701",
+    "naverSearchKeyword": "나랑드사이다 제로 345ml 24개",
+    "currentPrice": 11090,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 11090
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "pepsi-zero-lime-500ml-20",
+    "name": "펩시 제로슈거 라임향 500ml 20개",
+    "brand": "펩시",
+    "category": "zero-drink",
+    "categoryLabel": "제로음료",
+    "image": "🥫",
+    "description": "0kcal 라임향 제로 콜라, 500ml 페트",
+    "link": "#",
+    "weight": "500ml x 20개",
+    "naverProductId": "53873138672",
+    "naverSearchKeyword": "펩시 제로슈거 라임향 500ml 20개",
+    "currentPrice": 10700,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 10700
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "powerade-zero-355ml-20",
+    "name": "파워에이드 제로 무라벨 355ml 20개",
+    "brand": "파워에이드",
+    "category": "zero-drink",
+    "categoryLabel": "제로음료",
+    "image": "🥫",
+    "description": "0kcal 제로 이온음료, 운동 후 수분 보충",
+    "link": "#",
+    "weight": "355ml x 20개",
+    "naverProductId": "58078559996",
+    "naverSearchKeyword": "파워에이드 제로 무라벨 355ml 20개",
+    "currentPrice": 12100,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 12100
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "ionthefit-zero-500ml-24",
+    "name": "이온더핏 제로 500ml 24개",
+    "brand": "이온더핏",
+    "category": "zero-drink",
+    "categoryLabel": "제로음료",
+    "image": "🥫",
+    "description": "웅진 제로 이온음료, 가성비 대용량",
+    "link": "#",
+    "weight": "500ml x 24개",
+    "naverProductId": "53646883282",
+    "naverSearchKeyword": "이온더핏 제로 500ml 24개",
+    "currentPrice": 16260,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 16260
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "gatorade-zero-1-5l-12",
+    "name": "게토레이 제로 1.5L 12개",
+    "brand": "게토레이",
+    "category": "zero-drink",
+    "categoryLabel": "제로음료",
+    "image": "🥫",
+    "description": "0kcal 이온음료, 대용량 1.5L",
+    "link": "#",
+    "weight": "1.5L x 12개",
+    "naverProductId": "53647396538",
+    "naverSearchKeyword": "게토레이 제로 1.5L 12개",
+    "currentPrice": 16000,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 16000
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "clubb-acv-soda-zero-500ml-24",
+    "name": "클룹 애사비소다 제로 7종 500ml 24개",
+    "brand": "클룹",
+    "category": "zero-drink",
+    "categoryLabel": "제로음료",
+    "image": "🥫",
+    "description": "애플사이다비니거 제로 탄산, 7종 맛",
+    "link": "#",
+    "weight": "500ml x 24개",
+    "naverProductId": "87803707904",
+    "naverSearchKeyword": "클룹 애사비소다 제로 500ml 24개",
+    "currentPrice": 28900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 28900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "bbaebbae-konjac-noodle-20",
+    "name": "빼빼곤약 발효곤약메밀면 200g 20팩",
+    "brand": "빼빼곤약",
+    "category": "konjac",
+    "categoryLabel": "곤약/두부면",
+    "image": "🍜",
+    "description": "저칼로리 저탄수 곤약면, 메밀향",
+    "link": "#",
+    "weight": "200g x 20팩",
+    "naverProductId": "0",
+    "naverSearchKeyword": "빼빼곤약 발효곤약메밀면 20팩",
+    "nutrition": {
+      "servingSize": "200g",
+      "servings": 20,
+      "calories": 12,
+      "protein": 0,
+      "carbs": 3,
+      "sugar": 0,
+      "fat": 0
+    },
+    "currentPrice": 31800,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 31800
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "dashin-konjac-kimbap-7",
+    "name": "다신샵 곤약꼬마김밥 저칼로리 혼합 7팩",
+    "brand": "다신샵",
+    "category": "konjac",
+    "categoryLabel": "곤약/두부면",
+    "image": "🍜",
+    "description": "곤약밥으로 만든 꼬마김밥, 간편 간식",
+    "link": "#",
+    "weight": "7팩",
+    "naverProductId": "0",
+    "naverSearchKeyword": "다신샵 곤약꼬마김밥 저칼로리 7팩",
+    "nutrition": {
+      "servingSize": "100g",
+      "servings": 7,
+      "calories": 85,
+      "protein": 2,
+      "carbs": 18,
+      "sugar": 2,
+      "fat": 1
+    },
+    "currentPrice": 20900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 20900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "daeshin-konjac-noodle-800g",
+    "name": "대신물산 면곤약 800g",
+    "brand": "대신",
+    "category": "konjac",
+    "categoryLabel": "곤약/두부면",
+    "image": "🍜",
+    "description": "가성비 곤약면, 다양한 요리에 활용",
+    "link": "#",
+    "weight": "800g",
+    "naverProductId": "56987589640",
+    "naverSearchKeyword": "대신물산 면곤약 800g",
+    "nutrition": {
+      "servingSize": "200g",
+      "servings": 4,
+      "calories": 10,
+      "protein": 0,
+      "carbs": 3,
+      "sugar": 0,
+      "fat": 0
+    },
+    "currentPrice": 890,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 890
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "nonghyup-konjac-jelly-7pack",
+    "name": "농협 곤약젤리 4종 150g x 7팩",
+    "brand": "농협식품",
+    "category": "konjac",
+    "categoryLabel": "곤약/두부면",
+    "image": "🍜",
+    "description": "감귤·포도·사과·복숭아 4종 곤약젤리",
+    "link": "#",
+    "weight": "150g x 7팩",
+    "naverProductId": "48919401153",
+    "naverSearchKeyword": "농협 곤약젤리 150g 7팩",
+    "nutrition": {
+      "servingSize": "150g",
+      "servings": 7,
+      "calories": 15,
+      "protein": 0,
+      "carbs": 4,
+      "sugar": 0,
+      "fat": 0
+    },
+    "currentPrice": 7980,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 7980
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "lotte-zero-fruits-jelly-3pack",
+    "name": "롯데 제로 후르츠 젤리 238g 3개",
+    "brand": "롯데웰푸드",
+    "category": "konjac",
+    "categoryLabel": "곤약/두부면",
+    "image": "🍜",
+    "description": "제로 슈거 과일맛 젤리, 죄책감 없는 간식",
+    "link": "#",
+    "weight": "238g x 3개",
+    "naverProductId": "58164186214",
+    "naverSearchKeyword": "롯데 제로 후르츠 젤리 238g 3개",
+    "nutrition": {
+      "servingSize": "34g",
+      "servings": 21,
+      "calories": 10,
+      "protein": 0,
+      "carbs": 10,
+      "sugar": 0,
+      "fat": 0
+    },
+    "currentPrice": 13090,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 13090
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "binggrae-konjac-jelly-grape",
+    "name": "빙그레 곤약젤리 청포도 130g",
+    "brand": "빙그레",
+    "category": "konjac",
+    "categoryLabel": "곤약/두부면",
+    "image": "🍜",
+    "description": "청포도맛 곤약젤리, 상큼한 간식",
+    "link": "#",
+    "weight": "130g",
+    "naverProductId": "48242260467",
+    "naverSearchKeyword": "빙그레 곤약젤리 청포도 130g",
+    "nutrition": {
+      "servingSize": "130g",
+      "servings": 1,
+      "calories": 8,
+      "protein": 0,
+      "carbs": 2,
+      "sugar": 0,
+      "fat": 0
+    },
+    "currentPrice": 6600,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 6600
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "iamground-tofu-noodle-3pack",
+    "name": "아이엠그라운드 대두 99% 두부면 250g 3개",
+    "brand": "아이엠그라운드",
+    "category": "konjac",
+    "categoryLabel": "곤약/두부면",
+    "image": "🍜",
+    "description": "대두 99% 저칼로리 두부면, 고단백",
+    "link": "#",
+    "weight": "250g x 3개",
+    "naverProductId": "58918894419",
+    "naverSearchKeyword": "아이엠그라운드 대두 두부면 250g 3개",
+    "nutrition": {
+      "servingSize": "250g",
+      "servings": 3,
+      "calories": 90,
+      "protein": 12,
+      "carbs": 3,
+      "sugar": 0,
+      "fat": 3
+    },
+    "currentPrice": 9800,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 9800
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "mynormal-tofu-noodle-10pack",
+    "name": "마이노멀 100% 국산콩 두부면 180g 10개",
+    "brand": "마이노멀",
+    "category": "konjac",
+    "categoryLabel": "곤약/두부면",
+    "image": "🍜",
+    "description": "국산콩 100%, 글루텐프리 두부면",
+    "link": "#",
+    "weight": "180g x 10개",
+    "naverProductId": "58972251982",
+    "naverSearchKeyword": "마이노멀 국산콩 두부면 180g 10개",
+    "nutrition": {
+      "servingSize": "180g",
+      "servings": 10,
+      "calories": 85,
+      "protein": 11,
+      "carbs": 3,
+      "sugar": 0,
+      "fat": 3
+    },
+    "currentPrice": 28400,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 28400
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "larasfarm-tofu-konjac-noodle-10pack",
+    "name": "라라스팜 두부곤약면 저탄수 넙적면 10팩",
+    "brand": "라라스팜",
+    "category": "konjac",
+    "categoryLabel": "곤약/두부면",
+    "image": "🍜",
+    "description": "두부+곤약 넙적면, 저탄수 저칼로리",
+    "link": "#",
+    "weight": "10팩",
+    "naverProductId": "58043747040",
+    "naverSearchKeyword": "라라스팜 두부곤약면 넙적 10팩",
+    "nutrition": {
+      "servingSize": "200g",
+      "servings": 10,
+      "calories": 25,
+      "protein": 2,
+      "carbs": 5,
+      "sugar": 0,
+      "fat": 0
+    },
+    "currentPrice": 17000,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 17000
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "nongga-potofu-250g",
+    "name": "농가식품 포두부 건두부면 250g",
+    "brand": "농가식품",
+    "category": "konjac",
+    "categoryLabel": "곤약/두부면",
+    "image": "🍜",
+    "description": "국내산 건두부면, 마라탕·볶음 등 다양하게",
+    "link": "#",
+    "weight": "250g",
+    "naverProductId": "90011048897",
+    "naverSearchKeyword": "농가식품 포두부 건두부면 250g",
+    "nutrition": {
+      "servingSize": "50g",
+      "servings": 5,
+      "calories": 180,
+      "protein": 18,
+      "carbs": 5,
+      "sugar": 0,
+      "fat": 10
+    },
+    "currentPrice": 2900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 2900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "yamcook-diet-lunchbox-6",
+    "name": "얌쿡 다이어트 냉동 도시락 미용식 6종 6팩",
+    "brand": "얌쿡",
+    "category": "lunchbox",
+    "categoryLabel": "다이어트 도시락",
+    "image": "🍱",
+    "description": "양많은 단백질 냉동 도시락, 직장인 점심",
+    "link": "#",
+    "weight": "6팩",
+    "naverProductId": "87802218892",
+    "naverSearchKeyword": "얌쿡 다이어트 냉동 도시락 미용식 6팩",
+    "nutrition": {
+      "servingSize": "250g",
+      "servings": 6,
+      "calories": 350,
+      "protein": 25,
+      "carbs": 40,
+      "sugar": 5,
+      "fat": 8
+    },
+    "currentPrice": 27900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 27900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "sixmeal-diet-lunchbox",
+    "name": "식스밀 다이어트 식단 냉동 도시락",
+    "brand": "식스밀",
+    "category": "lunchbox",
+    "categoryLabel": "다이어트 도시락",
+    "image": "🍱",
+    "description": "닭가슴살 스테이크 외 22종 선택 가능",
+    "link": "#",
+    "weight": "1팩~",
+    "naverProductId": "84394360413",
+    "naverSearchKeyword": "식스밀 다이어트 식단 냉동 도시락",
+    "nutrition": {
+      "servingSize": "300g",
+      "servings": 1,
+      "calories": 380,
+      "protein": 28,
+      "carbs": 42,
+      "sugar": 4,
+      "fat": 9
+    },
+    "currentPrice": 8900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 8900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "signaturebel-lunchbox-12",
+    "name": "시그니처벨 건강한 도시락 12팩 세트",
+    "brand": "시그니처벨",
+    "category": "lunchbox",
+    "categoryLabel": "다이어트 도시락",
+    "image": "🍱",
+    "description": "맛있는 건강한 냉동 도시락 세트",
+    "link": "#",
+    "weight": "12팩",
+    "naverProductId": "85259654930",
+    "naverSearchKeyword": "시그니처벨 건강한 도시락 12팩",
+    "nutrition": {
+      "servingSize": "280g",
+      "servings": 12,
+      "calories": 370,
+      "protein": 26,
+      "carbs": 38,
+      "sugar": 5,
+      "fat": 10
+    },
+    "currentPrice": 57500,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 57500
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "yamcook-meat-lunchbox-5",
+    "name": "얌쿡 고기고기 도시락 5종",
+    "brand": "얌쿡",
+    "category": "lunchbox",
+    "categoryLabel": "다이어트 도시락",
+    "image": "🍱",
+    "description": "고기 많은 단백질 도시락, 양많은 구성",
+    "link": "#",
+    "weight": "5팩",
+    "naverProductId": "83030614198",
+    "naverSearchKeyword": "얌쿡 고기고기 도시락 5종",
+    "nutrition": {
+      "servingSize": "300g",
+      "servings": 5,
+      "calories": 420,
+      "protein": 30,
+      "carbs": 38,
+      "sugar": 4,
+      "fat": 14
+    },
+    "currentPrice": 34500,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 34500
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "goodspoon-diet-lunchbox-12",
+    "name": "굿스푼 다이어트 식단 고기많은 12종 12팩",
+    "brand": "미스터네이처",
+    "category": "lunchbox",
+    "categoryLabel": "다이어트 도시락",
+    "image": "🍱",
+    "description": "현미밥+닭가슴살, 정기배송 가능",
+    "link": "#",
+    "weight": "12팩",
+    "naverProductId": "10647407953",
+    "naverSearchKeyword": "굿스푼 다이어트 식단 12종 12팩",
+    "nutrition": {
+      "servingSize": "280g",
+      "servings": 12,
+      "calories": 360,
+      "protein": 27,
+      "carbs": 40,
+      "sugar": 5,
+      "fat": 8
+    },
+    "currentPrice": 55900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 55900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "helloits-mini-rice-bowl-6",
+    "name": "헬로잇츠 미미덮밥 6종 도시락",
+    "brand": "헬로잇츠",
+    "category": "lunchbox",
+    "categoryLabel": "다이어트 도시락",
+    "image": "🍱",
+    "description": "양많은 미니 덮밥, 6종 구성",
+    "link": "#",
+    "weight": "6팩",
+    "naverProductId": "82551508982",
+    "naverSearchKeyword": "헬로잇츠 도시락 미미덮밥 6종",
+    "nutrition": {
+      "servingSize": "250g",
+      "servings": 6,
+      "calories": 330,
+      "protein": 22,
+      "carbs": 38,
+      "sugar": 4,
+      "fat": 8
+    },
+    "currentPrice": 20900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 20900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "insaengdak-lunchbox-9types",
+    "name": "인생닭 단백질 냉동 도시락 그릴맛 외 9종",
+    "brand": "인생닭",
+    "category": "lunchbox",
+    "categoryLabel": "다이어트 도시락",
+    "image": "🍱",
+    "description": "닭가슴살·닭다리살 도시락, 9종 선택",
+    "link": "#",
+    "weight": "1팩~",
+    "naverProductId": "89950206581",
+    "naverSearchKeyword": "인생닭 단백질 냉동 도시락 9종",
+    "nutrition": {
+      "servingSize": "280g",
+      "servings": 1,
+      "calories": 340,
+      "protein": 26,
+      "carbs": 36,
+      "sugar": 4,
+      "fat": 9
+    },
+    "currentPrice": 2900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 2900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "blackconsumer-diet-lunchbox",
+    "name": "블랙컨슈머 다이어트 도시락 49종 선택",
+    "brand": "블랙컨슈머",
+    "category": "lunchbox",
+    "categoryLabel": "다이어트 도시락",
+    "image": "🍱",
+    "description": "햄야채볶음밥·치즈불닭 외 49종",
+    "link": "#",
+    "weight": "1팩~",
+    "naverProductId": "90377242396",
+    "naverSearchKeyword": "블랙컨슈머 다이어트 도시락",
+    "nutrition": {
+      "servingSize": "300g",
+      "servings": 1,
+      "calories": 380,
+      "protein": 24,
+      "carbs": 42,
+      "sugar": 5,
+      "fat": 10
+    },
+    "currentPrice": 3700,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 3700
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "goonuh-diet-lunchbox-6",
+    "name": "고온어 다이어트 건강 식단 도시락 6팩",
+    "brand": "고온어다이어트",
+    "category": "lunchbox",
+    "categoryLabel": "다이어트 도시락",
+    "image": "🍱",
+    "description": "함박스테이크·새우필라프 등 6종",
+    "link": "#",
+    "weight": "6팩",
+    "naverProductId": "83780746323",
+    "naverSearchKeyword": "고온어 다이어트 도시락 6팩",
+    "nutrition": {
+      "servingSize": "270g",
+      "servings": 6,
+      "calories": 350,
+      "protein": 25,
+      "carbs": 38,
+      "sugar": 4,
+      "fat": 9
+    },
+    "currentPrice": 24200,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 24200
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "thebarun-diet-lunchbox-20",
+    "name": "더바른도시락 냉동 식단관리 도시락 20팩",
+    "brand": "더바른도시락",
+    "category": "lunchbox",
+    "categoryLabel": "다이어트 도시락",
+    "image": "🍱",
+    "description": "20팩 대용량, 직장인 한달 도시락",
+    "link": "#",
+    "weight": "20팩",
+    "naverProductId": "12931774867",
+    "naverSearchKeyword": "더바른도시락 냉동 식단관리 20팩",
+    "nutrition": {
+      "servingSize": "280g",
+      "servings": 20,
+      "calories": 360,
+      "protein": 26,
+      "carbs": 40,
+      "sugar": 4,
+      "fat": 9
+    },
+    "currentPrice": 59900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 59900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "yojeom-greek-yogurt-6",
+    "name": "요즘 저당 그릭요거트 100g 6개",
+    "brand": "요즘",
+    "category": "yogurt",
+    "categoryLabel": "그릭요거트",
+    "image": "🥣",
+    "description": "저당 수제 그릭요거트, 플레인+소프트",
+    "link": "#",
+    "weight": "100g x 6개",
+    "naverProductId": "90379571299",
+    "naverSearchKeyword": "요즘 저당 그릭요거트 6개",
+    "nutrition": {
+      "servingSize": "100g",
+      "servings": 6,
+      "calories": 68,
+      "protein": 11,
+      "carbs": 4,
+      "sugar": 3,
+      "fat": 0.5
+    },
+    "currentPrice": 18400,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 18400
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "yojeom-greek-yogurt-10-honey",
+    "name": "요즘 저당 그릭요거트 소프트 10개 + 꿀스틱",
+    "brand": "요즘",
+    "category": "yogurt",
+    "categoryLabel": "그릭요거트",
+    "image": "🥣",
+    "description": "소프트 타입 10개에 꿀스틱 10포 포함",
+    "link": "#",
+    "weight": "100g x 10개 + 꿀스틱 10포",
+    "naverProductId": "87845954868",
+    "naverSearchKeyword": "요즘 저당 그릭요거트 소프트 10개 꿀스틱",
+    "nutrition": {
+      "servingSize": "100g",
+      "servings": 10,
+      "calories": 68,
+      "protein": 11,
+      "carbs": 4,
+      "sugar": 3,
+      "fat": 0.5
+    },
+    "currentPrice": 34900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 34900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "greeksine-greek-yogurt-8",
+    "name": "그릭씨네 수제 꾸덕한 그릭요거트 150g 8개",
+    "brand": "그릭씨네",
+    "category": "yogurt",
+    "categoryLabel": "그릭요거트",
+    "image": "🥣",
+    "description": "산미없는 저당 수제 고단백 꾸덕한 요거트",
+    "link": "#",
+    "weight": "150g x 8개",
+    "naverProductId": "89579544735",
+    "naverSearchKeyword": "그릭씨네 그릭요거트 150g 8개",
+    "nutrition": {
+      "servingSize": "150g",
+      "servings": 8,
+      "calories": 95,
+      "protein": 15,
+      "carbs": 5,
+      "sugar": 4,
+      "fat": 1
+    },
+    "currentPrice": 37800,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 37800
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "yogurtgriyo-1kg",
+    "name": "요거트그릭요 수제 무가당 그릭요거트 1kg",
+    "brand": "요거트그릭요",
+    "category": "yogurt",
+    "categoryLabel": "그릭요거트",
+    "image": "🥣",
+    "description": "70% 촉촉꾸덕, 대용량 1kg 밀폐용기",
+    "link": "#",
+    "weight": "1kg",
+    "naverProductId": "87092482001",
+    "naverSearchKeyword": "요거트그릭요 수제 무가당 그릭요거트 1kg",
+    "nutrition": {
+      "servingSize": "100g",
+      "servings": 10,
+      "calories": 70,
+      "protein": 10,
+      "carbs": 4,
+      "sugar": 3,
+      "fat": 1.5
+    },
+    "currentPrice": 16900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 16900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "maeil-bio-greek-plain-400g",
+    "name": "매일 바이오 그릭 요거트 무가당 플레인 400g",
+    "brand": "매일유업",
+    "category": "yogurt",
+    "categoryLabel": "그릭요거트",
+    "image": "🥣",
+    "description": "매일유업 무가당 그릭요거트, 마트 인기",
+    "link": "#",
+    "weight": "400g",
+    "naverProductId": "89817595111",
+    "naverSearchKeyword": "매일 바이오 그릭 요거트 무가당 400g",
+    "nutrition": {
+      "servingSize": "100g",
+      "servings": 4,
+      "calories": 60,
+      "protein": 9,
+      "carbs": 4,
+      "sugar": 3,
+      "fat": 0
+    },
+    "currentPrice": 3780,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 3780
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "kirkland-greek-yogurt-907g-2",
+    "name": "커클랜드 그릭요거트 907g x 2개",
+    "brand": "코스트코",
+    "category": "yogurt",
+    "categoryLabel": "그릭요거트",
+    "image": "🥣",
+    "description": "코스트코 무지방 그릭요거트, 대용량",
+    "link": "#",
+    "weight": "907g x 2개",
+    "naverProductId": "89694583719",
+    "naverSearchKeyword": "커클랜드 그릭요거트 907g 2개",
+    "nutrition": {
+      "servingSize": "100g",
+      "servings": 18,
+      "calories": 55,
+      "protein": 10,
+      "carbs": 3,
+      "sugar": 2,
+      "fat": 0
+    },
+    "currentPrice": 16900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 16900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "denmark-lactofree-greek-400g-2",
+    "name": "덴마크 락토프리 하이 그릭 요거트 400g x 2개",
+    "brand": "덴마크우유",
+    "category": "yogurt",
+    "categoryLabel": "그릭요거트",
+    "image": "🥣",
+    "description": "락토프리 고단백 그릭요거트",
+    "link": "#",
+    "weight": "400g x 2개",
+    "naverProductId": "88911981170",
+    "naverSearchKeyword": "덴마크 락토프리 하이 그릭 요거트 400g 2개",
+    "nutrition": {
+      "servingSize": "100g",
+      "servings": 8,
+      "calories": 62,
+      "protein": 10,
+      "carbs": 4,
+      "sugar": 3,
+      "fat": 0
+    },
+    "currentPrice": 5320,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 5320
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "yogurtvillage-greek-1kg",
+    "name": "요거트빌리지 거품 뺀 수제 그릭요거트 1kg",
+    "brand": "요거트빌리지",
+    "category": "yogurt",
+    "categoryLabel": "그릭요거트",
+    "image": "🥣",
+    "description": "거품 싹 뺀 진짜 꾸덕 그릭요거트",
+    "link": "#",
+    "weight": "1kg",
+    "naverProductId": "85057983380",
+    "naverSearchKeyword": "요거트빌리지 수제 그릭요거트 1kg",
+    "nutrition": {
+      "servingSize": "100g",
+      "servings": 10,
+      "calories": 72,
+      "protein": 11,
+      "carbs": 4,
+      "sugar": 3,
+      "fat": 1
+    },
+    "currentPrice": 20500,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 20500
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "ondri-greek-yogurt-1kg",
+    "name": "온드리목장 무가당 꾸덕한 그릭요거트 1kg",
+    "brand": "온드리목장",
+    "category": "yogurt",
+    "categoryLabel": "그릭요거트",
+    "image": "🥣",
+    "description": "산미없이 고소한 무가당 대용량",
+    "link": "#",
+    "weight": "1kg",
+    "naverProductId": "85177324899",
+    "naverSearchKeyword": "온드리목장 무가당 그릭요거트 1kg",
+    "nutrition": {
+      "servingSize": "100g",
+      "servings": 10,
+      "calories": 75,
+      "protein": 11,
+      "carbs": 4,
+      "sugar": 3,
+      "fat": 1.5
+    },
+    "currentPrice": 17800,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 17800
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "yople-greek-mild-900g-3",
+    "name": "요플레 그릭 마일드 무가당 900g 3개",
+    "brand": "요플레",
+    "category": "yogurt",
+    "categoryLabel": "그릭요거트",
+    "image": "🥣",
+    "description": "빙그레 요플레 그릭, 대용량 3개 세트",
+    "link": "#",
+    "weight": "900g x 3개",
+    "naverProductId": "89906692653",
+    "naverSearchKeyword": "요플레 그릭 마일드 무가당 900g 3개",
+    "nutrition": {
+      "servingSize": "100g",
+      "servings": 27,
+      "calories": 55,
+      "protein": 8,
+      "carbs": 4,
+      "sugar": 3,
+      "fat": 0.5
+    },
+    "currentPrice": 14790,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 14790
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "teazen-kombucha-lemon-60",
+    "name": "티젠 콤부차 레몬 5g 60개입",
+    "brand": "티젠",
+    "category": "kombucha",
+    "categoryLabel": "콤부차",
+    "image": "🍵",
+    "description": "국민 콤부차, 상큼한 레몬맛 60스틱",
+    "link": "#",
+    "weight": "5g x 60개입",
+    "naverProductId": "53370141810",
+    "naverSearchKeyword": "티젠 콤부차 레몬 60개입",
+    "currentPrice": 16550,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 16550
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "teazen-kombucha-berry-10",
+    "name": "티젠 콤부차 베리 5g 10개입",
+    "brand": "티젠",
+    "category": "kombucha",
+    "categoryLabel": "콤부차",
+    "image": "🍵",
+    "description": "달콤한 베리맛 콤부차, 입문용 소포장",
+    "link": "#",
+    "weight": "5g x 10개입",
+    "naverProductId": "53350076413",
+    "naverSearchKeyword": "티젠 콤부차 베리 10개입",
+    "currentPrice": 2900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 2900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "danongwon-kombucha-lemon-20",
+    "name": "다농원 데일리 콤부차 레몬 5g 20개입",
+    "brand": "다농원",
+    "category": "kombucha",
+    "categoryLabel": "콤부차",
+    "image": "🍵",
+    "description": "데일리로 즐기는 레몬 콤부차",
+    "link": "#",
+    "weight": "5g x 20개입",
+    "naverProductId": "52483320665",
+    "naverSearchKeyword": "다농원 데일리 콤부차 레몬 20개입",
+    "currentPrice": 6500,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 6500
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "teazen-kombucha-lemon-30",
+    "name": "티젠 콤부차 레몬 5g 30개입",
+    "brand": "티젠",
+    "category": "kombucha",
+    "categoryLabel": "콤부차",
+    "image": "🍵",
+    "description": "한 달분 레몬 콤부차, 중간 사이즈",
+    "link": "#",
+    "weight": "5g x 30개입",
+    "naverProductId": "53370141811",
+    "naverSearchKeyword": "티젠 콤부차 레몬 30개입",
+    "currentPrice": 9900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 9900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "teazen-kombucha-peach-10",
+    "name": "티젠 콤부차 피치 5g 10개입",
+    "brand": "티젠",
+    "category": "kombucha",
+    "categoryLabel": "콤부차",
+    "image": "🍵",
+    "description": "달콤한 복숭아맛 콤부차",
+    "link": "#",
+    "weight": "5g x 10개입",
+    "naverProductId": "53350076414",
+    "naverSearchKeyword": "티젠 콤부차 피치 10개입",
+    "currentPrice": 2900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 2900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "danongwon-kombucha-berry-20",
+    "name": "다농원 데일리 콤부차 베리 5g 20개입",
+    "brand": "다농원",
+    "category": "kombucha",
+    "categoryLabel": "콤부차",
+    "image": "🍵",
+    "description": "베리향 데일리 콤부차 스틱",
+    "link": "#",
+    "weight": "5g x 20개입",
+    "naverProductId": "52483320666",
+    "naverSearchKeyword": "다농원 데일리 콤부차 베리 20개입",
+    "currentPrice": 6500,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 6500
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "teazen-kombucha-yuzu-10",
+    "name": "티젠 콤부차 유자 5g 10개입",
+    "brand": "티젠",
+    "category": "kombucha",
+    "categoryLabel": "콤부차",
+    "image": "🍵",
+    "description": "상큼한 유자맛 콤부차",
+    "link": "#",
+    "weight": "5g x 10개입",
+    "naverProductId": "53350076415",
+    "naverSearchKeyword": "티젠 콤부차 유자 10개입",
+    "currentPrice": 2900,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 2900
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "teazen-kombucha-muscat-60",
+    "name": "티젠 콤부차 청포도 5g 60개입",
+    "brand": "티젠",
+    "category": "kombucha",
+    "categoryLabel": "콤부차",
+    "image": "🍵",
+    "description": "청포도맛 콤부차, 대용량 60스틱",
+    "link": "#",
+    "weight": "5g x 60개입",
+    "naverProductId": "53370141812",
+    "naverSearchKeyword": "티젠 콤부차 청포도 60개입",
+    "currentPrice": 16550,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 16550
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "danongwon-kombucha-grapefruit-20",
+    "name": "다농원 데일리 콤부차 자몽 5g 20개입",
+    "brand": "다농원",
+    "category": "kombucha",
+    "categoryLabel": "콤부차",
+    "image": "🍵",
+    "description": "상큼한 자몽맛 데일리 콤부차",
+    "link": "#",
+    "weight": "5g x 20개입",
+    "naverProductId": "52483320667",
+    "naverSearchKeyword": "다농원 데일리 콤부차 자몽 20개입",
+    "currentPrice": 6500,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 6500
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  },
+  {
+    "slug": "teazen-kombucha-berry-60",
+    "name": "티젠 콤부차 베리 5g 60개입",
+    "brand": "티젠",
+    "category": "kombucha",
+    "categoryLabel": "콤부차",
+    "image": "🍵",
+    "description": "베리맛 콤부차, 대용량 60스틱",
+    "link": "#",
+    "weight": "5g x 60개입",
+    "naverProductId": "53370141813",
+    "naverSearchKeyword": "티젠 콤부차 베리 60개입",
+    "currentPrice": 16550,
+    "priceHistory": [
+      {
+        "date": "2026-03-09",
+        "price": 16550
+      }
+    ],
+    "updatedAt": "2026-03-09"
+  }
+]
