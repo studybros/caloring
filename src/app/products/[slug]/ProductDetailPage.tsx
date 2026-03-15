@@ -241,9 +241,12 @@ export function ProductDetailPage({ product }: ProductDetailPageProps) {
               <span className="text-5xl">{product.image}</span>
             )}
           </div>
-          {product.naverRank && product.naverRank <= 10 && (
-            <span className="mt-2 inline-block rounded-full bg-primary/10 px-2.5 py-1 text-xs font-semibold text-primary">
+          {product.naverRank && product.naverRank <= 30 && (
+            <span className="mt-2 inline-block rounded-full bg-emerald-100 px-2.5 py-1 text-xs font-semibold text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-400">
               네이버 쇼핑 {product.categoryLabel} {product.naverRank}위
+              <span className="ml-1 text-[10px] font-normal opacity-70">
+                ({product.updatedAt} 기준)
+              </span>
             </span>
           )}
           <p className="mt-3 text-xs font-medium tracking-wide text-muted-foreground uppercase">
@@ -632,23 +635,40 @@ export function ProductDetailPage({ product }: ProductDetailPageProps) {
 
       {/* ── Bottom Sticky Bar ───────────────────────── */}
       <div className="fixed bottom-0 left-0 right-0 z-50 border-t bg-background/95 backdrop-blur-sm">
-        <div className="mx-auto flex max-w-3xl items-center">
+        <div className="mx-auto flex max-w-3xl items-center gap-1 px-2">
           <button
             onClick={handleShare}
-            className="flex w-14 flex-col items-center justify-center gap-0.5 py-3 text-[11px] text-muted-foreground transition-colors hover:text-foreground"
+            className="flex w-14 flex-col items-center justify-center gap-0.5 py-3 text-[11px] text-muted-foreground transition-colors hover:text-foreground shrink-0"
           >
             <Share2 className="h-4 w-4" />
             공유
           </button>
           <a
-            href={`https://search.shopping.naver.com/search/all?query=${encodeURIComponent(product.name)}`}
+            href={product.naverProductId
+              ? `https://search.shopping.naver.com/catalog/${product.naverProductId}`
+              : `https://search.shopping.naver.com/search/all?query=${encodeURIComponent(product.name)}`}
             target="_blank"
             rel="noopener noreferrer nofollow"
-            className="flex flex-1 items-center justify-center gap-2 rounded-xl mx-3 my-2 py-3 text-sm font-bold text-primary-foreground bg-primary transition-all hover:bg-primary/90 active:scale-[0.98]"
+            className={`flex items-center justify-center gap-1.5 rounded-xl my-2 py-3 text-sm font-bold transition-all active:scale-[0.98] ${
+              product.coupangPrice
+                ? "flex-1 bg-[#03C75A] text-white hover:bg-[#02b350]"
+                : "flex-1 bg-primary text-primary-foreground hover:bg-primary/90 mx-1"
+            }`}
           >
-            네이버 최저가 비교하기
+            네이버에서 보기
             <ExternalLink className="h-3.5 w-3.5" />
           </a>
+          {product.coupangPrice && (
+            <a
+              href={`https://www.coupang.com/np/search?q=${encodeURIComponent(product.name)}`}
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="flex flex-1 items-center justify-center gap-1.5 rounded-xl my-2 py-3 text-sm font-bold bg-[#E53238] text-white transition-all hover:bg-[#d12b31] active:scale-[0.98]"
+            >
+              쿠팡에서 보기
+              <ExternalLink className="h-3.5 w-3.5" />
+            </a>
+          )}
         </div>
       </div>
     </div>

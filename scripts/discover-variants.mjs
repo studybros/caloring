@@ -199,8 +199,10 @@ async function main() {
             category: group.category,
             categoryLabel: group.categoryLabel,
             image: group.image,
-            description: "",
-            link: "#",
+            description: "",  // filled by enrich-products.mjs
+            link: item.productId
+              ? `https://search.shopping.naver.com/catalog/${item.productId}`
+              : "#",
             ...(weight && { weight }),
             group: groupKey,
             naverProductId: item.productId,

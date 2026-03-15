@@ -32,6 +32,9 @@ jobs:
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
 
+      - name: Enrich new products (fill missing descriptions/links)
+        run: node scripts/enrich-products.mjs --write
+
       - name: Check for changes
         id: changes
         run: |

@@ -234,9 +234,9 @@ export default function Home() {
                     ) : (
                       <span className="text-2xl">{product.image ?? "📦"}</span>
                     )}
-                    {product.naverRank && product.naverRank <= 10 && (
+                    {product.naverRank && product.naverRank <= 30 && (
                       <span className="absolute left-1 top-1 rounded bg-primary px-1.5 py-0.5 text-[10px] font-bold text-primary-foreground">
-                        {product.naverRank}위
+                        네이버 {product.naverRank}위
                       </span>
                     )}
                   </div>

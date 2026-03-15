@@ -71,7 +71,19 @@ export function getRecommendProducts(
   return picked.slice(0, count).map(toRecommendProduct);
 }
 
-// Get popular products for homepage (one per category, cheapest)
+// Score a product for homepage selection (higher = better)
+function scoreProduct(p: Product): number {
+  let score = 0;
+  if (p.description) score += 3;
+  if (p.nutrition) score += 2;
+  if (p.naverRank && p.naverRank <= 5) score += 2;
+  else if (p.naverRank && p.naverRank <= 10) score += 1;
+  if (p.imageUrl) score += 1;
+  if (p.coupangPrice) score += 1;
+  return score;
+}
+
+// Get popular products for homepage (one per category, best scored)
 export function getHomepageProducts(count: number = 6): RecommendProduct[] {
   const allCategories: ProductCategory[] = [
     "protein", "chicken", "shake", "protein-bar", "zero-drink",
@@ -81,7 +93,7 @@ export function getHomepageProducts(count: number = 6): RecommendProduct[] {
   for (const cat of allCategories) {
     const catProducts = products
       .filter((p) => p.category === cat)
-      .sort((a, b) => a.currentPrice - b.currentPrice);
+      .sort((a, b) => scoreProduct(b) - scoreProduct(a) || a.currentPrice - b.currentPrice);
     if (catProducts.length > 0) picked.push(catProducts[0]);
   }
   return picked.slice(0, count).map(toRecommendProduct);
