@@ -58,6 +58,13 @@ async function searchNaver(query) {
   return data.items || [];
 }
 
+// Extract unit count from product title: "30팩", "24개", "3개입" → number
+function extractUnitCount(text) {
+  const matches = [...text.matchAll(/(\d+)\s*(팩|개입|개|입|ea|p|캔|병|봉|정|매|포|세트|박스)(?!\w)/gi)];
+  if (matches.length === 0) return null;
+  return Math.max(...matches.map((m) => parseInt(m[1])));
+}
+
 function findBestMatch(items, product) {
   // 1. Match by Naver product ID
   if (product.naverProductId) {
@@ -144,14 +151,17 @@ async function main() {
         }
 
         if (!DRY_RUN) {
-          // Outlier detection: reject prices that deviate >40% from last known price
-          const lastPrice = product.currentPrice || newPrice;
-          const changeRatio = Math.abs(newPrice - lastPrice) / lastPrice;
-          const isOutlier = lastPrice > 0 && changeRatio > 0.4;
+          // Unit count mismatch detection:
+          // Compare unit count in search result title vs stored product name
+          // If they differ, it's a different bundle/quantity → reject price
+          const matchTitle = match.item.title.replace(/<\/?b>/g, "");
+          const resultUnits = extractUnitCount(matchTitle);
+          const productUnits = extractUnitCount(product.name);
+          const unitMismatch = resultUnits !== null && productUnits !== null && resultUnits !== productUnits;
 
-          if (isOutlier) {
+          if (unitMismatch) {
             console.log(
-              `    ⚠️ 이상 가격 감지 — 기존 ${lastPrice.toLocaleString()}원 → ${newPrice.toLocaleString()}원 (${(changeRatio * 100).toFixed(0)}% 변동) → 건너뜀`
+              `    ⚠️ 수량 불일치 — 기존 ${productUnits}개 vs 검색결과 ${resultUnits}개 → 가격 건너뜀`
             );
             // Still update rank/coupang/image, but don't touch price
             product.naverRank = match.rank;
