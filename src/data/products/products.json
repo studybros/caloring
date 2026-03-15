@@ -234,7 +234,7 @@
     ],
     "updatedAt": "2026-03-15",
     "group": "메이크바디-프로틴",
-    "naverRank": 12,
+    "naverRank": 10,
     "coupangPrice": 59460,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_8683485/8683485586.35.jpg"
@@ -459,7 +459,7 @@
       "fat": 0.3
     },
     "group": "허닭-닭가슴살",
-    "naverRank": 88,
+    "naverRank": 89,
     "coupangPrice": 38120,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_8294412/82944128403.15.jpg"
@@ -489,7 +489,7 @@
     ],
     "updatedAt": "2026-03-15",
     "group": "아임닭-닭가슴살",
-    "naverRank": 126,
+    "naverRank": 125,
     "coupangPrice": 14500,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_9545865/9545865510.22.jpg"
@@ -519,7 +519,7 @@
     ],
     "updatedAt": "2026-03-15",
     "group": "육식토끼-닭가슴살",
-    "naverRank": 92,
+    "naverRank": 93,
     "coupangPrice": 7500,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_8283433/82834337949.11.jpg"
@@ -575,7 +575,7 @@
     "weight": "100g x 10팩",
     "naverProductId": "84145464007",
     "naverSearchKeyword": "한끼통살 그릴드 닭가슴살 10종",
-    "currentPrice": 24330,
+    "currentPrice": 25100,
     "priceHistory": [
       {
         "date": "2026-03-09",
@@ -583,7 +583,7 @@
       },
       {
         "date": "2026-03-15",
-        "price": 24330
+        "price": 25100
       }
     ],
     "updatedAt": "2026-03-15",
@@ -636,7 +636,7 @@
       "fat": 0.4
     },
     "group": "미트리-닭가슴살",
-    "naverRank": 91,
+    "naverRank": 92,
     "coupangPrice": null,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_8123877/81238778644.18.jpg"
@@ -675,7 +675,7 @@
       "fat": 2.8
     },
     "group": "더건강한-닭가슴살",
-    "naverRank": 128,
+    "naverRank": 127,
     "coupangPrice": null,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5307453/53074536214.20250218162403.jpg"
@@ -692,7 +692,7 @@
     "weight": "30g x 46포",
     "naverProductId": "53191895938",
     "naverSearchKeyword": "스위치온 다이어트 프로그램 46포",
-    "currentPrice": 163830,
+    "currentPrice": 161540,
     "priceHistory": [
       {
         "date": "2026-03-09",
@@ -700,7 +700,7 @@
       },
       {
         "date": "2026-03-15",
-        "price": 163830
+        "price": 161540
       }
     ],
     "updatedAt": "2026-03-15",
@@ -959,7 +959,7 @@
     ],
     "updatedAt": "2026-03-15",
     "group": "리앤핏-쉐이크-음료",
-    "naverRank": 35,
+    "naverRank": 36,
     "coupangPrice": 25900,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_8961422/89614223911.15.jpg"
@@ -1107,7 +1107,7 @@
     "updatedAt": "2026-03-15",
     "group": "매일유업-쉐이크-음료",
     "naverRank": null,
-    "coupangPrice": 14920,
+    "coupangPrice": 14520,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_8784651/87846510378.3.jpg"
   },
@@ -1201,7 +1201,7 @@
     "weight": "45g x 7개",
     "naverProductId": "86225774534",
     "naverSearchKeyword": "일일하우 슬리밍 플랜B 쉐이크 귀리 7개",
-    "currentPrice": 26900,
+    "currentPrice": 20900,
     "priceHistory": [
       {
         "date": "2026-03-09",
@@ -1209,7 +1209,7 @@
       },
       {
         "date": "2026-03-15",
-        "price": 26900
+        "price": 20900
       }
     ],
     "updatedAt": "2026-03-15",
@@ -1253,7 +1253,7 @@
       "fat": 7.7
     },
     "group": "닥터유-프로틴바",
-    "naverRank": 4,
+    "naverRank": 3,
     "coupangPrice": null,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_8446448/84464484374.1.jpg"
@@ -1313,7 +1313,7 @@
     ],
     "updatedAt": "2026-03-15",
     "group": "소이조이-프로틴바",
-    "naverRank": 3,
+    "naverRank": 2,
     "coupangPrice": 25900,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_8913140/89131403003.12.jpg"
@@ -1352,8 +1352,8 @@
       "fat": 7.7
     },
     "group": "닥터유-프로틴바",
-    "naverRank": 14,
-    "coupangPrice": null,
+    "naverRank": 11,
+    "coupangPrice": 13000,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5314288/53142881768.20250221095737.jpg"
   },
@@ -1382,7 +1382,7 @@
     ],
     "updatedAt": "2026-03-15",
     "group": "프로틴방앗간-프로틴바",
-    "naverRank": 5,
+    "naverRank": 4,
     "coupangPrice": null,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_8424032/84240328518.28.jpg"
@@ -1451,7 +1451,7 @@
     ],
     "updatedAt": "2026-03-15",
     "group": "포스트-프로틴바",
-    "naverRank": 15,
+    "naverRank": 14,
     "coupangPrice": null,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5314350/53143503130.20250327192356.jpg"
@@ -1481,7 +1481,7 @@
     ],
     "updatedAt": "2026-03-15",
     "group": "베노프-프로틴바",
-    "naverRank": 18,
+    "naverRank": 17,
     "coupangPrice": 43900,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_8671023/86710231575.1.jpg"
@@ -1520,7 +1520,7 @@
       "fat": 7.7
     },
     "group": "닥터유-프로틴바",
-    "naverRank": 17,
+    "naverRank": 16,
     "coupangPrice": null,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5437688/54376888641.1.jpg"
@@ -1606,7 +1606,7 @@
     "weight": "1.5L x 12개",
     "naverProductId": "53733320380",
     "naverSearchKeyword": "칠성사이다 제로 1.5L 12개",
-    "currentPrice": 21170,
+    "currentPrice": 21160,
     "priceHistory": [
       {
         "date": "2026-03-09",
@@ -1614,7 +1614,7 @@
       },
       {
         "date": "2026-03-15",
-        "price": 21170
+        "price": 21160
       }
     ],
     "updatedAt": "2026-03-15",
@@ -1645,7 +1645,7 @@
     "weight": "250ml x 30개",
     "naverProductId": "58522488255",
     "naverSearchKeyword": "스프라이트 제로 250ml 30개",
-    "currentPrice": 12740,
+    "currentPrice": 15920,
     "priceHistory": [
       {
         "date": "2026-03-09",
@@ -1653,7 +1653,7 @@
       },
       {
         "date": "2026-03-15",
-        "price": 12740
+        "price": 15920
       }
     ],
     "updatedAt": "2026-03-15",
@@ -1667,7 +1667,7 @@
       "fat": 0
     },
     "group": "스프라이트-제로음료",
-    "naverRank": 29,
+    "naverRank": 27,
     "coupangPrice": 17700,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5852248/58522488255.20260115103220.jpg"
@@ -1745,7 +1745,7 @@
       "fat": 0
     },
     "group": "나랑드사이다-제로음료",
-    "naverRank": 4,
+    "naverRank": 6,
     "coupangPrice": null,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5390112/53901124701.20250401110704.jpg"
@@ -1801,15 +1801,11 @@
     "weight": "355ml x 20개",
     "naverProductId": "58078559996",
     "naverSearchKeyword": "파워에이드 제로 무라벨 355ml 20개",
-    "currentPrice": 12100,
+    "currentPrice": 26060,
     "priceHistory": [
       {
-        "date": "2026-03-09",
-        "price": 12100
-      },
-      {
         "date": "2026-03-15",
-        "price": 12100
+        "price": 26060
       }
     ],
     "updatedAt": "2026-03-15",
@@ -1824,9 +1820,9 @@
     },
     "group": "파워에이드-제로음료",
     "naverRank": null,
-    "coupangPrice": 29110,
-    "coupangCompetitive": false,
-    "imageUrl": "https://shopping-phinf.pstatic.net/main_5807855/58078559996.20251209200753.jpg"
+    "coupangPrice": 22100,
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5924750/59247507006.jpg"
   },
   {
     "slug": "ionthefit-zero-500ml-24",
@@ -1862,7 +1858,7 @@
       "fat": 0
     },
     "group": "이온더핏-제로음료",
-    "naverRank": 43,
+    "naverRank": 42,
     "coupangPrice": null,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5364688/53646883282.20250319152204.jpg"
@@ -1940,7 +1936,7 @@
       "fat": 0
     },
     "group": "클룹-제로음료",
-    "naverRank": 6,
+    "naverRank": 9,
     "coupangPrice": 23900,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_8780370/87803707904.18.jpg"
@@ -2103,7 +2099,7 @@
     "weight": "130g",
     "naverProductId": "48242260467",
     "naverSearchKeyword": "빙그레 곤약젤리 청포도 130g",
-    "currentPrice": 6600,
+    "currentPrice": 6860,
     "priceHistory": [
       {
         "date": "2026-03-09",
@@ -2111,12 +2107,12 @@
       },
       {
         "date": "2026-03-15",
-        "price": 6600
+        "price": 6860
       }
     ],
     "updatedAt": "2026-03-15",
     "group": "빙그레-곤약-두부면",
-    "naverRank": 47,
+    "naverRank": 48,
     "coupangPrice": 750,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_4824226/48242260467.20240906161822.jpg"
@@ -2296,7 +2292,7 @@
     ],
     "updatedAt": "2026-03-15",
     "group": "식스밀-다이어트-도시락",
-    "naverRank": 6,
+    "naverRank": 7,
     "coupangPrice": 53500,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_8439436/84394360413.19.jpg"
@@ -2416,7 +2412,7 @@
     ],
     "updatedAt": "2026-03-15",
     "group": "헬로잇츠-다이어트-도시락",
-    "naverRank": 7,
+    "naverRank": 6,
     "coupangPrice": null,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_8255150/82551508982.28.jpg"
@@ -2446,7 +2442,7 @@
     ],
     "updatedAt": "2026-03-15",
     "group": "인생닭-다이어트-도시락",
-    "naverRank": 4,
+    "naverRank": 3,
     "coupangPrice": 42900,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_8995020/89950206581.jpg"
@@ -2536,7 +2532,7 @@
     ],
     "updatedAt": "2026-03-15",
     "group": "더바른도시락-다이어트-도시락",
-    "naverRank": 15,
+    "naverRank": 17,
     "coupangPrice": 39900,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_1293177/12931774867.4.jpg"
@@ -2575,7 +2571,7 @@
       "fat": 1.9
     },
     "group": "요즘-그릭요거트",
-    "naverRank": 13,
+    "naverRank": 12,
     "coupangPrice": 21460,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_9037957/90379571299.1.jpg"
@@ -2644,7 +2640,7 @@
     ],
     "updatedAt": "2026-03-15",
     "group": "그릭씨네-그릭요거트",
-    "naverRank": 60,
+    "naverRank": 59,
     "coupangPrice": 5500,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_8957954/89579544735.jpg"
@@ -2735,7 +2731,7 @@
     "updatedAt": "2026-03-15",
     "group": "코스트코-그릭요거트",
     "naverRank": 6,
-    "coupangPrice": 16450,
+    "coupangPrice": 15950,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_8969458/89694583719.10.jpg"
   },
@@ -2760,7 +2756,7 @@
     ],
     "updatedAt": "2026-03-15",
     "group": "덴마크우유-그릭요거트",
-    "naverRank": 91,
+    "naverRank": 92,
     "coupangPrice": 9500,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_8891198/88911981170.5.jpg"
@@ -2851,7 +2847,7 @@
     "updatedAt": "2026-03-15",
     "group": "요플레-그릭요거트",
     "naverRank": 80,
-    "coupangPrice": 8800,
+    "coupangPrice": 9270,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_8990669/89906692653.jpg"
   },
@@ -3527,7 +3523,7 @@
     "group": "밀팜-프로틴",
     "naverProductId": "53000021249",
     "naverSearchKeyword": "밀팜 프로틴",
-    "naverRank": 25,
+    "naverRank": 24,
     "currentPrice": 79800,
     "priceHistory": [
       {
@@ -3768,7 +3764,7 @@
     "naverProductId": "53055532143",
     "naverSearchKeyword": "신타6 프로틴",
     "naverRank": null,
-    "currentPrice": 124900,
+    "currentPrice": 132390,
     "priceHistory": [
       {
         "date": "2026-03-09",
@@ -3776,7 +3772,7 @@
       },
       {
         "date": "2026-03-15",
-        "price": 124900
+        "price": 132390
       }
     ],
     "updatedAt": "2026-03-15",
@@ -4162,7 +4158,7 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 38900,
+    "coupangPrice": 59900,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5364796/53647969442.20250319164543.jpg"
   },
@@ -4192,7 +4188,7 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 38900,
+    "coupangPrice": 59900,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5299822/52998220900.20250213113609.jpg"
   },
@@ -4222,7 +4218,7 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 38900,
+    "coupangPrice": 59900,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5299791/52997918978.20250213105253.jpg"
   },
@@ -4240,7 +4236,7 @@
     "naverProductId": "53646883334",
     "naverSearchKeyword": "옵티멈뉴트리션 프로틴",
     "naverRank": null,
-    "currentPrice": 86930,
+    "currentPrice": 84950,
     "priceHistory": [
       {
         "date": "2026-03-09",
@@ -4248,11 +4244,11 @@
       },
       {
         "date": "2026-03-15",
-        "price": 86930
+        "price": 84950
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 38900,
+    "coupangPrice": 59900,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5364688/53646883334.20250319152556.jpg"
   },
@@ -4282,7 +4278,7 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 38900,
+    "coupangPrice": 59900,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5549910/55499106094.20250626124636.jpg"
   },
@@ -4312,7 +4308,7 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 38900,
+    "coupangPrice": 59900,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5364798/53647987552.20250319172041.jpg"
   },
@@ -4342,7 +4338,7 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 38900,
+    "coupangPrice": 59900,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5305598/53055987342.20250217104721.jpg"
   },
@@ -4372,7 +4368,7 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 38900,
+    "coupangPrice": 59900,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_3273123/32731231622.20220603161528.jpg"
   },
@@ -4402,7 +4398,7 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 38900,
+    "coupangPrice": 59900,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5364776/53647768652.20250319163551.jpg"
   },
@@ -4432,7 +4428,7 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 38900,
+    "coupangPrice": 59900,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5366390/53663909999.20250320103341.jpg"
   },
@@ -4462,7 +4458,7 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 38900,
+    "coupangPrice": 59900,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5305650/53056506042.20250217121849.jpg"
   },
@@ -4492,7 +4488,7 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 38900,
+    "coupangPrice": 59900,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5364796/53647969442.20250319164543.jpg"
   },
@@ -4522,7 +4518,7 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 38900,
+    "coupangPrice": 59900,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5299791/52997918978.20250213105253.jpg"
   },
@@ -4552,7 +4548,7 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 38900,
+    "coupangPrice": 59900,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_3534498/35344983618.20221020143633.jpg"
   },
@@ -5342,7 +5338,7 @@
     "naverProductId": "57904785761",
     "naverSearchKeyword": "육식토끼 닭가슴살",
     "naverRank": null,
-    "currentPrice": 24900,
+    "currentPrice": 27900,
     "priceHistory": [
       {
         "date": "2026-03-09",
@@ -5350,7 +5346,7 @@
       },
       {
         "date": "2026-03-15",
-        "price": 24900
+        "price": 27900
       }
     ],
     "updatedAt": "2026-03-15",
@@ -5547,7 +5543,7 @@
     "group": "더건강한-닭가슴살",
     "naverProductId": "53074536006",
     "naverSearchKeyword": "더건강한 닭가슴살",
-    "naverRank": 98,
+    "naverRank": 103,
     "currentPrice": 2110,
     "priceHistory": [
       {
@@ -5637,7 +5633,7 @@
     "group": "더건강한-닭가슴살",
     "naverProductId": "53074535328",
     "naverSearchKeyword": "더건강한 닭가슴살",
-    "naverRank": 115,
+    "naverRank": 111,
     "currentPrice": 20680,
     "priceHistory": [
       {
@@ -5856,7 +5852,7 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 113000,
+    "coupangPrice": 28800,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_9059840/90598408316.3.jpg"
   },
@@ -6114,7 +6110,7 @@
     "naverProductId": "53017059641",
     "naverSearchKeyword": "플라이밀 프로틴",
     "naverRank": null,
-    "currentPrice": 26880,
+    "currentPrice": 26830,
     "priceHistory": [
       {
         "date": "2026-03-09",
@@ -6122,7 +6118,7 @@
       },
       {
         "date": "2026-03-15",
-        "price": 26880
+        "price": 26830
       }
     ],
     "updatedAt": "2026-03-15",
@@ -6234,7 +6230,7 @@
     "naverProductId": "58780489811",
     "naverSearchKeyword": "있나요 프로틴",
     "naverRank": null,
-    "currentPrice": 3810,
+    "currentPrice": 3870,
     "priceHistory": [
       {
         "date": "2026-03-09",
@@ -6242,7 +6238,7 @@
       },
       {
         "date": "2026-03-15",
-        "price": 3810
+        "price": 3870
       }
     ],
     "updatedAt": "2026-03-15",
@@ -6414,7 +6410,7 @@
     "naverProductId": "57635115217",
     "naverSearchKeyword": "꼬박꼬밥 프로틴",
     "naverRank": null,
-    "currentPrice": 23120,
+    "currentPrice": 24220,
     "priceHistory": [
       {
         "date": "2026-03-09",
@@ -6422,7 +6418,7 @@
       },
       {
         "date": "2026-03-15",
-        "price": 23120
+        "price": 24220
       }
     ],
     "updatedAt": "2026-03-15",
@@ -6996,7 +6992,7 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 66700,
+    "coupangPrice": 37680,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5295930/52959304947.20250213103255.jpg"
   },
@@ -7026,7 +7022,7 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 66700,
+    "coupangPrice": 37680,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5645714/56457146088.20250827163303.jpg"
   },
@@ -7056,7 +7052,7 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 66700,
+    "coupangPrice": 37680,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5574443/55744433904.20250711114626.jpg"
   },
@@ -7086,7 +7082,7 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 66700,
+    "coupangPrice": 37680,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5295931/52959310184.20250212111852.jpg"
   },
@@ -7116,7 +7112,7 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 66700,
+    "coupangPrice": 37680,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5364688/53646883226.20250319152007.jpg"
   },
@@ -7146,7 +7142,7 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 66700,
+    "coupangPrice": 37680,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5299941/52999412315.20250213142555.jpg"
   },
@@ -7176,7 +7172,7 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 66700,
+    "coupangPrice": 37680,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5594629/55946290060.20250725102258.jpg"
   },
@@ -7193,7 +7189,7 @@
     "group": "하이뮨-쉐이크-음료",
     "naverProductId": "53191088622",
     "naverSearchKeyword": "하이뮨 쉐이크",
-    "naverRank": 31,
+    "naverRank": 30,
     "currentPrice": 71450,
     "priceHistory": [
       {
@@ -7224,7 +7220,7 @@
     "naverProductId": "52960789780",
     "naverSearchKeyword": "하이뮨 쉐이크",
     "naverRank": null,
-    "currentPrice": 86900,
+    "currentPrice": 85850,
     "priceHistory": [
       {
         "date": "2026-03-09",
@@ -7232,7 +7228,7 @@
       },
       {
         "date": "2026-03-15",
-        "price": 86900
+        "price": 85850
       }
     ],
     "updatedAt": "2026-03-15",
@@ -7343,7 +7339,7 @@
     "group": "매일유업-쉐이크-음료",
     "naverProductId": "52959304947",
     "naverSearchKeyword": "매일유업 쉐이크",
-    "naverRank": 37,
+    "naverRank": 38,
     "currentPrice": 65900,
     "priceHistory": [
       {
@@ -7609,7 +7605,7 @@
     "group": "닥터유-프로틴바",
     "naverProductId": "53142915350",
     "naverSearchKeyword": "닥터유 프로틴-bar",
-    "naverRank": 12,
+    "naverRank": 13,
     "currentPrice": 10430,
     "priceHistory": [
       {
@@ -7639,7 +7635,7 @@
     "group": "닥터유-프로틴바",
     "naverProductId": "53125545902",
     "naverSearchKeyword": "닥터유 프로틴-bar",
-    "naverRank": 23,
+    "naverRank": 24,
     "currentPrice": 1600,
     "priceHistory": [
       {
@@ -7669,7 +7665,7 @@
     "group": "닥터유-프로틴바",
     "naverProductId": "53125602775",
     "naverSearchKeyword": "닥터유 프로틴-bar",
-    "naverRank": 30,
+    "naverRank": 32,
     "currentPrice": 1550,
     "priceHistory": [
       {
@@ -7699,8 +7695,8 @@
     "group": "커클랜드-프로틴바",
     "naverProductId": "53143510070",
     "naverSearchKeyword": "커클랜드 프로틴-bar",
-    "naverRank": 37,
-    "currentPrice": 26760,
+    "naverRank": 38,
+    "currentPrice": 28060,
     "priceHistory": [
       {
         "date": "2026-03-09",
@@ -7708,7 +7704,7 @@
       },
       {
         "date": "2026-03-15",
-        "price": 26760
+        "price": 28060
       }
     ],
     "updatedAt": "2026-03-15",
@@ -7790,17 +7786,17 @@
     "naverProductId": "55576871310",
     "naverSearchKeyword": "소이조이 프로틴-bar",
     "naverRank": null,
-    "currentPrice": 16470,
+    "currentPrice": 1530,
     "priceHistory": [
       {
         "date": "2026-03-15",
-        "price": 16470
+        "price": 1530
       }
     ],
     "updatedAt": "2026-03-15",
     "coupangPrice": null,
     "coupangCompetitive": false,
-    "imageUrl": "https://shopping-phinf.pstatic.net/main_5557711/55577116318.20250701110259.jpg"
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5557687/55576871310.20250701111924.jpg"
   },
   {
     "slug": "soyjoy-55576968",
@@ -7830,7 +7826,7 @@
     "updatedAt": "2026-03-15",
     "coupangPrice": null,
     "coupangCompetitive": false,
-    "imageUrl": "https://shopping-phinf.pstatic.net/main_5557696/55576968125.20250701105519.jpg"
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5557711/55577116318.20250701110259.jpg"
   },
   {
     "slug": "soyjoy-55576904",
@@ -7961,7 +7957,7 @@
     "group": "포스트-프로틴바",
     "naverProductId": "53142990729",
     "naverSearchKeyword": "포스트 프로틴-bar",
-    "naverRank": 29,
+    "naverRank": 31,
     "currentPrice": 22600,
     "priceHistory": [
       {
@@ -8112,7 +8108,7 @@
     "naverProductId": "58568465524",
     "naverSearchKeyword": "베노프 프로틴-bar",
     "naverRank": null,
-    "currentPrice": 15380,
+    "currentPrice": 15040,
     "priceHistory": [
       {
         "date": "2026-03-09",
@@ -8120,7 +8116,7 @@
       },
       {
         "date": "2026-03-15",
-        "price": 15380
+        "price": 15040
       }
     ],
     "updatedAt": "2026-03-15",
@@ -8201,7 +8197,7 @@
     "group": "펩시-제로음료",
     "naverProductId": "53827646979",
     "naverSearchKeyword": "펩시 제로",
-    "naverRank": 13,
+    "naverRank": 10,
     "currentPrice": 12700,
     "priceHistory": [
       {
@@ -8231,8 +8227,8 @@
     "group": "펩시-제로음료",
     "naverProductId": "53827169677",
     "naverSearchKeyword": "펩시 제로",
-    "naverRank": null,
-    "currentPrice": 14990,
+    "naverRank": 37,
+    "currentPrice": 14940,
     "priceHistory": [
       {
         "date": "2026-03-09",
@@ -8240,7 +8236,7 @@
       },
       {
         "date": "2026-03-15",
-        "price": 14990
+        "price": 14940
       }
     ],
     "updatedAt": "2026-03-15",
@@ -8292,7 +8288,7 @@
     "naverProductId": "57232706226",
     "naverSearchKeyword": "펩시 제로",
     "naverRank": null,
-    "currentPrice": 15260,
+    "currentPrice": 15210,
     "priceHistory": [
       {
         "date": "2026-03-09",
@@ -8300,7 +8296,7 @@
       },
       {
         "date": "2026-03-15",
-        "price": 15260
+        "price": 15210
       }
     ],
     "updatedAt": "2026-03-15",
@@ -8381,7 +8377,7 @@
     "group": "칠성사이다-제로음료",
     "naverProductId": "53733319454",
     "naverSearchKeyword": "칠성사이다 제로",
-    "naverRank": 8,
+    "naverRank": 7,
     "currentPrice": 12500,
     "priceHistory": [
       {
@@ -8394,7 +8390,7 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 20830,
+    "coupangPrice": null,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5373331/53733319454.20250324101822.jpg"
   },
@@ -8411,8 +8407,8 @@
     "group": "칠성사이다-제로음료",
     "naverProductId": "53733066410",
     "naverSearchKeyword": "칠성사이다 제로",
-    "naverRank": 76,
-    "currentPrice": 11550,
+    "naverRank": 77,
+    "currentPrice": 10850,
     "priceHistory": [
       {
         "date": "2026-03-09",
@@ -8420,11 +8416,11 @@
       },
       {
         "date": "2026-03-15",
-        "price": 11550
+        "price": 10850
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 20830,
+    "coupangPrice": null,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5373306/53733066410.20250324093520.jpg"
   },
@@ -8441,8 +8437,8 @@
     "group": "칠성사이다-제로음료",
     "naverProductId": "57764241695",
     "naverSearchKeyword": "칠성사이다 제로",
-    "naverRank": 77,
-    "currentPrice": 16100,
+    "naverRank": 78,
+    "currentPrice": 17700,
     "priceHistory": [
       {
         "date": "2026-03-09",
@@ -8450,11 +8446,11 @@
       },
       {
         "date": "2026-03-15",
-        "price": 16100
+        "price": 17700
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 20830,
+    "coupangPrice": null,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5776424/57764241695.20251114113312.jpg"
   },
@@ -8484,7 +8480,7 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 20830,
+    "coupangPrice": null,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5539791/55397918767.20250620143753.jpg"
   },
@@ -8501,7 +8497,7 @@
     "group": "칠성사이다-제로음료",
     "naverProductId": "53733304429",
     "naverSearchKeyword": "칠성사이다 제로",
-    "naverRank": 78,
+    "naverRank": 79,
     "currentPrice": 6290,
     "priceHistory": [
       {
@@ -8514,7 +8510,7 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 20830,
+    "coupangPrice": null,
     "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5373330/53733304429.20250324100902.jpg"
   },
@@ -8544,8 +8540,8 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 20830,
-    "coupangCompetitive": true,
+    "coupangPrice": null,
+    "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5373330/53733304458.20250324101024.jpg"
   },
   {
@@ -8561,7 +8557,7 @@
     "group": "스프라이트-제로음료",
     "naverProductId": "54343490994",
     "naverSearchKeyword": "스프라이트 제로",
-    "naverRank": 79,
+    "naverRank": 81,
     "currentPrice": 17500,
     "priceHistory": [
       {
@@ -8621,8 +8617,8 @@
     "group": "코카콜라-제로음료",
     "naverProductId": "53900358056",
     "naverSearchKeyword": "코카콜라 제로",
-    "naverRank": 18,
-    "currentPrice": 16190,
+    "naverRank": 17,
+    "currentPrice": 15410,
     "priceHistory": [
       {
         "date": "2026-03-09",
@@ -8630,7 +8626,7 @@
       },
       {
         "date": "2026-03-15",
-        "price": 16190
+        "price": 15410
       }
     ],
     "updatedAt": "2026-03-15",
@@ -8651,7 +8647,7 @@
     "group": "코카콜라-제로음료",
     "naverProductId": "53875775596",
     "naverSearchKeyword": "코카콜라 제로",
-    "naverRank": 25,
+    "naverRank": 28,
     "currentPrice": 14260,
     "priceHistory": [
       {
@@ -8711,7 +8707,7 @@
     "group": "코카콜라-제로음료",
     "naverProductId": "53828101302",
     "naverSearchKeyword": "코카콜라 제로",
-    "naverRank": 32,
+    "naverRank": 52,
     "currentPrice": 20300,
     "priceHistory": [
       {
@@ -8741,7 +8737,7 @@
     "group": "코카콜라-제로음료",
     "naverProductId": "53955819088",
     "naverSearchKeyword": "코카콜라 제로",
-    "naverRank": 58,
+    "naverRank": 53,
     "currentPrice": 17100,
     "priceHistory": [
       {
@@ -8827,7 +8823,7 @@
     "group": "나랑드사이다-제로음료",
     "naverProductId": "53688330407",
     "naverSearchKeyword": "나랑드사이다 제로",
-    "naverRank": 66,
+    "naverRank": 31,
     "currentPrice": 14110,
     "priceHistory": [
       {
@@ -8887,7 +8883,7 @@
     "group": "파워에이드-제로음료",
     "naverProductId": "54398342674",
     "naverSearchKeyword": "파워에이드 제로",
-    "naverRank": 44,
+    "naverRank": 45,
     "currentPrice": 17000,
     "priceHistory": [
       {
@@ -8900,8 +8896,8 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 8770,
-    "coupangCompetitive": true,
+    "coupangPrice": 19100,
+    "coupangCompetitive": false,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5439834/54398342674.20251210104728.jpg"
   },
   {
@@ -8930,7 +8926,7 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 8770,
+    "coupangPrice": 19100,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5439851/54398511938.20250515140919.jpg"
   },
@@ -9704,7 +9700,7 @@
     "updatedAt": "2026-03-15",
     "coupangPrice": 9500,
     "coupangCompetitive": true,
-    "imageUrl": "https://shopping-phinf.pstatic.net/main_9068761/90687612701.jpg"
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_9021398/90213988961.jpg"
   },
   {
     "slug": "binggrae-konjac-48055890",
@@ -9720,17 +9716,17 @@
     "naverProductId": "48055890498",
     "naverSearchKeyword": "빙그레 곤약",
     "naverRank": null,
-    "currentPrice": 15600,
+    "currentPrice": 16540,
     "priceHistory": [
       {
         "date": "2026-03-15",
-        "price": 15600
+        "price": 16540
       }
     ],
     "updatedAt": "2026-03-15",
     "coupangPrice": 9500,
     "coupangCompetitive": true,
-    "imageUrl": "https://shopping-phinf.pstatic.net/main_9068761/90687612701.jpg"
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_9021398/90213988961.jpg"
   },
   {
     "slug": "binggrae-konjac-46633298",
@@ -9746,17 +9742,17 @@
     "naverProductId": "46633298892",
     "naverSearchKeyword": "빙그레 곤약",
     "naverRank": 53,
-    "currentPrice": 15600,
+    "currentPrice": 16540,
     "priceHistory": [
       {
         "date": "2026-03-15",
-        "price": 15600
+        "price": 16540
       }
     ],
     "updatedAt": "2026-03-15",
     "coupangPrice": 9500,
     "coupangCompetitive": true,
-    "imageUrl": "https://shopping-phinf.pstatic.net/main_9068761/90687612701.jpg"
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_9021398/90213988961.jpg"
   },
   {
     "slug": "binggrae-konjac-48523699",
@@ -9771,7 +9767,7 @@
     "naverProductId": "48523699905",
     "naverSearchKeyword": "빙그레 곤약",
     "naverRank": null,
-    "currentPrice": 6730,
+    "currentPrice": 6470,
     "priceHistory": [
       {
         "date": "2026-03-09",
@@ -9779,7 +9775,7 @@
       },
       {
         "date": "2026-03-15",
-        "price": 6730
+        "price": 6470
       }
     ],
     "updatedAt": "2026-03-15",
@@ -9860,7 +9856,7 @@
     "group": "라라스팜-곤약-두부면",
     "naverProductId": "55632674034",
     "naverSearchKeyword": "라라스팜 곤약",
-    "naverRank": 20,
+    "naverRank": 19,
     "currentPrice": 1700,
     "priceHistory": [
       {
@@ -9990,8 +9986,8 @@
     ],
     "updatedAt": "2026-03-15",
     "coupangPrice": 28000,
-    "coupangCompetitive": false,
-    "imageUrl": "https://shopping-phinf.pstatic.net/main_8339627/83396272990.3.jpg"
+    "coupangCompetitive": true,
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_8339627/83396276422.4.jpg"
   },
   {
     "slug": "laras-farm-konjac-kcal-gx-56745248",
@@ -10295,7 +10291,7 @@
     "naverProductId": "59048129780",
     "naverSearchKeyword": "요즘 그릭요거트",
     "naverRank": null,
-    "currentPrice": 31200,
+    "currentPrice": 26400,
     "priceHistory": [
       {
         "date": "2026-03-09",
@@ -10303,7 +10299,7 @@
       },
       {
         "date": "2026-03-15",
-        "price": 31200
+        "price": 26400
       }
     ],
     "updatedAt": "2026-03-15",
@@ -10444,7 +10440,7 @@
     "group": "그릭씨네-그릭요거트",
     "naverProductId": "58403421411",
     "naverSearchKeyword": "그릭씨네 그릭요거트",
-    "naverRank": 14,
+    "naverRank": 13,
     "currentPrice": 22500,
     "priceHistory": [
       {
@@ -10474,7 +10470,7 @@
     "group": "그릭씨네-그릭요거트",
     "naverProductId": "58572155011",
     "naverSearchKeyword": "그릭씨네 그릭요거트",
-    "naverRank": 38,
+    "naverRank": 32,
     "currentPrice": 19800,
     "priceHistory": [
       {
@@ -10564,7 +10560,7 @@
     "group": "매일유업-그릭요거트",
     "naverProductId": "51929609701",
     "naverSearchKeyword": "매일유업 그릭요거트",
-    "naverRank": 28,
+    "naverRank": 27,
     "currentPrice": 17790,
     "priceHistory": [
       {
@@ -10620,7 +10616,7 @@
     "group": "매일유업-그릭요거트",
     "naverProductId": "51929487099",
     "naverSearchKeyword": "매일유업 그릭요거트",
-    "naverRank": 90,
+    "naverRank": 91,
     "currentPrice": 6500,
     "priceHistory": [
       {
@@ -10809,7 +10805,7 @@
       }
     ],
     "updatedAt": "2026-03-15",
-    "coupangPrice": 7990,
+    "coupangPrice": 8480,
     "coupangCompetitive": true,
     "imageUrl": "https://shopping-phinf.pstatic.net/main_5192954/51929540044.20241213221739.jpg"
   },
@@ -10976,7 +10972,7 @@
     "group": "요플레-그릭요거트",
     "naverProductId": "55919915263",
     "naverSearchKeyword": "요플레 그릭요거트",
-    "naverRank": 25,
+    "naverRank": 26,
     "currentPrice": 14790,
     "priceHistory": [
       {
@@ -11066,7 +11062,7 @@
     "group": "티젠-콤부차",
     "naverProductId": "53369857652",
     "naverSearchKeyword": "티젠 콤부차",
-    "naverRank": 10,
+    "naverRank": 8,
     "currentPrice": 26730,
     "priceHistory": [
       {
@@ -11122,7 +11118,7 @@
     "group": "티젠-콤부차",
     "naverProductId": "53349317136",
     "naverSearchKeyword": "티젠 콤부차",
-    "naverRank": 11,
+    "naverRank": 12,
     "currentPrice": 8000,
     "priceHistory": [
       {
@@ -11152,8 +11148,8 @@
     "group": "티젠-콤부차",
     "naverProductId": "53393761297",
     "naverSearchKeyword": "티젠 콤부차",
-    "naverRank": 14,
-    "currentPrice": 20490,
+    "naverRank": 9,
+    "currentPrice": 19670,
     "priceHistory": [
       {
         "date": "2026-03-09",
@@ -11161,7 +11157,7 @@
       },
       {
         "date": "2026-03-15",
-        "price": 20490
+        "price": 19670
       }
     ],
     "updatedAt": "2026-03-15",
@@ -11238,7 +11234,7 @@
     "group": "티젠-콤부차",
     "naverProductId": "53350076409",
     "naverSearchKeyword": "티젠 콤부차",
-    "naverRank": 12,
+    "naverRank": 13,
     "currentPrice": 10320,
     "priceHistory": [
       {
@@ -11268,7 +11264,7 @@
     "group": "티젠-콤부차",
     "naverProductId": "53349192844",
     "naverSearchKeyword": "티젠 콤부차",
-    "naverRank": 13,
+    "naverRank": 15,
     "currentPrice": 26350,
     "priceHistory": [
       {
@@ -11328,7 +11324,7 @@
     "group": "티젠-콤부차",
     "naverProductId": "53349476789",
     "naverSearchKeyword": "티젠 콤부차",
-    "naverRank": 20,
+    "naverRank": 21,
     "currentPrice": 26730,
     "priceHistory": [
       {
@@ -11355,7 +11351,7 @@
     "naverProductId": "58377398323",
     "naverSearchKeyword": "티젠 콤부차",
     "naverRank": null,
-    "currentPrice": 18900,
+    "currentPrice": 9900,
     "priceHistory": [
       {
         "date": "2026-03-09",
@@ -11363,13 +11359,13 @@
       },
       {
         "date": "2026-03-15",
-        "price": 18900
+        "price": 9900
       }
     ],
     "updatedAt": "2026-03-15",
     "coupangPrice": null,
     "coupangCompetitive": false,
-    "imageUrl": "https://shopping-phinf.pstatic.net/main_8385419/83854197781.23.jpg"
+    "imageUrl": "https://shopping-phinf.pstatic.net/main_5837739/58377398323.20260104021353.jpg"
   },
   {
     "slug": "teazen-kombucha-53350081",
