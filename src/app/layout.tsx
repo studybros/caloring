@@ -28,6 +28,8 @@ export const metadata: Metadata = {
     "BMI 계산기",
     "다이어트",
     "다이어트 식품",
+    "체지방 계산기",
+    "다이어트 식단",
     "단백질",
   ],
   metadataBase: new URL("https://caloring.kr"),
@@ -36,9 +38,28 @@ export const metadata: Metadata = {
     locale: "ko_KR",
     siteName: "칼로링",
   },
+  twitter: {
+    card: "summary_large_image",
+  },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "48x48" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    apple: [
+      { url: "/apple-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+  },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large" as const,
+      "max-snippet": -1,
+    },
   },
 };
 
@@ -54,8 +75,6 @@ export default function RootLayout({
         <meta name="theme-color" content="#FFCCBC" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/icon.svg" />
 
         {/* Search Console Verification */}
         <meta name="google-site-verification" content="9n5poI8B7Ak6eAEWEFCW9UEy_3yxpheCFjBDgQ0OAao" />
