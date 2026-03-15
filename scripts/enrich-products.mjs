@@ -397,9 +397,34 @@ function main() {
   let descCount = 0;
   let linkCount = 0;
   let slugCount = 0;
+  let priceCleanCount = 0;
 
   for (const product of products) {
     let changed = false;
+
+    // 0. Clean outlier prices from history
+    if (product.priceHistory && product.priceHistory.length >= 2) {
+      const prices = product.priceHistory.map((h) => h.price);
+      const sorted = [...prices].sort((a, b) => a - b);
+      const median = sorted[Math.floor(sorted.length / 2)];
+      const cleaned = product.priceHistory.filter(
+        (h) => h.price >= median * 0.5 && h.price <= median * 1.5
+      );
+      if (cleaned.length < product.priceHistory.length) {
+        const removed = product.priceHistory.length - cleaned.length;
+        if (!WRITE_MODE) {
+          console.log(`🧹 [${product.category}] ${product.brand} — 이상 가격 ${removed}개 제거 (중앙값: ${median.toLocaleString()}원)`);
+        }
+        product.priceHistory = cleaned;
+        // Also fix currentPrice if it was an outlier
+        if (cleaned.length > 0) {
+          const lastClean = cleaned[cleaned.length - 1];
+          product.currentPrice = lastClean.price;
+        }
+        priceCleanCount += removed;
+        changed = true;
+      }
+    }
 
     // 1. Fill missing description
     if (!product.description) {
@@ -455,6 +480,7 @@ function main() {
   console.log(`✅ 설명 생성: ${descCount}개`);
   console.log(`✅ 링크 채움: ${linkCount}개`);
   console.log(`✅ 슬러그 변환: ${slugCount}개`);
+  console.log(`✅ 이상 가격 제거: ${priceCleanCount}개`);
 
   if (WRITE_MODE) {
     writeFileSync(PRODUCTS_FILE, JSON.stringify(products, null, 2), "utf-8");

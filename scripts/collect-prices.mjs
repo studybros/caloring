@@ -100,7 +100,7 @@ async function main() {
   console.log(`📦 ${products.length}개 상품\n`);
 
   const keywordGroups = groupByKeyword(products);
-  let updated = 0, failed = 0, skipped = 0;
+  let updated = 0, failed = 0, skipped = 0, skippedOutlier = 0;
 
   for (const [keyword, indices] of keywordGroups) {
     try {
@@ -144,23 +144,41 @@ async function main() {
         }
 
         if (!DRY_RUN) {
-          product.currentPrice = newPrice;
-          product.naverRank = match.rank;
-          product.updatedAt = today;
-          product.coupangPrice = coupangLowest;
-          product.coupangCompetitive = competitive;
+          // Outlier detection: reject prices that deviate >40% from last known price
+          const lastPrice = product.currentPrice || newPrice;
+          const changeRatio = Math.abs(newPrice - lastPrice) / lastPrice;
+          const isOutlier = lastPrice > 0 && changeRatio > 0.4;
 
-          // Save image URL from Naver API
-          if (match.item.image) {
-            product.imageUrl = match.item.image;
-          }
-
-          // Update price history
-          const todayEntry = product.priceHistory.find((e) => e.date === today);
-          if (todayEntry) {
-            todayEntry.price = newPrice;
+          if (isOutlier) {
+            console.log(
+              `    ⚠️ 이상 가격 감지 — 기존 ${lastPrice.toLocaleString()}원 → ${newPrice.toLocaleString()}원 (${(changeRatio * 100).toFixed(0)}% 변동) → 건너뜀`
+            );
+            // Still update rank/coupang/image, but don't touch price
+            product.naverRank = match.rank;
+            product.updatedAt = today;
+            product.coupangPrice = coupangLowest;
+            product.coupangCompetitive = competitive;
+            if (match.item.image) product.imageUrl = match.item.image;
+            skippedOutlier++;
           } else {
-            product.priceHistory.push({ date: today, price: newPrice });
+            product.currentPrice = newPrice;
+            product.naverRank = match.rank;
+            product.updatedAt = today;
+            product.coupangPrice = coupangLowest;
+            product.coupangCompetitive = competitive;
+
+            // Save image URL from Naver API
+            if (match.item.image) {
+              product.imageUrl = match.item.image;
+            }
+
+            // Update price history
+            const todayEntry = product.priceHistory.find((e) => e.date === today);
+            if (todayEntry) {
+              todayEntry.price = newPrice;
+            } else {
+              product.priceHistory.push({ date: today, price: newPrice });
+            }
           }
         }
         updated++;
@@ -177,7 +195,7 @@ async function main() {
   skipped = products.filter((p) => !p.naverSearchKeyword).length;
 
   console.log("\n" + "═".repeat(60));
-  console.log(`✅ ${updated}개 업데이트, ${skipped}개 건너뜀, ${failed}개 실패`);
+  console.log(`✅ ${updated}개 업데이트, ${skipped}개 건너뜀, ${failed}개 실패, ${skippedOutlier}개 이상가격 거부`);
 
   if (!DRY_RUN && updated > 0) {
     writeFileSync(PRODUCTS_FILE, JSON.stringify(products, null, 2), "utf-8");

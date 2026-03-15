@@ -57,6 +57,7 @@ export interface PriceAnalysis {
   percentFromAvg: number; // negative = below avg
   status: "low" | "mid" | "high";
   savings: number; // how much saved vs average
+  hasEnoughData: boolean; // true if enough history for meaningful analysis
 }
 
 export const CATEGORY_MAP: Record<ProductCategory, string> = {

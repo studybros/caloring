@@ -166,7 +166,7 @@ export function ProductsPage() {
         {paginatedProducts.map((product) => {
           const analysis = analysisCache.get(product.slug)!;
           const statusColor = getPriceStatusColor(analysis.status);
-          const statusLabel = getPriceStatusLabel(analysis.status);
+          const statusLabel = getPriceStatusLabel(analysis.status, analysis.hasEnoughData);
           const isCheap = analysis.percentFromAvg < 0;
 
           return (

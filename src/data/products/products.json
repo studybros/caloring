@@ -725,10 +725,6 @@
     "currentPrice": 86620,
     "priceHistory": [
       {
-        "date": "2026-03-09",
-        "price": 26900
-      },
-      {
         "date": "2026-03-15",
         "price": 86620
       }
@@ -2021,15 +2017,11 @@
     "weight": "800g",
     "naverProductId": "56987589640",
     "naverSearchKeyword": "대신물산 면곤약 800g",
-    "currentPrice": 400,
+    "currentPrice": 890,
     "priceHistory": [
       {
         "date": "2026-03-09",
         "price": 890
-      },
-      {
-        "date": "2026-03-15",
-        "price": 400
       }
     ],
     "updatedAt": "2026-03-15",
@@ -2759,15 +2751,11 @@
     "weight": "400g x 2개",
     "naverProductId": "88911981170",
     "naverSearchKeyword": "덴마크 락토프리 하이 그릭 요거트 400g 2개",
-    "currentPrice": 5320,
+    "currentPrice": 16470,
     "priceHistory": [
       {
         "date": "2026-03-09",
         "price": 16470
-      },
-      {
-        "date": "2026-03-15",
-        "price": 5320
       }
     ],
     "updatedAt": "2026-03-15",
@@ -3028,10 +3016,6 @@
     "naverSearchKeyword": "티젠 콤부차 피치 10개입",
     "currentPrice": 18620,
     "priceHistory": [
-      {
-        "date": "2026-03-09",
-        "price": 9000
-      },
       {
         "date": "2026-03-15",
         "price": 18620
@@ -4054,15 +4038,11 @@
     "naverProductId": "53018888008",
     "naverSearchKeyword": "신타6 프로틴",
     "naverRank": 6,
-    "currentPrice": 40500,
+    "currentPrice": 97320,
     "priceHistory": [
       {
         "date": "2026-03-09",
         "price": 97320
-      },
-      {
-        "date": "2026-03-15",
-        "price": 40500
       }
     ],
     "updatedAt": "2026-03-15",
@@ -4144,15 +4124,11 @@
     "naverProductId": "53664803395",
     "naverSearchKeyword": "신타6 프로틴",
     "naverRank": 6,
-    "currentPrice": 40500,
+    "currentPrice": 82900,
     "priceHistory": [
       {
         "date": "2026-03-09",
         "price": 82900
-      },
-      {
-        "date": "2026-03-15",
-        "price": 40500
       }
     ],
     "updatedAt": "2026-03-15",
@@ -5017,10 +4993,6 @@
     "currentPrice": 28900,
     "priceHistory": [
       {
-        "date": "2026-03-09",
-        "price": 13900
-      },
-      {
         "date": "2026-03-15",
         "price": 28900
       }
@@ -5134,15 +5106,11 @@
     "naverProductId": "58243554629",
     "naverSearchKeyword": "허닭 닭가슴살",
     "naverRank": 1,
-    "currentPrice": 990,
+    "currentPrice": 41810,
     "priceHistory": [
       {
         "date": "2026-03-09",
         "price": 41810
-      },
-      {
-        "date": "2026-03-15",
-        "price": 990
       }
     ],
     "updatedAt": "2026-03-15",
@@ -5436,10 +5404,6 @@
     "naverRank": 11,
     "currentPrice": 8920,
     "priceHistory": [
-      {
-        "date": "2026-03-09",
-        "price": 1270
-      },
       {
         "date": "2026-03-15",
         "price": 8920
@@ -5886,10 +5850,6 @@
     "naverRank": 3,
     "currentPrice": 115200,
     "priceHistory": [
-      {
-        "date": "2026-03-09",
-        "price": 28800
-      },
       {
         "date": "2026-03-15",
         "price": 115200
@@ -7594,15 +7554,11 @@
     "naverProductId": "55816671556",
     "naverSearchKeyword": "매일유업 쉐이크",
     "naverRank": 1,
-    "currentPrice": 65900,
+    "currentPrice": 266000,
     "priceHistory": [
       {
         "date": "2026-03-09",
         "price": 266000
-      },
-      {
-        "date": "2026-03-15",
-        "price": 65900
       }
     ],
     "updatedAt": "2026-03-15",
@@ -7837,10 +7793,6 @@
     "currentPrice": 16470,
     "priceHistory": [
       {
-        "date": "2026-03-09",
-        "price": 1600
-      },
-      {
         "date": "2026-03-15",
         "price": 16470
       }
@@ -7896,10 +7848,6 @@
     "naverRank": 9,
     "currentPrice": 16470,
     "priceHistory": [
-      {
-        "date": "2026-03-09",
-        "price": 2190
-      },
       {
         "date": "2026-03-15",
         "price": 16470
@@ -8857,10 +8805,6 @@
     "currentPrice": 19900,
     "priceHistory": [
       {
-        "date": "2026-03-09",
-        "price": 9870
-      },
-      {
         "date": "2026-03-15",
         "price": 19900
       }
@@ -9246,10 +9190,6 @@
     "naverRank": 1,
     "currentPrice": 28900,
     "priceHistory": [
-      {
-        "date": "2026-03-09",
-        "price": 7100
-      },
       {
         "date": "2026-03-15",
         "price": 28900
@@ -9697,10 +9637,6 @@
     "currentPrice": 17130,
     "priceHistory": [
       {
-        "date": "2026-03-09",
-        "price": 720
-      },
-      {
         "date": "2026-03-15",
         "price": 17130
       }
@@ -9787,10 +9723,6 @@
     "currentPrice": 15600,
     "priceHistory": [
       {
-        "date": "2026-03-09",
-        "price": 1770
-      },
-      {
         "date": "2026-03-15",
         "price": 15600
       }
@@ -9816,10 +9748,6 @@
     "naverRank": 1,
     "currentPrice": 15600,
     "priceHistory": [
-      {
-        "date": "2026-03-09",
-        "price": 6700
-      },
       {
         "date": "2026-03-15",
         "price": 15600
@@ -10053,15 +9981,11 @@
     "naverProductId": "57727651684",
     "naverSearchKeyword": "라라스팜 곤약",
     "naverRank": 1,
-    "currentPrice": 8500,
+    "currentPrice": 19600,
     "priceHistory": [
       {
         "date": "2026-03-09",
         "price": 19600
-      },
-      {
-        "date": "2026-03-15",
-        "price": 8500
       }
     ],
     "updatedAt": "2026-03-15",
@@ -10201,10 +10125,6 @@
     "naverRank": 14,
     "currentPrice": 95700,
     "priceHistory": [
-      {
-        "date": "2026-03-09",
-        "price": 22780
-      },
       {
         "date": "2026-03-15",
         "price": 95700
@@ -10675,15 +10595,11 @@
     "naverProductId": "51929089227",
     "naverSearchKeyword": "매일유업 그릭요거트",
     "naverRank": 8,
-    "currentPrice": 2150,
+    "currentPrice": 16900,
     "priceHistory": [
       {
         "date": "2026-03-09",
         "price": 16900
-      },
-      {
-        "date": "2026-03-15",
-        "price": 2150
       }
     ],
     "updatedAt": "2026-03-15",
@@ -10855,15 +10771,11 @@
     "naverProductId": "53018507092",
     "naverSearchKeyword": "매일유업 그릭요거트",
     "naverRank": 1,
-    "currentPrice": 3780,
+    "currentPrice": 27400,
     "priceHistory": [
       {
         "date": "2026-03-09",
         "price": 27400
-      },
-      {
-        "date": "2026-03-15",
-        "price": 3780
       }
     ],
     "updatedAt": "2026-03-15",
@@ -11188,10 +11100,6 @@
     "currentPrice": 26730,
     "priceHistory": [
       {
-        "date": "2026-03-09",
-        "price": 9000
-      },
-      {
         "date": "2026-03-15",
         "price": 26730
       }
@@ -11277,10 +11185,6 @@
     "naverRank": 5,
     "currentPrice": 26730,
     "priceHistory": [
-      {
-        "date": "2026-03-09",
-        "price": 11900
-      },
       {
         "date": "2026-03-15",
         "price": 26730
@@ -11428,10 +11332,6 @@
     "currentPrice": 26730,
     "priceHistory": [
       {
-        "date": "2026-03-09",
-        "price": 9000
-      },
-      {
         "date": "2026-03-15",
         "price": 26730
       }
@@ -11487,10 +11387,6 @@
     "naverRank": 5,
     "currentPrice": 26730,
     "priceHistory": [
-      {
-        "date": "2026-03-09",
-        "price": 12900
-      },
       {
         "date": "2026-03-15",
         "price": 26730

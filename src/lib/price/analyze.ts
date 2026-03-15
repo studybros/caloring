@@ -1,5 +1,18 @@
 import type { PriceEntry, PriceAnalysis } from "@/lib/types/product";
 
+// Minimum price history entries required for meaningful analysis
+const MIN_HISTORY_FOR_ANALYSIS = 3;
+
+// Remove outlier prices from history (median ±50%)
+function removeOutliers(prices: number[]): number[] {
+  if (prices.length < 3) return prices;
+  const sorted = [...prices].sort((a, b) => a - b);
+  const median = sorted[Math.floor(sorted.length / 2)];
+  return prices.filter(
+    (p) => p >= median * 0.5 && p <= median * 1.5
+  );
+}
+
 export function analyzePrices(
   currentPrice: number,
   history: PriceEntry[]
@@ -15,32 +28,47 @@ export function analyzePrices(
       percentFromAvg: 0,
       status: "mid",
       savings: 0,
+      hasEnoughData: false,
     };
   }
 
-  const prices = history.map((h) => h.price);
+  const rawPrices = history.map((h) => h.price);
+
+  // Clean outliers before analysis
+  const cleanPrices = removeOutliers(rawPrices);
+  const prices = cleanPrices.length > 0 ? cleanPrices : rawPrices;
+
   const sum = prices.reduce((a, b) => a + b, 0);
   const averagePrice = Math.round(sum / prices.length);
   const minPrice = Math.min(...prices);
   const maxPrice = Math.max(...prices);
+
+  // Find dates from original history (matching cleaned prices)
   const minDate = history.find((h) => h.price === minPrice)?.date ?? "";
   const maxDate = history.find((h) => h.price === maxPrice)?.date ?? "";
 
   const percentFromAvg = ((currentPrice - averagePrice) / averagePrice) * 100;
   const savings = averagePrice - currentPrice;
 
-  // Low threshold: bottom 30%, High threshold: top 30%
-  const range = maxPrice - minPrice;
-  const lowThreshold = minPrice + range * 0.3;
-  const highThreshold = maxPrice - range * 0.3;
+  // Need enough clean data points to make meaningful price judgments
+  const hasEnoughData = cleanPrices.length >= MIN_HISTORY_FOR_ANALYSIS;
 
   let status: "low" | "mid" | "high";
-  if (currentPrice <= lowThreshold) {
-    status = "low";
-  } else if (currentPrice >= highThreshold) {
-    status = "high";
-  } else {
+  if (!hasEnoughData) {
+    // Not enough data — always "데이터 수집 중" (shown as "mid")
     status = "mid";
+  } else {
+    const range = maxPrice - minPrice;
+    const lowThreshold = minPrice + range * 0.3;
+    const highThreshold = maxPrice - range * 0.3;
+
+    if (currentPrice <= lowThreshold) {
+      status = "low";
+    } else if (currentPrice >= highThreshold) {
+      status = "high";
+    } else {
+      status = "mid";
+    }
   }
 
   return {
@@ -50,13 +78,18 @@ export function analyzePrices(
     maxPrice,
     minDate,
     maxDate,
-    percentFromAvg: Math.round(percentFromAvg * 10) / 10,
+    // Only show % when we have enough data
+    percentFromAvg: hasEnoughData
+      ? Math.round(percentFromAvg * 10) / 10
+      : 0,
     status,
-    savings,
+    savings: hasEnoughData ? savings : 0,
+    hasEnoughData,
   };
 }
 
-export function getPriceStatusLabel(status: "low" | "mid" | "high"): string {
+export function getPriceStatusLabel(status: "low" | "mid" | "high", hasEnoughData: boolean = true): string {
+  if (!hasEnoughData) return "가격 수집 중";
   switch (status) {
     case "low":
       return "착한 가격";

@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!product) return {};
 
   const analysis = analyzePrices(product.currentPrice, product.priceHistory);
-  const status = getPriceStatusLabel(analysis.status);
+  const status = getPriceStatusLabel(analysis.status, analysis.hasEnoughData);
 
   return createMetadata({
     title: `${product.name} 가격 비교`,

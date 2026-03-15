@@ -172,7 +172,7 @@ function parseUnitCount(name: string): number | null {
 export function ProductDetailPage({ product }: ProductDetailPageProps) {
   const analysis = analyzePrices(product.currentPrice, product.priceHistory);
   const statusColor = getPriceStatusColor(analysis.status);
-  const statusLabel = getPriceStatusLabel(analysis.status);
+  const statusLabel = getPriceStatusLabel(analysis.status, analysis.hasEnoughData);
   const dietTip = getDietTip(product);
 
   // Same group variants (different sizes/flavors of same product)
@@ -524,7 +524,7 @@ export function ProductDetailPage({ product }: ProductDetailPageProps) {
             {groupVariants.map((v) => {
               const vAnalysis = analyzePrices(v.currentPrice, v.priceHistory);
               const vColor = getPriceStatusColor(vAnalysis.status);
-              const vLabel = getPriceStatusLabel(vAnalysis.status);
+              const vLabel = getPriceStatusLabel(vAnalysis.status, vAnalysis.hasEnoughData);
               return (
                 <Link key={v.slug} href={`/products/${v.slug}/`}>
                   <Card className="transition-all hover:shadow-md hover:-translate-y-0.5">
@@ -576,7 +576,7 @@ export function ProductDetailPage({ product }: ProductDetailPageProps) {
             {sameCategoryProducts.map((p) => {
               const pAnalysis = analyzePrices(p.currentPrice, p.priceHistory);
               const pColor = getPriceStatusColor(pAnalysis.status);
-              const pLabel = getPriceStatusLabel(pAnalysis.status);
+              const pLabel = getPriceStatusLabel(pAnalysis.status, pAnalysis.hasEnoughData);
               return (
                 <Link key={p.slug} href={`/products/${p.slug}/`}>
                   <Card className="min-w-[160px] transition-all hover:shadow-md hover:-translate-y-0.5 sm:min-w-0">
